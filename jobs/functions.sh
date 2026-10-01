@@ -19,6 +19,16 @@ cleanup() {
 
 trap cleanup EXIT SIGTERM SIGINT
 
+# Redirect all further output to logs named after the run start time:
+#   ../logs/<jobname>_<YYmmdd-HHMM>_<jobid>.out / .err
+# The job id is kept at the end so optimality_check can still find the log.
+# LSF's own -o/-e files (logs/lsf/) then only hold the LSF resource summary.
+if [ -n "${LSB_JOBID:-}" ]; then
+  RUN_START=$(date +%y%m%d-%H%M)
+  LOG_BASE="../logs/${LSB_JOBNAME:-run}_${RUN_START}_${LSB_JOBID}"
+  exec >"${LOG_BASE}.out" 2>"${LOG_BASE}.err"
+fi
+
 # Function for checking optimality
 optimality_check() {
   job_id=$1

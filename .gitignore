@@ -12,14 +12,10 @@
 **/*.gpr
 **/*.dat
 **/*.cmd
-**/data
-**/data/*.inc
 **/model/Balmorel.l*
 **/output/economic/*.*
 /base/bui/gamsscr/*.*
 *.gsp
-base/data/.gitignore
-base/data/README.md
 *.lst
 *.log
 *.lxi
