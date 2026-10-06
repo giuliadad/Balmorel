@@ -10,7 +10,7 @@
 
 * Output related to errors in data and solution.
 * This file will contain information about errors in input data, if any:
-FILE errorfile /../logerror/errors.out/;
+FILE errorfile         /..\logerror\errors.out/;
 if ((ERRORFILE.pw LT 32000),
 ERRORFILE.pw = 32000;
 PUT ERRORFILE;
@@ -24,7 +24,7 @@ PUT "File created: " SYSTEM.DATE " " SYSTEM.TIME //;
 * and about the solver status for each year of the simulation
 * including the objective function value:
 
-FILE logfile    /../logerror/logfile.out/;
+FILE logfile          /..\logerror\logfile.out/;
 if ((logfile.pw LT 32000),
 logfile.pw = 32000;
 PUT logfile;

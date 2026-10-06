@@ -5,7 +5,7 @@
 
 
 *FILE BB4overview /..\output\inputout\BB4overview.out/;
-FILE BB4overview /../logerror/BB4overview.out/;
+FILE BB4overview /..\logerror\BB4overview.out/;
 put BB4overview "Overview of input data characteristics of the BalBase4 model in Balmorel.   " system.date "  " system.time /;
 put "General overview of input data may be found in inputout.out" /;
 put "The information printed here is valid only if the input is consistent, please verify this, e.g. see the errors.out file first." / / ;
