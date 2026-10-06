@@ -1,8 +1,16 @@
-$RemoteHost = "login.gbar.dtu.dk"
-$RemoteUser = "s243704"
-$RemoteRoot = "/zhome/3d/c/214482/Desktop/Balmorel"
-$Scenario = "base_no_dc_8"
-$LocalRoot = Join-Path "C:\Balmorel" "$Scenario\model"
+param(
+    [string]$RemoteHost = "login2.hpc.dtu.dk",
+    [string]$RemoteUser = "s243704",
+    [string]$RemoteRoot = "/zhome/3d/c/214482/Desktop/Balmorel",
+    [string]$Scenario = "base_dc",
+    [string]$LocalRoot = (Join-Path $PSScriptRoot "$Scenario\model\results")
+)
+
+$ErrorActionPreference = "Stop"
+
+if (-not (Get-Command scp -ErrorAction SilentlyContinue)) {
+    throw "OpenSSH scp was not found. Install/enable OpenSSH Client and retry."
+}
 
 New-Item -ItemType Directory -Force -Path $LocalRoot | Out-Null
 
@@ -25,7 +33,7 @@ foreach ($RemoteFile in $Files) {
     & scp $RemoteSpec $LocalFile
 
     if ($LASTEXITCODE -ne 0) {
-        Write-Error "Failed to download $RemoteFile"
+        Write-Error "Failed to download '$RemoteFile'. Check the remote path, VPN/DTU network connection, and SSH credentials."
         exit $LASTEXITCODE
     }
 }
