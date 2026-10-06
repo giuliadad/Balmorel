@@ -22,7 +22,7 @@
 * Some Tables are tempirarily omitted, they need updata.
 
 
-FILE inputout /..\output\inputout\inputout.out/;
+FILE inputout /../output/inputout/inputout.out/;
 
 
 PUT inputout;
