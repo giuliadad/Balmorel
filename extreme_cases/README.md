@@ -21,7 +21,7 @@ Files that are not in a scenario's `data` folder are read from `base/data`.
 | `ext_no_pv` | No PV anywhere: PV full-load hours set to 0 (solar heat is allowed) | `SOLEFLH.inc` | No PV generation, no new PV; more wind and other generation; objective up |
 | `ext_onshore_wind_capex_x10` | Investment cost of new onshore wind x 10 (36 technologies, all areas where they can be built) | `GINVCOST.inc` | Far less new onshore wind (replaced by other generation); existing onshore wind unchanged; objective up |
 | `ext_no_transmission_expansion` | No new transmission capacity | `XINVCOST.inc` (empty) | No endogenous transmission capacity; more generation investment; larger price differences between regions; objective up |
-| `ext_no_france_interconnectors` | All links of France removed and no new ones: FR <-> BE, CH, DE4-S, ES, IT, UK (existing capacity, `XKFX.inc`) and FR-LU (investment option only, `XINVCOST.inc`) | `XKFX.inc`, `XINVCOST.inc` | No exchange with France; France covers its demand alone; objective up |
+| `ext_no_france_interconnectors` | All links of France removed and no new ones: FR <-> BE, CH, DE4-S, ES, IT, UK (existing capacity, `XKFX.inc`) and FR-LU (investment option only, `XINVCOST.inc`) | `XKFX.inc`, `XINVCOST.inc` | No exchange with France; France serves only its own demand (it is a large net exporter in the reference, so it needs less capacity) and its neighbours cover more themselves; objective up |
 
 ## Running
 

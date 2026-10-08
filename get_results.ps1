@@ -2,7 +2,7 @@
 #  Download Balmorel results from DTU HPC to local machine
 #  Only change the scenario name below
 # ==========================================================
-$Scenario = "ext_reference"
+$Scenario = "base_no_dc_4_full"
 
 # ---- Settings (normally no need to change) ----
 $User      = "s243704"
