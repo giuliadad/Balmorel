@@ -22,6 +22,8 @@ DR_TECH_SHED(DR_TECH) = YES$(DR_DATA(DR_TECH,'DRTYPE') eq 1);
 DR_TECH_USER(DR_TECH,'RESE') = YES$(DR_DATA(DR_TECH,'DRUSER') eq 1);
 DR_TECH_USER(DR_TECH,'OTHER') = YES$(DR_DATA(DR_TECH,'DRUSER') eq 3);
 DR_TECH_USER(DR_TECH,'PII') = YES$(DR_DATA(DR_TECH,'DRUSER') eq 2);
+DR_TECH_USER(DR_TECH,'DATACENTER') = YES$(DR_DATA(DR_TECH,'DRUSER') eq 4);
+
 
 * how long it is possible to shift load to later point in time (DR_HHH1) or to an earlier point in time (DR_HHH2)
 DR_HHH1(DR_TECH_SHIFT,T,T_alias)  = YES$((ord(T_alias) le ord(T)+ DR_DATA(DR_TECH_SHIFT,'DRSHIFTNEXT')-1)   AND (ord(T_alias) ge ord(T)));
