@@ -109,7 +109,7 @@ GINVESTSTART= 2025;
 *---- Transmission investments options----
 
 * Permit investments in transmission capacity:
-$setglobal TransInvest YES
+$setglobal TransInvest NO
 *!option yes
 
 SCALAR XINVESTSTART 'Year from which endogenous decisions in transmission capacities are allowed' ;
