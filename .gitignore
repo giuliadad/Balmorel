@@ -25,3 +25,8 @@
 *.log~3
 build
 %batfileMERGEWITHBASE%
+
+# Allow job logs and model results
+!logs/*.out
+!**/model/results/MainResults*.gdx
+!**/model/*.log
