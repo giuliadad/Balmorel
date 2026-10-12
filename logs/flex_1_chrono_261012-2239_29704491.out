@@ -1,0 +1,951 @@
+Starting investment optimisation at Mon Oct 12 22:39:23 CEST 2026
+--- Job Balmorel Start 10/12/26 22:39:23 50.4.1 84b10359 LEX-LEG x86 64bit/Linux
+--- Applying:
+    /appl/gams/50.4.1/gmsprmun.txt
+--- GAMS Parameters defined
+    Input /zhome/3d/c/214482/Desktop/Balmorel/Flex_1/model/Balmorel.gms
+    ScrDir /zhome/3d/c/214482/Desktop/Balmorel/Flex_1/model/225a/
+    SysDir /appl/gams/50.4.1/
+    AppendLog 1
+    Threads 10
+    --USEOPTIONFILE 2
+Licensee: Large MUD - 20 User License                    S250116|0002AP-GEN
+          Technical University of Denmark, Management Engineering    DC8611
+          /appl/gams/50.4.1/gamslice.txt
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+          The maintenance period of the license expired on Jan 11, 2026
+          Please contact GAMS or your distributor for further information
+System information: 32 physical cores and 377 Gb physical memory detected
+GAMS 50.4.1   Copyright (C) 1987-2025 GAMS Development. All rights reserved
+--- Starting compilation
+--- Balmorel.gms(42) 2 Mb
+--- . balgams.opt(162) 2 Mb
+--- Balmorel.gms(48) 2 Mb
+--- . balopt.opt(1048) 2 Mb
+--- Balmorel.gms(99) 2 Mb
+--- . error1.inc(44) 2 Mb
+--- .. hellolog.inc(88) 2 Mb
+--- ... heattrans_hellolog.inc(30) 2 Mb
+--- .. hellolog.inc(120) 2 Mb
+--- . error1.inc(56) 2 Mb
+--- Balmorel.gms(121) 2 Mb
+--- . Balmorelbb4.inc(292) 2 Mb
+--- .. bb4datainc.inc(25) 2 Mb
+--- ... ACRONYMS.inc(16) 2 Mb
+--- .. bb4datainc.inc(27) 2 Mb
+--- ... acronymsadditions.inc(11) 2 Mb
+--- .... hydrogen_acronymsadditions.inc(3) 2 Mb
+--- ..... HYDROGEN_ACRONYMS.inc(2) 2 Mb
+--- .... hydrogen_acronymsadditions.inc(4) 2 Mb
+--- ... acronymsadditions.inc(15) 2 Mb
+--- .. bb4datainc.inc(33) 2 Mb
+--- ... CCCRRRAAA.inc(1383) 3 Mb
+--- .. bb4datainc.inc(36) 3 Mb
+--- ... cccrrraaaadditions.inc(4) 3 Mb
+--- .... industry_cccrrraaaadditions.inc(5) 3 Mb
+--- ..... INDUSTRY_CCCRRRAAA.inc(290) 3 Mb
+--- .... industry_cccrrraaaadditions.inc(6) 3 Mb
+--- ... cccrrraaaadditions.inc(5) 3 Mb
+--- .... indivusers_cccrrraaaadditions.inc(5) 3 Mb
+--- ..... INDIVUSERS_CCCRRRAAA.inc(291) 3 Mb
+--- .... indivusers_cccrrraaaadditions.inc(6) 3 Mb
+--- ... cccrrraaaadditions.inc(9) 3 Mb
+--- .. bb4datainc.inc(40) 3 Mb
+--- ... CCC.inc(39) 3 Mb
+--- .. bb4datainc.inc(43) 3 Mb
+--- ... cccadditions.inc(8) 3 Mb
+--- .. bb4datainc.inc(47) 3 Mb
+--- ... RRR.inc(51) 3 Mb
+--- .. bb4datainc.inc(50) 3 Mb
+--- ... rrradditions.inc(8) 3 Mb
+--- .. bb4datainc.inc(54) 3 Mb
+--- ... AAA.inc(1288) 3 Mb
+--- .. bb4datainc.inc(57) 3 Mb
+--- ... aaaadditions.inc(4) 3 Mb
+--- .... industry_aaaadditions.inc(5) 3 Mb
+--- ..... INDUSTRY_AAA.inc(287) 3 Mb
+--- .... industry_aaaadditions.inc(10) 3 Mb
+--- ..... INDUSTRY_INDUSTRY_AAA.inc(288) 3 Mb
+--- .... industry_aaaadditions.inc(11) 3 Mb
+--- ... aaaadditions.inc(5) 3 Mb
+--- .... indivusers_aaaadditions.inc(5) 3 Mb
+--- ..... INDIVUSERS_AAA.inc(286) 3 Mb
+--- .... indivusers_aaaadditions.inc(10) 3 Mb
+--- ..... INDIVUSERS_INDIVUSERS_AAA.inc(286) 3 Mb
+--- .... indivusers_aaaadditions.inc(11) 3 Mb
+--- ... aaaadditions.inc(9) 3 Mb
+--- .. bb4datainc.inc(61) 3 Mb
+--- ... CCCRRR.inc(50) 3 Mb
+--- .. bb4datainc.inc(64) 3 Mb
+--- ... cccrrradditions.inc(8) 3 Mb
+--- .. bb4datainc.inc(68) 3 Mb
+--- ... RRRAAA.inc(1290) 3 Mb
+--- .. bb4datainc.inc(71) 3 Mb
+--- ... rrraaaadditions.inc(4) 3 Mb
+--- .... industry_rrraaaadditions.inc(5) 3 Mb
+--- ..... INDUSTRY_RRRAAA.inc(287) 3 Mb
+--- .... industry_rrraaaadditions.inc(6) 3 Mb
+--- ... rrraaaadditions.inc(5) 3 Mb
+--- .... indivusers_rrraaaadditions.inc(5) 3 Mb
+--- ..... INDIVUSERS_RRRAAA.inc(237) 3 Mb
+--- .... indivusers_rrraaaadditions.inc(6) 3 Mb
+--- ... rrraaaadditions.inc(9) 3 Mb
+--- .. bb4datainc.inc(75) 3 Mb
+--- ... C.inc(40) 3 Mb
+--- .. bb4datainc.inc(77) 3 Mb
+--- ... cadditions.inc(8) 3 Mb
+--- .. bb4datainc.inc(104) 3 Mb
+--- ... YYY.inc(2) 3 Mb
+--- .. bb4datainc.inc(109) 3 Mb
+--- ... SSS.inc(4) 3 Mb
+--- .. bb4datainc.inc(114) 3 Mb
+--- ... TTT.inc(4) 3 Mb
+--- .. bb4datainc.inc(119) 3 Mb
+--- ... GROUP.inc(7) 3 Mb
+--- .. bb4datainc.inc(124) 3 Mb
+--- ... GROUP_AAA.inc(8) 3 Mb
+--- .. bb4datainc.inc(129) 3 Mb
+--- ... DEUSER.inc(10) 3 Mb
+--- .. bb4datainc.inc(132) 3 Mb
+--- ... deuseradditions.inc(3) 3 Mb
+--- .... transport_deuseradditions.inc(5) 3 Mb
+--- ..... TRANSPORT_DEUSER.inc(5) 3 Mb
+--- .... transport_deuseradditions.inc(7) 3 Mb
+--- ... deuseradditions.inc(12) 3 Mb
+--- .. bb4datainc.inc(136) 3 Mb
+--- ... DHUSER.inc(14) 3 Mb
+--- .. bb4datainc.inc(141) 3 Mb
+--- ... FFF.inc(112) 3 Mb
+--- .. bb4datainc.inc(144) 3 Mb
+--- ... fffadditions.inc(1) 3 Mb
+--- .... hydrogen_fffadditions.inc(3) 3 Mb
+--- ..... HYDROGEN_FFF.inc(15) 3 Mb
+--- .... hydrogen_fffadditions.inc(4) 3 Mb
+--- ... fffadditions.inc(4) 3 Mb
+--- .. bb4datainc.inc(148) 3 Mb
+--- ... FDATASET.inc(9) 3 Mb
+--- .. bb4datainc.inc(153) 3 Mb
+--- ... FDATA.inc(56) 3 Mb
+--- .. bb4datainc.inc(156) 3 Mb
+--- ... fdataadditions.inc(1) 3 Mb
+--- .... hydrogen_fdataadditions.inc(3) 3 Mb
+--- ..... HYDROGEN_FDATA.inc(12) 3 Mb
+--- .... hydrogen_fdataadditions.inc(4) 3 Mb
+--- ... fdataadditions.inc(3) 3 Mb
+--- .. bb4datainc.inc(160) 3 Mb
+--- ... GGG.inc(876) 3 Mb--- ... GGG.inc(1098) 3 Mb
+--- .. bb4datainc.inc(163) 3 Mb
+--- ... gggadditions.inc(4) 3 Mb
+--- .... industry_gggadditions.inc(5) 3 Mb
+--- ..... INDUSTRY_GGG.inc(1) 3 Mb
+--- .... industry_gggadditions.inc(6) 3 Mb
+--- ... gggadditions.inc(5) 3 Mb
+--- .... indivusers_gggadditions.inc(5) 3 Mb
+--- ..... INDIVUSERS_GGG.inc(5) 3 Mb
+--- .... indivusers_gggadditions.inc(6) 3 Mb
+--- ... gggadditions.inc(6) 3 Mb
+--- .... hydrogen_gggadditions.inc(3) 3 Mb
+--- ..... HYDROGEN_GGG.inc(289) 3 Mb
+--- .... hydrogen_gggadditions.inc(4) 3 Mb
+--- ... gggadditions.inc(9) 3 Mb
+--- .. bb4datainc.inc(167) 3 Mb
+--- ... GDATASET.inc(63) 3 Mb
+--- .. bb4datainc.inc(172) 3 Mb
+--- ... TECH_GROUP.inc(27) 3 Mb
+--- .. bb4datainc.inc(175) 3 Mb
+--- ... tech_groupadditions.inc(4) 3 Mb
+--- .. bb4datainc.inc(179) 3 Mb
+--- ... TECH_GROUP_VALUE.inc(25) 3 Mb
+--- .. bb4datainc.inc(182) 3 Mb
+--- ... tech_group_valueadditions.inc(4) 3 Mb
+--- .. bb4datainc.inc(186) 3 Mb
+--- ... TECHGROUP_DEUSER.inc(5) 3 Mb
+--- .. bb4datainc.inc(191) 3 Mb
+--- ... SUBTECH_GROUP.inc(9) 3 Mb
+--- .. bb4datainc.inc(196) 3 Mb
+--- ... SUBTECH_GROUP_VALUE.inc(9) 3 Mb
+--- .. bb4datainc.inc(201) 3 Mb
+--- ... G.inc(1098) 3 Mb
+--- .. bb4datainc.inc(204) 3 Mb
+--- ... gadditions.inc(4) 3 Mb
+--- .... industry_gadditions.inc(5) 3 Mb
+--- ..... INDUSTRY_G.inc(1) 3 Mb
+--- .... industry_gadditions.inc(6) 3 Mb
+--- ... gadditions.inc(5) 3 Mb
+--- .... indivusers_gadditions.inc(5) 3 Mb
+--- ..... INDIVUSERS_G.inc(5) 3 Mb
+--- .... indivusers_gadditions.inc(6) 3 Mb
+--- ... gadditions.inc(6) 3 Mb
+--- .... hydrogen_gadditions.inc(3) 3 Mb
+--- ..... HYDROGEN_G.inc(290) 3 Mb
+--- .... hydrogen_gadditions.inc(4) 3 Mb
+--- ... gadditions.inc(9) 3 Mb
+--- .. bb4datainc.inc(210) 3 Mb
+--- ... setdeclare.inc(17) 3 Mb
+--- .... heattrans_setdeclare.inc(17) 3 Mb
+--- ... setdeclare.inc(28) 3 Mb
+--- .... CCS_setdeclare.inc(5) 3 Mb
+--- ..... CCS_CCS_G.inc(145) 3 Mb
+--- .... CCS_setdeclare.inc(6) 3 Mb
+--- ... setdeclare.inc(29) 3 Mb
+--- .... indivusers_setdeclare.inc(8) 3 Mb
+--- ... setdeclare.inc(35) 3 Mb
+--- .. bb4datainc.inc(211) 3 Mb
+--- ... setdefine.inc(20) 3 Mb
+--- ... setdefine.inc(42) 3 Mb
+--- .... CCS_setdefine.inc(3) 3 Mb
+--- ... setdefine.inc(44) 3 Mb
+--- .... indivusers_setdefine.inc(3) 3 Mb
+--- ... setdefine.inc(47) 3 Mb
+--- .. bb4datainc.inc(219) 3 Mb
+--- ... GDATA.inc(148) 4 Mb--- ... GDATA.inc(1019) 5 Mb
+--- .... GDATA_renewable.inc(100) 5 Mb
+--- ... GDATA.inc(1023) 5 Mb
+--- .. bb4datainc.inc(222) 5 Mb
+--- ... gdataadditions.inc(13) 5 Mb
+--- .... hydrogen_gdataadditions.inc(3) 5 Mb
+--- ..... HYDROGEN_GDATA.inc(297) 5 Mb
+--- .... hydrogen_gdataadditions.inc(4) 5 Mb
+--- ... gdataadditions.inc(18) 5 Mb
+--- .. bb4datainc.inc(238) 5 Mb
+--- ... HYRSMAXVOL_G.inc(81) 5 Mb
+--- .. bb4datainc.inc(243) 5 Mb
+--- ... HYRSDATASET.inc(8) 5 Mb
+--- .. bb4datainc.inc(248) 5 Mb
+--- ... DF_QP.inc(5) 5 Mb
+--- .. bb4datainc.inc(253) 5 Mb
+--- ... EMIPOLSET.inc(9) 5 Mb
+--- .. bb4datainc.inc(259) 5 Mb
+--- ... AGKN.inc(148) 5 Mb
+--- .... INVDATA_renewable.inc(1191) 5 Mb
+--- ... AGKN.inc(765) 5 Mb
+--- .. bb4datainc.inc(263) 5 Mb
+--- ... agknadditions.inc(3) 5 Mb
+--- .... industry_agknadditions.inc(5) 5 Mb
+--- ..... INDUSTRY_AGKN.inc(553) 5 Mb
+--- .... industry_agknadditions.inc(6) 5 Mb
+--- ... agknadditions.inc(4) 5 Mb
+--- .... indivusers_agknadditions.inc(5) 5 Mb
+--- ..... INDIVUSERS_AGKN.inc(494) 5 Mb
+--- .... indivusers_agknadditions.inc(6) 5 Mb
+--- ... agknadditions.inc(6) 5 Mb
+--- .... CCS_agknadditions.inc(5) 5 Mb
+--- ..... CCS_AGKN.inc(1) 5 Mb
+--- .... CCS_agknadditions.inc(6) 5 Mb
+--- ... agknadditions.inc(7) 5 Mb
+--- .... hydrogen_agknadditions.inc(3) 5 Mb
+--- ..... HYDROGEN_AGKN.inc(81) 5 Mb
+--- .... hydrogen_agknadditions.inc(4) 5 Mb
+--- ... agknadditions.inc(14) 5 Mb
+--- .. bb4datainc.inc(266) 5 Mb
+--- ... Y.inc(6) 5 Mb
+--- .. bb4datainc.inc(275) 5 Mb
+--- ... S.inc(9) 5 Mb
+--- .. bb4datainc.inc(280) 5 Mb
+--- ... T.inc(9) 5 Mb
+--- .. bb4datainc.inc(286) 5 Mb
+--- ... YVALUE.inc(12) 5 Mb
+--- .. bb4datainc.inc(291) 5 Mb
+--- ... TWORKDAY.inc(1) 5 Mb
+--- .. bb4datainc.inc(296) 5 Mb
+--- ... TWEEKEND.inc(1) 5 Mb
+--- .. bb4datainc.inc(403) 5 Mb
+--- ... GKFX.inc(1520) 6 Mb
+--- .... GKFX_renewable.inc(163) 6 Mb
+--- ... GKFX.inc(1524) 6 Mb
+--- .. bb4datainc.inc(406) 6 Mb
+--- ... gkfxadditions.inc(3) 6 Mb
+--- .... industry_gkfxadditions.inc(5) 6 Mb
+--- ..... INDUSTRY_GKFX.inc(1782) 7 Mb
+--- .... industry_gkfxadditions.inc(6) 7 Mb
+--- ... gkfxadditions.inc(4) 7 Mb
+--- .... indivusers_gkfxadditions.inc(5) 7 Mb
+--- ..... INDIVUSERS_GKFX.inc(710) 7 Mb
+--- .... indivusers_gkfxadditions.inc(6) 7 Mb
+--- ... gkfxadditions.inc(5) 7 Mb
+--- .... hydrogen_gkfxadditions.inc(3) 7 Mb
+--- ..... HYDROGEN_GKFX.inc(122) 7 Mb
+--- .... hydrogen_gkfxadditions.inc(4) 7 Mb
+--- ... gkfxadditions.inc(14) 7 Mb
+--- .. bb4datainc.inc(411) 7 Mb
+--- ... FMAXINVEST.inc(10) 7 Mb
+--- .. bb4datainc.inc(416) 7 Mb
+--- ... FMAXINVESTNA.inc(2) 7 Mb
+--- .. bb4datainc.inc(421) 7 Mb
+--- ... DISLOSS_E.inc(51) 7 Mb
+--- .. bb4datainc.inc(426) 7 Mb
+--- ... DISLOSS_E_AG.inc(25) 7 Mb
+--- .. bb4datainc.inc(429) 7 Mb
+--- ... disloss_e_agadditions.inc(4) 7 Mb
+--- .... industry_disloss_e_agadditions.inc(5) 7 Mb
+--- ..... INDUSTRY_DISLOSS_E_AG.inc(289) 7 Mb
+--- .... industry_disloss_e_agadditions.inc(6) 7 Mb
+--- ... disloss_e_agadditions.inc(5) 7 Mb
+--- .... indivusers_disloss_e_agadditions.inc(5) 7 Mb
+--- ..... INDIVUSERS_DISLOSS_E_AG.inc(106) 7 Mb
+--- .... indivusers_disloss_e_agadditions.inc(6) 7 Mb
+--- ... disloss_e_agadditions.inc(17) 7 Mb
+--- .. bb4datainc.inc(433) 7 Mb
+--- ... DISLOSS_H.inc(3) 7 Mb
+--- .. bb4datainc.inc(438) 7 Mb
+--- ... DISCOST_E.inc(50) 7 Mb
+--- .. bb4datainc.inc(443) 7 Mb
+--- ... DISCOST_H.inc(1) 7 Mb--- ... DISCOST_H.inc(74) 7 Mb
+--- .... DISCOST_H_renewable.inc(120) 7 Mb
+--- ... DISCOST_H.inc(74) 7 Mb
+--- .. bb4datainc.inc(448) 7 Mb
+--- ... FKPOT.inc(56) 7 Mb
+--- .. bb4datainc.inc(453) 7 Mb
+--- ... TECHGROUPKPOT.inc(65) 7 Mb
+--- .. bb4datainc.inc(458) 7 Mb
+--- ... SUBTECHGROUPKPOT.inc(50) 7 Mb
+--- .. bb4datainc.inc(461) 7 Mb
+--- ... subtechgroupkpotadditions.inc(15) 7 Mb
+--- .. bb4datainc.inc(466) 7 Mb
+--- ... FKMIN.inc(4) 7 Mb
+--- .. bb4datainc.inc(472) 7 Mb
+--- ... FKMAX.inc(4) 7 Mb
+--- .. bb4datainc.inc(478) 7 Mb
+--- ... FKEQ.inc(4) 7 Mb
+--- .. bb4datainc.inc(484) 7 Mb
+--- ... FKMINNA.inc(4) 7 Mb
+--- .. bb4datainc.inc(489) 7 Mb
+--- ... FKMAXNA.inc(4) 7 Mb
+--- .. bb4datainc.inc(494) 7 Mb
+--- ... FKEQNA.inc(4) 7 Mb
+--- .. bb4datainc.inc(499) 7 Mb
+--- ... FGEMIN.inc(5) 7 Mb
+--- .. bb4datainc.inc(504) 7 Mb
+--- ... FGEMAX.inc(4) 7 Mb
+--- .. bb4datainc.inc(510) 7 Mb
+--- ... GMINF.inc(5) 7 Mb
+--- .. bb4datainc.inc(516) 7 Mb
+--- ... GMAXF.inc(226) 7 Mb
+--- .. bb4datainc.inc(522) 7 Mb
+--- ... GEQF.inc(45) 7 Mb
+--- .. bb4datainc.inc(527) 7 Mb
+--- ... GMAXFS.inc(39) 7 Mb
+--- .. bb4datainc.inc(532) 7 Mb
+--- ... WTRRSFLH.inc(48) 7 Mb
+--- .. bb4datainc.inc(537) 7 Mb
+--- ... WTRRRFLH.inc(55) 7 Mb
+--- .. bb4datainc.inc(543) 7 Mb
+--- ... WNDFLH.inc(830) 7 Mb
+--- .. bb4datainc.inc(546) 7 Mb
+--- ... wndflhadditions.inc(15) 7 Mb
+--- .. bb4datainc.inc(551) 7 Mb
+--- ... SOLEFLH.inc(289) 7 Mb
+--- .. bb4datainc.inc(557) 7 Mb--- .. bb4datainc.inc(558) 7 Mb
+--- ... SOLHFLH.inc(109) 7 Mb
+--- .. bb4datainc.inc(561) 7 Mb
+--- ... solhflhadditions.inc(3) 7 Mb
+--- .... industry_solhflhadditions.inc(5) 7 Mb
+--- ..... INDUSTRY_SOLHFLH.inc(5) 7 Mb
+--- .... industry_solhflhadditions.inc(6) 7 Mb
+--- ... solhflhadditions.inc(4) 7 Mb
+--- .... indivusers_solhflhadditions.inc(5) 7 Mb
+--- ..... INDIVUSERS_SOLHFLH.inc(54) 7 Mb
+--- .... indivusers_solhflhadditions.inc(6) 7 Mb
+--- ... solhflhadditions.inc(13) 7 Mb
+--- .. bb4datainc.inc(566) 7 Mb
+--- ... WAVEFLH.inc(54) 7 Mb
+--- .. bb4datainc.inc(571) 7 Mb
+--- ... HYRSDATA.inc(97) 8 Mb
+--- .. bb4datainc.inc(576) 8 Mb
+--- ... DISCOUNTRATE.inc(2) 8 Mb
+--- .. bb4datainc.inc(581) 8 Mb
+--- ... LIFETIME_X.inc(2) 8 Mb
+--- .. bb4datainc.inc(586) 8 Mb
+--- ... ANNUITYCG.inc(17606) 9 Mb
+--- .. bb4datainc.inc(589) 9 Mb
+--- ... annuitycgadditions.inc(3) 9 Mb
+--- .... hydrogen_annuitycgadditions.inc(3) 9 Mb
+--- ..... HYDROGEN_ANNUITYCG.inc(40) 9 Mb
+--- .... hydrogen_annuitycgadditions.inc(4) 9 Mb
+--- ... annuitycgadditions.inc(3) 9 Mb
+--- .. bb4datainc.inc(593) 9 Mb
+--- ... ANNUITYCX.inc(38) 9 Mb
+--- .. bb4datainc.inc(598) 9 Mb
+--- ... GINVCOST.inc(3) 9 Mb
+--- .. bb4datainc.inc(603) 9 Mb
+--- ... GOMVCOSTO.inc(6) 9 Mb
+--- .. bb4datainc.inc(608) 9 Mb
+--- ... GOMVCOSTIN.inc(6) 9 Mb
+--- .. bb4datainc.inc(613) 9 Mb
+--- ... GOMFCOST.inc(10) 9 Mb
+--- .. bb4datainc.inc(618) 9 Mb
+--- ... GEFFRATE.inc(5) 9 Mb
+--- .. bb4datainc.inc(623) 9 Mb
+--- ... DEFP_BASE.inc(25) 9 Mb
+--- .. bb4datainc.inc(628) 9 Mb
+--- ... DHFP_BASE.inc(68) 9 Mb
+--- .. bb4datainc.inc(633) 9 Mb
+--- ... GKF_LO.inc(4) 9 Mb
+--- .. bb4datainc.inc(645) 9 Mb
+--- ... DE.inc(171) 9 Mb
+--- .... DE_DATACENTER.inc(48) 9 Mb
+--- ... DE.inc(172) 9 Mb
+--- .. bb4datainc.inc(649) 9 Mb
+--- ... deadditions.inc(3) 9 Mb
+--- .... transport_deadditions.inc(5) 9 Mb
+--- ..... TRANSPORT_DE.inc(168) 9 Mb
+--- .... transport_deadditions.inc(6) 9 Mb
+--- ... deadditions.inc(4) 9 Mb
+--- .... industry_deadditions.inc(5) 9 Mb
+--- ..... INDUSTRY_DE.inc(61) 9 Mb
+--- .... industry_deadditions.inc(6) 9 Mb
+--- ... deadditions.inc(5) 9 Mb
+--- .... indivusers_deadditions.inc(5) 9 Mb
+--- ..... INDIVUSERS_DE.inc(90) 9 Mb
+--- .... indivusers_deadditions.inc(6) 9 Mb
+--- ... deadditions.inc(17) 9 Mb
+--- .. bb4datainc.inc(657) 9 Mb
+--- ... DH.inc(223) 10 Mb
+--- .. bb4datainc.inc(660) 10 Mb
+--- ... dhadditions.inc(3) 10 Mb
+--- .... industry_dhadditions.inc(5) 10 Mb
+--- ..... INDUSTRY_DH.inc(406) 10 Mb
+--- .... industry_dhadditions.inc(6) 10 Mb
+--- ... dhadditions.inc(4) 10 Mb
+--- .... indivusers_dhadditions.inc(5) 10 Mb
+--- ..... INDIVUSERS_DH.inc(298) 10 Mb
+--- .... indivusers_dhadditions.inc(6) 10 Mb
+--- ... dhadditions.inc(13) 10 Mb
+--- .. bb4datainc.inc(667) 10 Mb
+--- ... XINVCOST.inc(130) 10 Mb
+--- .. bb4datainc.inc(670) 10 Mb
+--- ... xinvcostadditions.inc(10) 10 Mb
+--- .. bb4datainc.inc(674) 10 Mb
+--- ... XKFX.inc(123) 10 Mb
+--- .. bb4datainc.inc(679) 10 Mb
+--- ... XCOST.inc(69) 10 Mb
+--- .. bb4datainc.inc(682) 10 Mb
+--- ... xcostadditions.inc(10) 10 Mb
+--- .. bb4datainc.inc(686) 10 Mb
+--- ... XLOSS.inc(80) 10 Mb
+--- .. bb4datainc.inc(689) 10 Mb
+--- ... xlossadditions.inc(10) 10 Mb
+--- .. bb4datainc.inc(695) 10 Mb
+--- ... XKRATE.inc(11) 10 Mb
+--- .. bb4datainc.inc(700) 10 Mb
+--- ... XMAXINV.inc(56) 10 Mb
+--- .. bb4datainc.inc(709) 10 Mb
+--- ... FUELPRICE.inc(117) 10 Mb
+--- .. bb4datainc.inc(712) 10 Mb
+--- ... fuelpriceadditions.inc(1) 10 Mb
+--- .... hydrogen_fuelpriceadditions.inc(3) 10 Mb
+--- ..... HYDROGEN_FUELPRICE.inc(56) 10 Mb
+--- .... hydrogen_fuelpriceadditions.inc(4) 10 Mb
+--- ... fuelpriceadditions.inc(2) 10 Mb
+--- .. bb4datainc.inc(720) 10 Mb
+--- ... EMI_POL.inc(52) 10 Mb
+--- .. bb4datainc.inc(725) 10 Mb
+--- ... EMI_POLNA.inc(7) 10 Mb
+--- .. bb4datainc.inc(734) 10 Mb
+--- ... WEIGHT_S.inc(7) 10 Mb
+--- .. bb4datainc.inc(739) 10 Mb
+--- ... WEIGHT_T.inc(8) 10 Mb
+--- .. bb4datainc.inc(743) 10 Mb
+--- ... CHRONOHOUR.inc(6) 10 Mb
+--- .. bb4datainc.inc(748) 10 Mb
+--- ... SSIZE.inc(6) 10 Mb
+--- .. bb4datainc.inc(755) 10 Mb
+--- ... GKRATE.inc(31) 10 Mb--- ... GKRATE.inc(104) 10 Mb
+--- .. bb4datainc.inc(760) 10 Mb
+--- ... DE_VAR_T.inc(1410) 12 Mb--- ... DE_VAR_T.inc(9963) 26 Mb--- ... DE_VAR_T.inc(12088) 29 Mb--- ... DE_VAR_T.inc(17493) 38 Mb
+--- .. bb4datainc.inc(763) 38 Mb
+--- ... de_var_tadditions.inc(3) 38 Mb
+--- .... transport_de_var_tadditions.inc(6) 38 Mb
+--- ..... TRANSPORT_DE_VAR_T.inc(263) 38 Mb
+--- .... transport_de_var_tadditions.inc(7) 38 Mb
+--- ... de_var_tadditions.inc(4) 38 Mb
+--- .... indivusers_de_var_tadditions.inc(5) 38 Mb
+--- ..... INDIVUSERS_DE_VAR_T.inc(2349) 41 Mb--- ..... INDIVUSERS_DE_VAR_T.inc(4430) 44 Mb--- ..... INDIVUSERS_DE_VAR_T.inc(8743) 51 Mb
+--- .... indivusers_de_var_tadditions.inc(6) 51 Mb
+--- ... de_var_tadditions.inc(13) 51 Mb
+--- .. bb4datainc.inc(767) 51 Mb
+--- ... DH_VAR_T.inc(4916) 56 Mb--- ... DH_VAR_T.inc(7673) 59 Mb--- ... DH_VAR_T.inc(8827) 60 Mb
+--- .. bb4datainc.inc(770) 60 Mb
+--- ... dh_var_tadditions.inc(3) 60 Mb
+--- .... industry_dh_var_tadditions.inc(5) 60 Mb
+--- ..... INDUSTRY_DH_VAR_T.inc(4607) 73 Mb--- ..... INDUSTRY_DH_VAR_T.inc(6002) 77 Mb--- ..... INDUSTRY_DH_VAR_T.inc(8779) 85 Mb
+--- .... industry_dh_var_tadditions.inc(6) 85 Mb
+--- ... dh_var_tadditions.inc(4) 85 Mb
+--- .... indivusers_dh_var_tadditions.inc(5) 85 Mb
+--- ..... INDIVUSERS_DH_VAR_T.inc(2013) 93 Mb--- ..... INDIVUSERS_DH_VAR_T.inc(3107) 98 Mb--- ..... INDIVUSERS_DH_VAR_T.inc(7696) 117 Mb--- ..... INDIVUSERS_DH_VAR_T.inc(8740) 121 Mb--- ..... INDIVUSERS_DH_VAR_T.inc(8801) 121 Mb
+--- .... indivusers_dh_var_tadditions.inc(6) 121 Mb
+--- ... dh_var_tadditions.inc(13) 121 Mb
+--- .. bb4datainc.inc(774) 121 Mb
+--- ... WTRRSVAR_S.inc(61) 121 Mb
+--- .. bb4datainc.inc(779) 121 Mb
+--- ... WTRRRVAR_T.inc(75) 121 Mb
+--- .. bb4datainc.inc(784) 121 Mb
+--- ... WND_VAR_T.inc(2) 121 Mb
+--- .... WND_VAR_T_OFF.inc(1316) 130 Mb--- .... WND_VAR_T_OFF.inc(1692) 133 Mb--- .... WND_VAR_T_OFF.inc(3222) 144 Mb--- .... WND_VAR_T_OFF.inc(3599) 147 Mb--- .... WND_VAR_T_OFF.inc(5124) 157 Mb--- .... WND_VAR_T_OFF.inc(5502) 160 Mb--- .... WND_VAR_T_OFF.inc(7030) 171 Mb--- .... WND_VAR_T_OFF.inc(7410) 173 Mb--- .... WND_VAR_T_OFF.inc(8738) 183 Mb
+--- ... WND_VAR_T.inc(5) 183 Mb
+--- .... WND_VAR_T_ON1.inc(168) 184 Mb--- .... WND_VAR_T_ON1.inc(563) 188 Mb--- .... WND_VAR_T_ON1.inc(2162) 202 Mb--- .... WND_VAR_T_ON1.inc(2554) 206 Mb--- .... WND_VAR_T_ON1.inc(4160) 221 Mb--- .... WND_VAR_T_ON1.inc(4552) 224 Mb--- .... WND_VAR_T_ON1.inc(6156) 238 Mb--- .... WND_VAR_T_ON1.inc(6550) 242 Mb--- .... WND_VAR_T_ON1.inc(8154) 256 Mb--- .... WND_VAR_T_ON1.inc(8548) 260 Mb--- .... WND_VAR_T_ON1.inc(8738) 262 Mb
+--- ... WND_VAR_T.inc(8) 262 Mb
+--- .... WND_VAR_T_ON2.inc(2569) 273 Mb--- .... WND_VAR_T_ON2.inc(3318) 277 Mb--- .... WND_VAR_T_ON2.inc(6344) 290 Mb--- .... WND_VAR_T_ON2.inc(7094) 293 Mb--- .... WND_VAR_T_ON2.inc(8738) 301 Mb
+--- ... WND_VAR_T.inc(11) 301 Mb
+--- .... WND_VAR_T_Existing.inc(635) 305 Mb--- .... WND_VAR_T_Existing.inc(996) 307 Mb--- .... WND_VAR_T_Existing.inc(2366) 314 Mb--- .... WND_VAR_T_Existing.inc(2687) 316 Mb--- .... WND_VAR_T_Existing.inc(4117) 324 Mb--- .... WND_VAR_T_Existing.inc(4464) 326 Mb--- .... WND_VAR_T_Existing.inc(5896) 334 Mb--- .... WND_VAR_T_Existing.inc(6245) 336 Mb--- .... WND_VAR_T_Existing.inc(7674) 344 Mb--- .... WND_VAR_T_Existing.inc(8023) 345 Mb--- .... WND_VAR_T_Existing.inc(8739) 350 Mb
+--- ... WND_VAR_T.inc(15) 350 Mb
+--- .. bb4datainc.inc(787) 350 Mb
+--- ... wnd_var_tadditions.inc(15) 350 Mb
+--- .. bb4datainc.inc(791) 350 Mb
+--- ... SOLE_VAR_T.inc(1) 350 Mb--- ... SOLE_VAR_T.inc(325) 350 Mb--- ... SOLE_VAR_T.inc(1820) 355 Mb--- ... SOLE_VAR_T.inc(2175) 357 Mb--- ... SOLE_VAR_T.inc(3639) 365 Mb--- ... SOLE_VAR_T.inc(3993) 367 Mb--- ... SOLE_VAR_T.inc(5436) 376 Mb--- ... SOLE_VAR_T.inc(5801) 377 Mb--- ... SOLE_VAR_T.inc(7247) 384 Mb--- ... SOLE_VAR_T.inc(7637) 385 Mb--- ... SOLE_VAR_T.inc(8741) 388 Mb
+--- .. bb4datainc.inc(796) 388 Mb
+--- ... SOLH_VAR_T.inc(1347) 389 Mb--- ... SOLH_VAR_T.inc(2782) 390 Mb--- ... SOLH_VAR_T.inc(8609) 398 Mb--- ... SOLH_VAR_T.inc(8758) 398 Mb
+--- .. bb4datainc.inc(799) 398 Mb
+--- ... solh_var_tadditions.inc(3) 398 Mb
+--- .... industry_solh_var_tadditions.inc(5) 398 Mb
+--- ..... INDUSTRY_SOLH_VAR_T.inc(35) 398 Mb
+--- .... industry_solh_var_tadditions.inc(6) 398 Mb
+--- ... solh_var_tadditions.inc(4) 398 Mb
+--- .... indivusers_solh_var_tadditions.inc(5) 398 Mb
+--- ..... INDIVUSERS_SOLH_VAR_T.inc(52) 398 Mb
+--- .... indivusers_solh_var_tadditions.inc(6) 398 Mb
+--- ... solh_var_tadditions.inc(13) 398 Mb
+--- .. bb4datainc.inc(803) 398 Mb
+--- ... WAVE_VAR_T.inc(3) 398 Mb
+--- .. bb4datainc.inc(808) 398 Mb
+--- ... X3FX.inc(32) 398 Mb
+--- .. bb4datainc.inc(813) 398 Mb
+--- ... X3FX_VAR_T.inc(8763) 398 Mb
+--- .. bb4datainc.inc(818) 398 Mb
+--- ... HYPPROFILS.inc(20) 398 Mb
+--- .. bb4datainc.inc(824) 398 Mb
+--- ... YMODEL.inc(15) 398 Mb
+--- .. bb4datainc.inc(826) 398 Mb
+--- ... YMODELDELTA.inc(15) 398 Mb
+--- .. bb4datainc.inc(840) 398 Mb
+--- ... OMONEY.inc(3) 398 Mb
+--- .. bb4datainc.inc(845) 398 Mb
+--- ... PENALTYQ.inc(5) 398 Mb
+--- .. bb4datainc.inc(850) 398 Mb
+--- ... XES.inc(4) 398 Mb
+--- .. bb4datainc.inc(856) 398 Mb
+--- ... pardeclare.inc(20) 398 Mb
+--- .... transport_pardeclare.inc(9) 398 Mb
+--- ... pardeclare.inc(24) 398 Mb
+--- .... hydrogen_pardeclare.inc(61) 398 Mb
+--- ... pardeclare.inc(29) 398 Mb
+--- .... heattrans_pardeclare.inc(34) 398 Mb
+--- ... pardeclare.inc(31) 398 Mb
+--- .... DECOM_pardeclare.inc(2) 398 Mb
+--- ... pardeclare.inc(34) 398 Mb
+--- .... CCS_pardeclare.inc(8) 398 Mb
+--- ... pardeclare.inc(35) 398 Mb
+--- .... indivusers_pardeclare.inc(7) 398 Mb
+--- ... pardeclare.inc(37) 398 Mb
+--- .. bb4datainc.inc(857) 398 Mb
+--- ... pardefine.inc(23) 398 Mb
+--- .... transport_pardefine.inc(5) 398 Mb
+--- ..... TRANSPORT_TRANSDEMAND_Y.inc(60) 398 Mb
+--- .... transport_pardefine.inc(10) 398 Mb
+--- ..... TRANSPORT_TRANS_PEAKAVG_RATIO.inc(3) 398 Mb
+--- .... transport_pardefine.inc(13) 398 Mb
+--- ... pardefine.inc(26) 398 Mb
+--- .... hydrogen_pardefine.inc(3) 398 Mb
+--- ..... HYDROGEN_DH2.inc(98) 398 Mb
+--- .... hydrogen_pardefine.inc(9) 398 Mb
+--- ..... HYDROGEN_FLEXDH2.inc(5) 398 Mb
+--- .... hydrogen_pardefine.inc(14) 398 Mb
+--- ..... HYDROGEN_DH2_VAR_T.inc(5) 398 Mb
+--- .... hydrogen_pardefine.inc(19) 398 Mb
+--- ..... HYDROGEN_DISLOSS_H2.inc(2) 398 Mb
+--- .... hydrogen_pardefine.inc(28) 398 Mb
+--- ..... HYDROGEN_DAC_DE.inc(2) 398 Mb
+--- .... hydrogen_pardefine.inc(31) 398 Mb
+--- ..... HYDROGEN_DAC_DH.inc(2) 398 Mb
+--- .... hydrogen_pardefine.inc(34) 398 Mb
+--- ..... HYDROGEN_METHANATION_DE.inc(5) 398 Mb
+--- .... hydrogen_pardefine.inc(37) 398 Mb
+--- ..... HYDROGEN_METHANATION_DH2.inc(6) 398 Mb
+--- .... hydrogen_pardefine.inc(40) 398 Mb
+--- ..... HYDROGEN_BIOGASUPGRADING_DE.inc(5) 398 Mb
+--- .... hydrogen_pardefine.inc(43) 398 Mb
+--- ..... HYDROGEN_XH2KFX.inc(2) 398 Mb
+--- .... hydrogen_pardefine.inc(46) 398 Mb
+--- ..... HYDROGEN_XH2INVCOST.inc(405) 398 Mb
+--- .... hydrogen_pardefine.inc(49) 398 Mb
+--- ..... HYDROGEN_XH2INVCOST_NGTOH2.inc(2) 398 Mb
+--- .... hydrogen_pardefine.inc(52) 398 Mb
+--- ..... HYDROGEN_XH2COST.inc(2) 398 Mb
+--- .... hydrogen_pardefine.inc(55) 398 Mb
+--- ..... HYDROGEN_XH2LOSS.inc(123) 398 Mb
+--- .... hydrogen_pardefine.inc(58) 398 Mb
+--- ..... HYDROGEN_XH2KRATE.inc(2) 398 Mb
+--- .... hydrogen_pardefine.inc(61) 398 Mb
+--- ..... HYDROGEN_ANNUITYCXH2.inc(38) 398 Mb
+--- .... hydrogen_pardefine.inc(64) 398 Mb
+--- ..... HYDROGEN_XH2MAXK_NGTOH2.inc(2) 398 Mb
+--- .... hydrogen_pardefine.inc(67) 398 Mb
+--- ..... HYDROGEN_LIFETIME_XH2.inc(2) 398 Mb
+--- .... hydrogen_pardefine.inc(71) 398 Mb
+--- ..... HYDROGEN_XH2INVCOST_ES.inc(7865) 398 Mb
+--- .... hydrogen_pardefine.inc(74) 398 Mb
+--- ..... HYDROGEN_XH2KN_ES.inc(7855) 398 Mb
+--- .... hydrogen_pardefine.inc(76) 398 Mb
+--- ... pardefine.inc(31) 398 Mb
+--- .... EV_pardefine.inc(4) 398 Mb
+--- ..... EV_BEV_available.inc(14) 398 Mb
+--- .... EV_pardefine.inc(9) 398 Mb
+--- ..... EV_PHEV_available.inc(11) 398 Mb
+--- .... EV_pardefine.inc(14) 398 Mb
+--- ..... EV_BEV_dumb.inc(13) 398 Mb
+--- .... EV_pardefine.inc(19) 398 Mb
+--- ..... EV_PHEV_dumb.inc(12) 398 Mb
+--- .... EV_pardefine.inc(25) 398 Mb
+--- ..... EV_TECH_DATA.inc(90) 398 Mb
+--- .... EV_pardefine.inc(45) 398 Mb
+--- ..... EV_BEV_return_profile1.inc(3246) 402 Mb--- ..... EV_BEV_return_profile1.inc(6903) 407 Mb--- ..... EV_BEV_return_profile1.inc(21830) 426 Mb--- ..... EV_BEV_return_profile1.inc(25497) 431 Mb--- ..... EV_BEV_return_profile1.inc(26216) 431 Mb
+--- .... EV_pardefine.inc(53) 431 Mb
+--- ..... EV_BEV_leave_profile1.inc(12050) 448 Mb--- ..... EV_BEV_leave_profile1.inc(15410) 452 Mb--- ..... EV_BEV_leave_profile1.inc(26216) 467 Mb
+--- .... EV_pardefine.inc(63) 467 Mb
+--- ..... EV_PHEV_return_profile1.inc(1955) 469 Mb--- ..... EV_PHEV_return_profile1.inc(5641) 474 Mb--- ..... EV_PHEV_return_profile1.inc(20558) 493 Mb--- ..... EV_PHEV_return_profile1.inc(24257) 498 Mb--- ..... EV_PHEV_return_profile1.inc(26216) 500 Mb
+--- .... EV_pardefine.inc(68) 500 Mb
+--- ..... EV_PHEV_leave_profile1.inc(10634) 514 Mb--- ..... EV_PHEV_leave_profile1.inc(14018) 519 Mb--- ..... EV_PHEV_leave_profile1.inc(26216) 536 Mb
+--- .... EV_pardefine.inc(95) 536 Mb
+--- ... pardefine.inc(36) 536 Mb
+--- .... dcflex_pardefine.inc(3) 536 Mb
+--- ..... DC_FLEXPARAM.inc(5) 536 Mb
+--- .... dcflex_pardefine.inc(4) 536 Mb
+--- ... pardefine.inc(37) 536 Mb
+--- .... heattrans_pardefine.inc(7) 536 Mb
+--- ..... HEATTRANS_XHKFX.inc(2) 536 Mb
+--- .... heattrans_pardefine.inc(10) 536 Mb
+--- ..... xhfxadditions.inc(3) 536 Mb
+--- ...... industry_xhfxadditions.inc(1) 536 Mb--- ...... industry_xhfxadditions.inc(5) 536 Mb
+--- ....... INDUSTRY_XHKFX.inc(225) 536 Mb
+--- ...... industry_xhfxadditions.inc(6) 536 Mb
+--- ..... xhfxadditions.inc(4) 536 Mb
+--- ...... indivusers_xhfxadditions.inc(5) 536 Mb
+--- ....... INDIVUSERS_XHKFX.inc(56) 536 Mb
+--- ...... indivusers_xhfxadditions.inc(6) 536 Mb
+--- ..... xhfxadditions.inc(12) 536 Mb
+--- .... heattrans_pardefine.inc(15) 536 Mb
+--- ..... HEATTRANS_XHINVCOST.inc(2) 536 Mb
+--- .... heattrans_pardefine.inc(18) 536 Mb
+--- ..... xhinvcostadditions.inc(3) 536 Mb
+--- ...... industry_xhinvcostadditions.inc(5) 536 Mb
+--- ....... INDUSTRY_XHINVCOST.inc(101) 536 Mb
+--- ...... industry_xhinvcostadditions.inc(6) 536 Mb
+--- ..... xhinvcostadditions.inc(4) 536 Mb
+--- ...... indivusers_xhinvcostadditions.inc(5) 536 Mb
+--- ....... INDIVUSERS_XHINVCOST.inc(101) 536 Mb
+--- ...... indivusers_xhinvcostadditions.inc(6) 536 Mb
+--- ..... xhinvcostadditions.inc(8) 536 Mb
+--- .... heattrans_pardefine.inc(22) 536 Mb
+--- ..... HEATTRANS_LIFETIME_XH.inc(2) 536 Mb
+--- .... heattrans_pardefine.inc(27) 536 Mb
+--- ..... HEATTRANS_XHMAXK.inc(2) 536 Mb
+--- .... heattrans_pardefine.inc(30) 536 Mb
+--- ..... xhmaxkadditions.inc(3) 536 Mb
+--- ...... industry_xhmaxkadditions.inc(5) 536 Mb
+--- ....... INDUSTRY_XHMAXK.inc(101) 536 Mb
+--- ...... industry_xhmaxkadditions.inc(6) 536 Mb
+--- ..... xhmaxkadditions.inc(4) 536 Mb
+--- ...... indivusers_xhmaxkadditions.inc(5) 536 Mb
+--- ....... INDIVUSERS_XHMAXK.inc(45) 536 Mb
+--- ...... indivusers_xhmaxkadditions.inc(6) 536 Mb
+--- ..... xhmaxkadditions.inc(12) 536 Mb
+--- .... heattrans_pardefine.inc(34) 536 Mb
+--- ..... HEATTRANS_ANNUITYCXH.inc(38) 536 Mb
+--- .... heattrans_pardefine.inc(39) 536 Mb
+--- ..... HEATTRANS_XHKRATE.inc(5) 536 Mb
+--- .... heattrans_pardefine.inc(44) 536 Mb
+--- ..... HEATTRANS_XHCOST.inc(5) 536 Mb
+--- .... heattrans_pardefine.inc(47) 536 Mb
+--- ..... xhcostadditions.inc(3) 536 Mb
+--- ...... industry_xhcostadditions.inc(5) 536 Mb
+--- ....... INDUSTRY_XHCOST.inc(192) 536 Mb
+--- ...... industry_xhcostadditions.inc(6) 536 Mb
+--- ..... xhcostadditions.inc(4) 536 Mb
+--- ...... indivusers_xhcostadditions.inc(5) 536 Mb
+--- ....... INDIVUSERS_XHCOST.inc(100) 536 Mb
+--- ...... indivusers_xhcostadditions.inc(6) 536 Mb
+--- ..... xhcostadditions.inc(13) 536 Mb
+--- .... heattrans_pardefine.inc(51) 536 Mb
+--- ..... HEATTRANS_XHLOSS.inc(5) 536 Mb
+--- .... heattrans_pardefine.inc(54) 536 Mb
+--- ..... xhlossadditions.inc(3) 536 Mb
+--- ...... industry_xhlossadditions.inc(5) 536 Mb
+--- ....... INDUSTRY_XHLOSS.inc(282) 536 Mb
+--- ...... industry_xhlossadditions.inc(6) 536 Mb
+--- ..... xhlossadditions.inc(4) 536 Mb
+--- ...... indivusers_xhlossadditions.inc(5) 536 Mb
+--- ....... INDIVUSERS_XHLOSS.inc(104) 536 Mb
+--- ...... indivusers_xhlossadditions.inc(6) 536 Mb
+--- ..... xhlossadditions.inc(9) 536 Mb
+--- .... heattrans_pardefine.inc(75) 536 Mb
+--- ..... HEATTRANS_XHKFX_DH.inc(64) 536 Mb
+--- .... heattrans_pardefine.inc(77) 536 Mb
+--- ... pardefine.inc(39) 536 Mb
+--- .... DECOM_pardefine.inc(3) 536 Mb
+--- ... pardefine.inc(42) 536 Mb
+--- .... CCS_pardefine.inc(5) 536 Mb
+--- ..... CCS_CCS_DECO2COMP_G.inc(91) 536 Mb
+--- .... CCS_pardefine.inc(10) 536 Mb
+--- ..... CCS_CCS_CO2CAPTEFF_G.inc(8824) 536 Mb
+--- .... CCS_pardefine.inc(15) 536 Mb
+--- ..... CCS_CCS_TRANSPORTCOST.inc(3) 536 Mb
+--- .... CCS_pardefine.inc(16) 536 Mb
+--- ... pardefine.inc(43) 536 Mb
+--- .... indivusers_pardefine.inc(3) 536 Mb
+--- ... pardefine.inc(50) 536 Mb
+--- .. bb4datainc.inc(859) 536 Mb
+--- . Balmorelbb4.inc(458) 536 Mb
+--- .. isetdecdef.inc(13) 536 Mb
+--- ... hydrogen_isetdecdef.inc(60) 536 Mb
+--- .. isetdecdef.inc(19) 536 Mb
+--- ... EV_isetdecdef.inc(7) 536 Mb
+--- .. isetdecdef.inc(25) 536 Mb
+--- ... DECOM_isetdecdef.inc(8) 536 Mb
+--- .. isetdecdef.inc(33) 536 Mb
+--- . Balmorelbb4.inc(909) 536 Mb
+--- .. ipardecdef.inc(11) 536 Mb
+--- ... hydrogen_ipardecdef.inc(122) 536 Mb
+--- .. ipardecdef.inc(17) 536 Mb
+--- ... EV_ipardecdef.inc(307) 536 Mb
+--- .. ipardecdef.inc(19) 536 Mb
+--- ... dcflex_ipardecdef.inc(21) 536 Mb
+--- .. ipardecdef.inc(21) 536 Mb
+--- ... heattrans_ipardecdef.inc(83) 536 Mb
+--- .. ipardecdef.inc(22) 536 Mb
+--- ... DECOM_ipardecdef.inc(93) 536 Mb
+--- .. ipardecdef.inc(27) 536 Mb
+--- . Balmorelbb4.inc(1024) 536 Mb
+--- .. print1.inc(353) 536 Mb
+--- . Balmorelbb4.inc(1029) 536 Mb
+--- .. error2.inc(1119) 536 Mb
+--- . Balmorelbb4.inc(1060) 536 Mb
+--- .. reducecard.inc(4) 536 Mb
+--- . Balmorelbb4.inc(1162) 536 Mb
+--- .. vardeclare.inc(17) 536 Mb
+--- ... hydrogen_vardeclare.inc(31) 536 Mb
+--- .. vardeclare.inc(19) 536 Mb
+--- ... transport_vardeclare.inc(7) 536 Mb
+--- .. vardeclare.inc(28) 536 Mb
+--- ... dcflex_vardeclare.inc(3) 536 Mb
+--- .. vardeclare.inc(29) 536 Mb
+--- ... heattrans_vardeclare.inc(8) 536 Mb
+--- .. vardeclare.inc(30) 536 Mb
+--- ... DECOM_vardeclare.inc(20) 536 Mb
+--- .. vardeclare.inc(31) 536 Mb
+--- ... EV_vardeclare.inc(9) 536 Mb
+--- .. vardeclare.inc(34) 536 Mb
+--- ... indivusers_vardeclare.inc(5) 536 Mb
+--- .. vardeclare.inc(43) 536 Mb
+--- . Balmorelbb4.inc(1374) 536 Mb
+--- .. qobj.inc(19) 536 Mb
+--- ... hydrogen_qobj.inc(91) 536 Mb
+--- .. qobj.inc(30) 536 Mb
+--- ... heattrans_qobj.inc(17) 536 Mb
+--- .. qobj.inc(31) 536 Mb
+--- ... DECOM_qobj.inc(10) 536 Mb
+--- .. qobj.inc(32) 536 Mb
+--- ... EV_qobj.inc(13) 536 Mb
+--- .. qobj.inc(33) 536 Mb
+--- ... CCS_qobj.inc(7) 536 Mb
+--- .. qobj.inc(42) 536 Mb
+--- . Balmorelbb4.inc(1402) 536 Mb
+--- .. qeeq.inc(11) 536 Mb
+--- ... hydrogen_qeeq.inc(14) 536 Mb
+--- .. qeeq.inc(13) 536 Mb
+--- ... transport_qeeq.inc(9) 536 Mb
+--- .. qeeq.inc(14) 536 Mb
+--- ... EV_qeeq.inc(9) 536 Mb
+--- .. qeeq.inc(20) 536 Mb
+--- ... dcflex_qeeq.inc(2) 536 Mb
+--- .. qeeq.inc(22) 536 Mb
+--- ... CCS_qeeq.inc(7) 536 Mb
+--- .. qeeq.inc(29) 536 Mb
+--- . Balmorelbb4.inc(1419) 536 Mb
+--- .. qheq.inc(15) 536 Mb
+--- ... hydrogen_qheq.inc(7) 536 Mb
+--- .. qheq.inc(16) 536 Mb
+--- ... heattrans_qheq.inc(28) 536 Mb
+--- .. qheq.inc(17) 536 Mb
+--- ... indivusers_qheq.inc(31) 536 Mb
+--- .. qheq.inc(24) 536 Mb
+--- . Balmorelbb4.inc(1451) 536 Mb
+--- .. qgfeq.inc(16) 536 Mb
+--- ... hydrogen_qgfeq.inc(6) 536 Mb
+--- .. qgfeq.inc(24) 536 Mb
+--- . Balmorelbb4.inc(1472) 536 Mb
+--- .. qgcbgbprbypass2.inc(12) 536 Mb
+--- . Balmorelbb4.inc(1500) 536 Mb
+--- .. qgcvgext.inc(12) 536 Mb
+--- . Balmorelbb4.inc(1521) 536 Mb
+--- .. qgcvgextbypass1.inc(12) 536 Mb
+--- . Balmorelbb4.inc(1530) 536 Mb
+--- .. qgfeqextbypass1.inc(10) 536 Mb
+--- . Balmorelbb4.inc(1538) 536 Mb
+--- .. qgfeqextbypass2.inc(10) 536 Mb
+--- . Balmorelbb4.inc(1547) 536 Mb
+--- .. qggetoh.inc(4) 536 Mb
+--- . Balmorelbb4.inc(1573) 536 Mb
+--- .. qhyrsseq.inc(10) 536 Mb
+--- . Balmorelbb4.inc(1584) 536 Mb
+--- .. qhyrsminvol.inc(8) 536 Mb
+--- . Balmorelbb4.inc(1596) 536 Mb
+--- .. qhyrsmaxvol.inc(8) 536 Mb
+--- . Balmorelbb4.inc(1612) 536 Mb
+--- .. qhymaxg.inc(8) 536 Mb
+--- . Balmorelbb4.inc(1626) 536 Mb
+--- .. qestovolt.inc(8) 536 Mb
+--- . Balmorelbb4.inc(1639) 536 Mb
+--- .. qestovolts.inc(11) 536 Mb
+--- . Balmorelbb4.inc(1649) 536 Mb
+--- .. qhstovolt.inc(8) 536 Mb
+--- . Balmorelbb4.inc(1662) 536 Mb
+--- .. qhstovolts.inc(10) 536 Mb
+--- . Balmorelbb4.inc(1822) 536 Mb
+--- .. qkefuelc.inc(8) 536 Mb
+--- . Balmorelbb4.inc(1833) 536 Mb
+--- .. qkefuelr.inc(8) 536 Mb
+--- . Balmorelbb4.inc(1844) 536 Mb
+--- .. qkefuela.inc(8) 536 Mb
+--- . Balmorelbb4.inc(1897) 536 Mb
+--- .. qgeqcf.inc(8) 536 Mb
+--- . Balmorelbb4.inc(1914) 536 Mb
+--- .. qgeqrf.inc(8) 536 Mb
+--- . Balmorelbb4.inc(1931) 536 Mb
+--- .. qgeqaf.inc(8) 536 Mb
+--- . Balmorelbb4.inc(2054) 536 Mb
+--- .. qktechgroupc.inc(8) 536 Mb
+--- . Balmorelbb4.inc(2065) 536 Mb
+--- .. qktechgroupr.inc(8) 536 Mb
+--- . Balmorelbb4.inc(2076) 536 Mb
+--- .. qktechgroupa.inc(8) 536 Mb
+--- . Balmorelbb4.inc(2129) 536 Mb
+--- .. qxk_up.inc(8) 536 Mb
+--- . Balmorelbb4.inc(2145) 536 Mb
+--- .. qxknaccumnet.inc(8) 536 Mb
+--- . Balmorelbb4.inc(2163) 536 Mb
+--- .. qlimco2c.inc(5) 536 Mb
+--- ... CCS_qlimco2c.inc(4) 536 Mb
+--- .. qlimco2c.inc(10) 536 Mb
+--- . Balmorelbb4.inc(2182) 536 Mb
+--- .. qlimco2na.inc(5) 536 Mb
+--- ... CCS_qlimco2na.inc(4) 536 Mb
+--- .. qlimco2na.inc(10) 536 Mb
+--- . Balmorelbb4.inc(2216) 536 Mb
+--- .. qgknaccumnet.inc(3) 536 Mb
+--- ... DECOM_qgknaccumnet.inc(6) 536 Mb
+--- .. qgknaccumnet.inc(9) 536 Mb
+--- . Balmorelbb4.inc(2241) 536 Mb
+--- .. qgke_up.inc(8) 536 Mb
+--- . Balmorelbb4.inc(2251) 536 Mb
+--- .. qgkh_up.inc(8) 536 Mb
+--- . Balmorelbb4.inc(2362) 536 Mb
+--- .. eqndecdef.inc(19) 536 Mb
+--- ... transport_eqndecdef.inc(14) 536 Mb
+--- .... qtranspeakdemand.inc(8) 536 Mb
+--- ... transport_eqndecdef.inc(87) 536 Mb
+--- .. eqndecdef.inc(24) 536 Mb
+--- ... hydrogen_eqndecdef.inc(74) 536 Mb
+--- .... qhydrogen_eq.inc(4) 536 Mb
+--- ..... transport_qhydrogen_eq.inc(6) 536 Mb
+--- .... qhydrogen_eq.inc(10) 536 Mb
+--- ... hydrogen_eqndecdef.inc(142) 536 Mb
+--- .... qhydrogen_eq_area.inc(8) 536 Mb
+--- ... hydrogen_eqndecdef.inc(163) 536 Mb
+--- .... qhydrogen_stovol.inc(10) 536 Mb
+--- ... hydrogen_eqndecdef.inc(230) 536 Mb
+--- .... qbiomethane_stovolts.inc(7) 536 Mb
+--- ... hydrogen_eqndecdef.inc(327) 536 Mb
+--- .. eqndecdef.inc(25) 536 Mb
+--- ... EV_eqndecdef.inc(70) 536 Mb
+--- .. eqndecdef.inc(31) 536 Mb
+--- ... dcflex_eqndecdef.inc(18) 536 Mb
+--- .. eqndecdef.inc(32) 536 Mb
+--- ... heattrans_eqndecdef.inc(58) 536 Mb
+--- .. eqndecdef.inc(33) 536 Mb
+--- ... DECOM_eqndecdef.inc(1) 536 Mb--- ... DECOM_eqndecdef.inc(68) 536 Mb
+--- .. eqndecdef.inc(38) 536 Mb
+--- ... indivusers_eqndecdef.inc(49) 536 Mb
+--- .. eqndecdef.inc(41) 536 Mb
+--- . Balmorelbb4.inc(2514) 536 Mb
+--- .. balbase4.inc(8) 536 Mb
+--- ... transport_balbase4.inc(27) 536 Mb
+--- .. balbase4.inc(10) 536 Mb
+--- ... hydrogen_balbase4.inc(40) 536 Mb
+--- .. balbase4.inc(15) 536 Mb
+--- ... EV_balbase4.inc(7) 536 Mb
+--- .. balbase4.inc(20) 536 Mb
+--- ... dcflex_balbase4.inc(4) 536 Mb
+--- .. balbase4.inc(21) 536 Mb
+--- ... heattrans_balbase4.inc(17) 536 Mb
+--- .. balbase4.inc(22) 536 Mb
+--- ... DECOM_balbase4.inc(21) 536 Mb
+--- .. balbase4.inc(27) 536 Mb
+--- ... indivusers_balbase4.inc(5) 536 Mb
+--- .. balbase4.inc(30) 536 Mb
+--- . Balmorelbb4.inc(2534) 536 Mb
+--- .. error2.inc(12) 536 Mb
+--- ... heattrans_error2.inc(7) 536 Mb
+--- .. error2.inc(15) 536 Mb
+--- . Balmorelbb4.inc(2535) 536 Mb
+--- .. errorBB4.inc(62) 536 Mb
+--- . Balmorelbb4.inc(2562) 536 Mb
+--- .. BB4overview.inc(114) 536 Mb
+--- . Balmorelbb4.inc(2567) 536 Mb
+--- .. Balmorelbb4.sim(223) 536 Mb
+--- ... sim.inc(22) 536 Mb
+--- .... heattrans_sim.inc(9) 536 Mb
+--- ... sim.inc(23) 536 Mb
+--- .... EV_sim.inc(37) 536 Mb
+--- ... sim.inc(24) 536 Mb
+--- .... DECOM_sim.inc(6) 536 Mb
+--- ... sim.inc(26) 536 Mb
+--- .... dcflex_sim.inc(2) 536 Mb
+--- ... sim.inc(28) 536 Mb
+--- .... hydrogen_sim.inc(23) 536 Mb
+--- ... sim.inc(31) 536 Mb
+--- .. Balmorelbb4.sim(224) 536 Mb
+--- ... varloupfx.inc(10) 536 Mb
+--- .. Balmorelbb4.sim(277) 536 Mb
+--- ... solveend.inc(12) 536 Mb
+--- .... EV_m2zero.inc(6) 536 Mb
+--- ... solveend.inc(18) 536 Mb
+--- .. Balmorelbb4.sim(282) 536 Mb
+--- ... balbase4.mss(120) 536 Mb
+--- .. Balmorelbb4.sim(317) 536 Mb
+--- ... errorBB4.inc(62) 536 Mb
+--- .. Balmorelbb4.sim(344) 536 Mb
+--- ... varassign.inc(4) 536 Mb
+--- .... DECOM_varassign.inc(17) 536 Mb
+--- ... varassign.inc(5) 536 Mb
+--- .... heattrans_varassign.inc(5) 536 Mb
+--- ... varassign.inc(6) 536 Mb
+--- .... hydrogen_varassign.inc(7) 536 Mb
+--- ... varassign.inc(7) 536 Mb
+--- .. Balmorelbb4.sim(367) 536 Mb
+--- . Balmorelbb4.inc(2573) 536 Mb
+--- .. OUTPUT_SUMMARY.inc(1726) 536 Mb
+--- . Balmorelbb4.inc(2862) 536 Mb
+--- Balmorel.gms(210) 536 Mb
+--- Starting execution: elapsed 0:00:10.239
+--- Balmorel.gms(210) 537 Mb                            --- Balmorel.gms(37) 537 Mb
+--- Balmorel.gms(98) 537 Mb--- Balmorel.gms(1250) 537 Mb
+--- Balmorel.gms(1272) 537 Mb--- Balmorel.gms(1481) 537 Mb
+--- Balmorel.gms(1482) 537 Mb
+--- Balmorel.gms(1483) 537 Mb
+--- Balmorel.gms(1484) 537 Mb
+--- Balmorel.gms(1485) 537 Mb
+--- Balmorel.gms(14824) 538 Mb--- Balmorel.gms(15677) 539 Mb--- Balmorel.gms(19909) 542 Mb--- Balmorel.gms(19946) 542 Mb--- Balmorel.gms(19951) 542 Mb--- Balmorel.gms(19977) 542 Mb--- Balmorel.gms(19982) 542 Mb--- Balmorel.gms(20009) 542 Mb--- Balmorel.gms(20014) 542 Mb--- Balmorel.gms(20040) 542 Mb--- Balmorel.gms(20045) 542 Mb--- Balmorel.gms(20071) 542 Mb--- Balmorel.gms(20076) 542 Mb--- Balmorel.gms(20102) 542 Mb--- Balmorel.gms(20107) 542 Mb--- Balmorel.gms(20132) 542 Mb--- Balmorel.gms(20137) 542 Mb--- Balmorel.gms(20159) 542 Mb--- Balmorel.gms(20162) 542 Mb--- Balmorel.gms(20187) 542 Mb--- Balmorel.gms(20192) 542 Mb--- Balmorel.gms(20218) 542 Mb--- Balmorel.gms(20223) 542 Mb--- Balmorel.gms(20260) 542 Mb--- Balmorel.gms(20265) 542 Mb--- Balmorel.gms(20290) 542 Mb--- Balmorel.gms(20295) 542 Mb--- Balmorel.gms(20320) 542 Mb--- Balmorel.gms(20325) 542 Mb--- Balmorel.gms(41961) 545 Mb--- Balmorel.gms(42356) 545 Mb--- Balmorel.gms(42840) 545 Mb--- Balmorel.gms(42845) 573 Mb--- Balmorel.gms(42845) 579 Mb--- Balmorel.gms(42903) 589 Mb--- Balmorel.gms(42908) 589 Mb--- Balmorel.gms(43092) 590 Mb--- Balmorel.gms(43092) 594 Mb--- Balmorel.gms(43092) 597 Mb--- Balmorel.gms(43092) 598 Mb--- Balmorel.gms(43092) 603 Mb--- Balmorel.gms(43092) 604 Mb--- Balmorel.gms(43092) 605 Mb--- Balmorel.gms(43092) 605 Mb  3 secs--- Balmorel.gms(43092) 605 Mb  4 secs--- Balmorel.gms(43092) 605 Mb  5 secs--- Balmorel.gms(43092) 605 Mb  6 secs--- Balmorel.gms(43092) 605 Mb  7 secs--- Balmorel.gms(43092) 605 Mb  8 secs--- Balmorel.gms(43092) 605 Mb  9 secs--- Balmorel.gms(43092) 605 Mb  10 secs--- Balmorel.gms(43092) 605 Mb  10 secs--- Balmorel.gms(43092) 606 Mb  11 secs--- Balmorel.gms(43092) 608 Mb  11 secs--- Balmorel.gms(43092) 610 Mb  11 secs--- Balmorel.gms(43092) 611 Mb  11 secs--- Balmorel.gms(43092) 611 Mb  12 secs--- Balmorel.gms(43092) 612 Mb  12 secs--- Balmorel.gms(43092) 614 Mb  12 secs--- Balmorel.gms(43092) 614 Mb  12 secs--- Balmorel.gms(43092) 615 Mb  12 secs--- Balmorel.gms(43092) 615 Mb  13 secs
+--- Balmorel.gms(60628) 616 Mb--- Balmorel.gms(60628) 617 Mb--- Balmorel.gms(60628) 620 Mb--- Balmorel.gms(60628) 657 Mb--- Balmorel.gms(60629) 660 Mb--- Balmorel.gms(60629) 672 Mb--- Balmorel.gms(60630) 673 Mb--- Balmorel.gms(60630) 675 Mb--- Balmorel.gms(60645) 675 Mb--- Balmorel.gms(60705) 675 Mb--- Balmorel.gms(60744) 675 Mb--- Balmorel.gms(60877) 722 Mb--- Balmorel.gms(60877) 725 Mb--- Balmorel.gms(60880) 725 Mb--- Balmorel.gms(69655) 725 Mb--- Balmorel.gms(78428) 725 Mb--- Balmorel.gms(78452) 725 Mb--- Balmorel.gms(78453) 725 Mb--- Balmorel.gms(78454) 725 Mb--- Balmorel.gms(87250) 725 Mb--- Balmorel.gms(87250) 725 Mb  3 secs--- Balmorel.gms(87250) 725 Mb  4 secs--- Balmorel.gms(87250) 725 Mb  5 secs--- Balmorel.gms(87250) 725 Mb  6 secs--- Balmorel.gms(87250) 725 Mb  7 secs--- Balmorel.gms(87250) 725 Mb  8 secs--- Balmorel.gms(87250) 725 Mb  9 secs--- Balmorel.gms(87250) 725 Mb  10 secs
+--- Balmorel.gms(87251) 725 Mb--- Balmorel.gms(87253) 725 Mb--- Balmorel.gms(87253) 725 Mb--- Balmorel.gms(87253) 726 Mb--- Balmorel.gms(87253) 726 Mb--- Balmorel.gms(87253) 726 Mb  3 secs--- Balmorel.gms(87253) 727 Mb  3 secs--- Balmorel.gms(87253) 727 Mb  4 secs--- Balmorel.gms(87253) 731 Mb  4 secs--- Balmorel.gms(87253) 731 Mb  5 secs--- Balmorel.gms(87253) 733 Mb  5 secs--- Balmorel.gms(87253) 738 Mb  5 secs
+--- Balmorel.gms(87254) 738 Mb--- Balmorel.gms(87254) 739 Mb--- Balmorel.gms(87254) 741 Mb--- Balmorel.gms(87254) 770 Mb--- Balmorel.gms(87254) 771 Mb--- Balmorel.gms(87254) 773 Mb--- Balmorel.gms(87254) 774 Mb  3 secs--- Balmorel.gms(87254) 774 Mb  3 secs--- Balmorel.gms(87254) 774 Mb  4 secs--- Balmorel.gms(87254) 780 Mb  4 secs--- Balmorel.gms(87254) 780 Mb  5 secs--- Balmorel.gms(87254) 783 Mb  5 secs--- Balmorel.gms(87254) 789 Mb  5 secs--- Balmorel.gms(87254) 790 Mb  5 secs
+--- Balmorel.gms(87255) 790 Mb--- Balmorel.gms(87255) 790 Mb--- Balmorel.gms(87255) 794 Mb--- Balmorel.gms(87255) 824 Mb--- Balmorel.gms(87255) 826 Mb--- Balmorel.gms(87255) 827 Mb--- Balmorel.gms(87255) 827 Mb  3 secs--- Balmorel.gms(87255) 827 Mb  4 secs--- Balmorel.gms(87255) 832 Mb  4 secs--- Balmorel.gms(87255) 834 Mb  4 secs--- Balmorel.gms(87255) 834 Mb  5 secs--- Balmorel.gms(87255) 834 Mb  5 secs--- Balmorel.gms(87255) 836 Mb  5 secs--- Balmorel.gms(87255) 837 Mb  5 secs--- Balmorel.gms(87255) 843 Mb  6 secs
+--- Balmorel.gms(87256) 843 Mb--- Balmorel.gms(87256) 844 Mb--- Balmorel.gms(87256) 848 Mb--- Balmorel.gms(87256) 848 Mb--- Balmorel.gms(87256) 868 Mb--- Balmorel.gms(87256) 880 Mb--- Balmorel.gms(87256) 880 Mb  3 secs--- Balmorel.gms(87256) 880 Mb  3 secs--- Balmorel.gms(87256) 881 Mb  4 secs--- Balmorel.gms(87256) 887 Mb  5 secs--- Balmorel.gms(87256) 890 Mb  5 secs--- Balmorel.gms(87256) 894 Mb  5 secs--- Balmorel.gms(87256) 895 Mb  6 secs--- Balmorel.gms(87256) 896 Mb  6 secs
+--- Balmorel.gms(96037) 896 Mb--- Balmorel.gms(96046) 896 Mb--- Balmorel.gms(96048) 896 Mb--- Balmorel.gms(96057) 896 Mb--- Balmorel.gms(96058) 896 Mb--- Balmorel.gms(96066) 896 Mb--- Balmorel.gms(96067) 896 Mb--- Balmorel.gms(96074) 896 Mb--- Balmorel.gms(96078) 896 Mb--- Balmorel.gms(96088) 896 Mb--- Balmorel.gms(96088) 896 Mb  3 secs--- Balmorel.gms(96088) 896 Mb  4 secs--- Balmorel.gms(96088) 896 Mb  5 secs--- Balmorel.gms(96088) 896 Mb  6 secs--- Balmorel.gms(96088) 896 Mb  7 secs--- Balmorel.gms(96088) 896 Mb  8 secs--- Balmorel.gms(96088) 896 Mb  9 secs--- Balmorel.gms(96088) 896 Mb  10 secs--- Balmorel.gms(96088) 896 Mb  11 secs--- Balmorel.gms(96088) 896 Mb  12 secs--- Balmorel.gms(96088) 896 Mb  13 secs--- Balmorel.gms(96088) 896 Mb  14 secs--- Balmorel.gms(96088) 896 Mb  15 secs--- Balmorel.gms(96088) 896 Mb  16 secs--- Balmorel.gms(96088) 896 Mb  17 secs
+--- Balmorel.gms(96137) 896 Mb--- Balmorel.gms(96235) 896 Mb--- Balmorel.gms(96235) 896 Mb  3 secs
+--- Balmorel.gms(96237) 896 Mb--- Balmorel.gms(131215) 897 Mb--- Balmorel.gms(131215) 898 Mb--- Balmorel.gms(131215) 899 Mb--- Balmorel.gms(131215) 900 Mb--- Balmorel.gms(131215) 946 Mb--- Balmorel.gms(131215) 965 Mb--- Balmorel.gms(131215) 1022 Mb--- Balmorel.gms(131215) 1030 Mb--- Balmorel.gms(131215) 1062 Mb--- Balmorel.gms(131215) 1070 Mb--- Balmorel.gms(131215) 1103 Mb--- Balmorel.gms(131215) 1111 Mb--- Balmorel.gms(131215) 1144 Mb--- Balmorel.gms(131215) 1151 Mb--- Balmorel.gms(131215) 1185 Mb--- Balmorel.gms(131215) 1193 Mb--- Balmorel.gms(131215) 1226 Mb--- Balmorel.gms(131215) 1228 Mb  3 secs
+--- Balmorel.gms(131216) 1228 Mb--- Balmorel.gms(131216) 1285 Mb--- Balmorel.gms(131216) 1285 Mb  3 secs--- Balmorel.gms(131216) 1285 Mb  4 secs--- Balmorel.gms(131216) 1285 Mb  5 secs--- Balmorel.gms(131216) 1285 Mb  6 secs--- Balmorel.gms(131216) 1285 Mb  7 secs--- Balmorel.gms(131216) 1285 Mb  8 secs--- Balmorel.gms(131216) 1285 Mb  9 secs--- Balmorel.gms(131216) 1285 Mb  10 secs--- Balmorel.gms(131216) 1285 Mb  11 secs--- Balmorel.gms(131216) 1285 Mb  12 secs--- Balmorel.gms(131216) 1285 Mb  13 secs--- Balmorel.gms(131216) 1285 Mb  14 secs--- Balmorel.gms(131216) 1285 Mb  15 secs--- Balmorel.gms(131216) 1285 Mb  16 secs--- Balmorel.gms(131216) 1285 Mb  17 secs--- Balmorel.gms(131216) 1285 Mb  18 secs--- Balmorel.gms(131216) 1285 Mb  19 secs--- Balmorel.gms(131216) 1285 Mb  20 secs--- Balmorel.gms(131216) 1285 Mb  21 secs--- Balmorel.gms(131216) 1285 Mb  22 secs--- Balmorel.gms(131216) 1285 Mb  23 secs--- Balmorel.gms(131216) 1285 Mb  24 secs--- Balmorel.gms(131216) 1285 Mb  25 secs--- Balmorel.gms(131216) 1285 Mb  26 secs--- Balmorel.gms(131216) 1285 Mb  27 secs--- Balmorel.gms(131216) 1285 Mb  28 secs--- Balmorel.gms(131216) 1285 Mb  29 secs--- Balmorel.gms(131216) 1285 Mb  30 secs--- Balmorel.gms(131216) 1285 Mb  35 secs--- Balmorel.gms(131216) 1285 Mb  40 secs--- Balmorel.gms(131216) 1285 Mb  45 secs--- Balmorel.gms(131216) 1285 Mb  50 secs--- Balmorel.gms(131216) 1285 Mb  55 secs--- Balmorel.gms(131216) 1285 Mb  60 secs--- Balmorel.gms(131216) 1285 Mb  65 secs--- Balmorel.gms(131216) 1285 Mb  70 secs--- Balmorel.gms(131216) 1285 Mb  75 secs--- Balmorel.gms(131216) 1286 Mb  75 secs--- Balmorel.gms(131216) 1286 Mb  80 secs--- Balmorel.gms(131216) 1286 Mb  85 secs--- Balmorel.gms(131216) 1286 Mb  90 secs--- Balmorel.gms(131216) 1286 Mb  95 secs--- Balmorel.gms(131216) 1286 Mb  100 secs--- Balmorel.gms(131216) 1286 Mb  105 secs--- Balmorel.gms(131216) 1286 Mb  110 secs--- Balmorel.gms(131216) 1286 Mb  115 secs--- Balmorel.gms(131216) 1286 Mb  120 secs--- Balmorel.gms(131216) 1286 Mb  120 secs--- Balmorel.gms(131216) 1286 Mb  125 secs--- Balmorel.gms(131216) 1286 Mb  130 secs--- Balmorel.gms(131216) 1286 Mb  135 secs--- Balmorel.gms(131216) 1286 Mb  140 secs--- Balmorel.gms(131216) 1286 Mb  145 secs--- Balmorel.gms(131216) 1286 Mb  150 secs
+--- Balmorel.gms(131217) 1286 Mb--- Balmorel.gms(139979) 1286 Mb--- Balmorel.gms(158143) 1286 Mb--- Balmorel.gms(264152) 1286 Mb--- Balmorel.gms(264154) 1286 Mb--- Balmorel.gms(264154) 1286 Mb  3 secs--- Balmorel.gms(264154) 1286 Mb  4 secs--- Balmorel.gms(264154) 1286 Mb  5 secs--- Balmorel.gms(264154) 1286 Mb  6 secs--- Balmorel.gms(264154) 1286 Mb  7 secs--- Balmorel.gms(264154) 1286 Mb  8 secs--- Balmorel.gms(264154) 1286 Mb  9 secs--- Balmorel.gms(264154) 1286 Mb  10 secs--- Balmorel.gms(264154) 1286 Mb  11 secs--- Balmorel.gms(264154) 1286 Mb  12 secs--- Balmorel.gms(264154) 1286 Mb  13 secs--- Balmorel.gms(264154) 1286 Mb  14 secs--- Balmorel.gms(264154) 1286 Mb  15 secs--- Balmorel.gms(264154) 1286 Mb  16 secs--- Balmorel.gms(264154) 1286 Mb  17 secs--- Balmorel.gms(264154) 1286 Mb  18 secs--- Balmorel.gms(264154) 1286 Mb  19 secs--- Balmorel.gms(264154) 1286 Mb  20 secs--- Balmorel.gms(264154) 1286 Mb  21 secs--- Balmorel.gms(264154) 1286 Mb  22 secs--- Balmorel.gms(264154) 1286 Mb  23 secs--- Balmorel.gms(264154) 1286 Mb  24 secs--- Balmorel.gms(264154) 1293 Mb  24 secs--- Balmorel.gms(264154) 1294 Mb  24 secs--- Balmorel.gms(264154) 1297 Mb  24 secs--- Balmorel.gms(264154) 1297 Mb  25 secs--- Balmorel.gms(264154) 1299 Mb  25 secs--- Balmorel.gms(264154) 1300 Mb  25 secs--- Balmorel.gms(264154) 1300 Mb  26 secs--- Balmorel.gms(264154) 1300 Mb  27 secs--- Balmorel.gms(264154) 1300 Mb  27 secs--- Balmorel.gms(264154) 1303 Mb  27 secs--- Balmorel.gms(264154) 1311 Mb  27 secs--- Balmorel.gms(264154) 1311 Mb  28 secs--- Balmorel.gms(264154) 1314 Mb  28 secs--- Balmorel.gms(264154) 1317 Mb  28 secs--- Balmorel.gms(264154) 1317 Mb  29 secs--- Balmorel.gms(264154) 1320 Mb  29 secs--- Balmorel.gms(264154) 1326 Mb  29 secs--- Balmorel.gms(264154) 1329 Mb  29 secs--- Balmorel.gms(264154) 1331 Mb  29 secs--- Balmorel.gms(264154) 1331 Mb  30 secs--- Balmorel.gms(264154) 1334 Mb  30 secs--- Balmorel.gms(264154) 1346 Mb  30 secs--- Balmorel.gms(264154) 1349 Mb  30 secs--- Balmorel.gms(264154) 1351 Mb  30 secs--- Balmorel.gms(264154) 1352 Mb  30 secs--- Balmorel.gms(264154) 1363 Mb  30 secs--- Balmorel.gms(264154) 1363 Mb  35 secs--- Balmorel.gms(264154) 1366 Mb  35 secs--- Balmorel.gms(264154) 1368 Mb  35 secs--- Balmorel.gms(264154) 1370 Mb  35 secs--- Balmorel.gms(264154) 1371 Mb  35 secs--- Balmorel.gms(264154) 1377 Mb  35 secs--- Balmorel.gms(264154) 1380 Mb  35 secs--- Balmorel.gms(264154) 1382 Mb  35 secs--- Balmorel.gms(264154) 1385 Mb  35 secs--- Balmorel.gms(264154) 1386 Mb  35 secs--- Balmorel.gms(264154) 1387 Mb  35 secs--- Balmorel.gms(264154) 1388 Mb  35 secs--- Balmorel.gms(264154) 1399 Mb  35 secs--- Balmorel.gms(264154) 1402 Mb  35 secs--- Balmorel.gms(264154) 1403 Mb  35 secs--- Balmorel.gms(264154) 1405 Mb  35 secs--- Balmorel.gms(264154) 1406 Mb  35 secs--- Balmorel.gms(264154) 1409 Mb  35 secs--- Balmorel.gms(264154) 1410 Mb  35 secs--- Balmorel.gms(264154) 1410 Mb  40 secs--- Balmorel.gms(264154) 1410 Mb  40 secs--- Balmorel.gms(264154) 1411 Mb  40 secs--- Balmorel.gms(264154) 1411 Mb  40 secs--- Balmorel.gms(264154) 1413 Mb  40 secs--- Balmorel.gms(264154) 1423 Mb  40 secs--- Balmorel.gms(264154) 1426 Mb  40 secs--- Balmorel.gms(264154) 1427 Mb  40 secs--- Balmorel.gms(264154) 1429 Mb  40 secs--- Balmorel.gms(264154) 1430 Mb  40 secs--- Balmorel.gms(264154) 1433 Mb  40 secs--- Balmorel.gms(264154) 1433 Mb  40 secs--- Balmorel.gms(264154) 1435 Mb  40 secs--- Balmorel.gms(264154) 1441 Mb  40 secs--- Balmorel.gms(264154) 1444 Mb  40 secs--- Balmorel.gms(264154) 1444 Mb  45 secs--- Balmorel.gms(264154) 1448 Mb  45 secs--- Balmorel.gms(264154) 1451 Mb  45 secs--- Balmorel.gms(264154) 1452 Mb  45 secs--- Balmorel.gms(264154) 1454 Mb  45 secs--- Balmorel.gms(264154) 1468 Mb  45 secs--- Balmorel.gms(264154) 1471 Mb  45 secs--- Balmorel.gms(264154) 1474 Mb  45 secs--- Balmorel.gms(264154) 1477 Mb  45 secs--- Balmorel.gms(264154) 1478 Mb  45 secs--- Balmorel.gms(264154) 1478 Mb  45 secs--- Balmorel.gms(264154) 1478 Mb  50 secs--- Balmorel.gms(264154) 1480 Mb  50 secs--- Balmorel.gms(264154) 1491 Mb  50 secs--- Balmorel.gms(264154) 1494 Mb  50 secs--- Balmorel.gms(264154) 1497 Mb  50 secs--- Balmorel.gms(264154) 1500 Mb  50 secs--- Balmorel.gms(264154) 1501 Mb  50 secs--- Balmorel.gms(264154) 1502 Mb  50 secs--- Balmorel.gms(264154) 1508 Mb  50 secs--- Balmorel.gms(264154) 1511 Mb  50 secs--- Balmorel.gms(264154) 1512 Mb  50 secs--- Balmorel.gms(264154) 1514 Mb  50 secs--- Balmorel.gms(264154) 1517 Mb  50 secs--- Balmorel.gms(264154) 1518 Mb  50 secs--- Balmorel.gms(264154) 1520 Mb  50 secs--- Balmorel.gms(264154) 1520 Mb  55 secs--- Balmorel.gms(264154) 1534 Mb  55 secs--- Balmorel.gms(264154) 1536 Mb  55 secs--- Balmorel.gms(264154) 1539 Mb  55 secs--- Balmorel.gms(264154) 1542 Mb  55 secs--- Balmorel.gms(264154) 1545 Mb  55 secs--- Balmorel.gms(264154) 1545 Mb  55 secs--- Balmorel.gms(264154) 1547 Mb  55 secs--- Balmorel.gms(264154) 1547 Mb  60 secs--- Balmorel.gms(264154) 1558 Mb  60 secs--- Balmorel.gms(264154) 1560 Mb  60 secs--- Balmorel.gms(264154) 1563 Mb  60 secs--- Balmorel.gms(264154) 1566 Mb  60 secs--- Balmorel.gms(264154) 1566 Mb  60 secs--- Balmorel.gms(264154) 1568 Mb  60 secs--- Balmorel.gms(264154) 1568 Mb  60 secs--- Balmorel.gms(264154) 1569 Mb  60 secs--- Balmorel.gms(264154) 1571 Mb  60 secs--- Balmorel.gms(264154) 1576 Mb  60 secs--- Balmorel.gms(264154) 1578 Mb  60 secs--- Balmorel.gms(264154) 1580 Mb  60 secs--- Balmorel.gms(264154) 1583 Mb  60 secs--- Balmorel.gms(264154) 1584 Mb  60 secs--- Balmorel.gms(264154) 1586 Mb  60 secs--- Balmorel.gms(264154) 1586 Mb  65 secs--- Balmorel.gms(264154) 1602 Mb  65 secs--- Balmorel.gms(264154) 1604 Mb  65 secs--- Balmorel.gms(264154) 1607 Mb  65 secs--- Balmorel.gms(264154) 1610 Mb  65 secs--- Balmorel.gms(264154) 1612 Mb  65 secs--- Balmorel.gms(264154) 1612 Mb  65 secs--- Balmorel.gms(264154) 1614 Mb  65 secs--- Balmorel.gms(264154) 1614 Mb  70 secs--- Balmorel.gms(264154) 1624 Mb  70 secs--- Balmorel.gms(264154) 1627 Mb  70 secs--- Balmorel.gms(264154) 1629 Mb  70 secs--- Balmorel.gms(264154) 1632 Mb  70 secs--- Balmorel.gms(264154) 1634 Mb  70 secs--- Balmorel.gms(264154) 1635 Mb  70 secs--- Balmorel.gms(264154) 1635 Mb  70 secs--- Balmorel.gms(264154) 1636 Mb  70 secs--- Balmorel.gms(264154) 1639 Mb  70 secs--- Balmorel.gms(264154) 1641 Mb  70 secs--- Balmorel.gms(264154) 1644 Mb  70 secs--- Balmorel.gms(264154) 1646 Mb  70 secs--- Balmorel.gms(264154) 1648 Mb  70 secs--- Balmorel.gms(264154) 1650 Mb  70 secs--- Balmorel.gms(264154) 1652 Mb  70 secs--- Balmorel.gms(264154) 1652 Mb  75 secs--- Balmorel.gms(264154) 1653 Mb  75 secs--- Balmorel.gms(264154) 1666 Mb  75 secs--- Balmorel.gms(264154) 1669 Mb  75 secs--- Balmorel.gms(264154) 1672 Mb  75 secs--- Balmorel.gms(264154) 1674 Mb  75 secs--- Balmorel.gms(264154) 1676 Mb  75 secs--- Balmorel.gms(264154) 1679 Mb  75 secs--- Balmorel.gms(264154) 1681 Mb  80 secs--- Balmorel.gms(264154) 1691 Mb  80 secs--- Balmorel.gms(264154) 1693 Mb  80 secs--- Balmorel.gms(264154) 1696 Mb  80 secs--- Balmorel.gms(264154) 1698 Mb  80 secs--- Balmorel.gms(264154) 1700 Mb  80 secs--- Balmorel.gms(264154) 1702 Mb  80 secs--- Balmorel.gms(264154) 1702 Mb  80 secs--- Balmorel.gms(264154) 1703 Mb  80 secs--- Balmorel.gms(264154) 1705 Mb  80 secs--- Balmorel.gms(264154) 1707 Mb  80 secs--- Balmorel.gms(264154) 1709 Mb  80 secs--- Balmorel.gms(264154) 1712 Mb  80 secs--- Balmorel.gms(264154) 1714 Mb  80 secs--- Balmorel.gms(264154) 1714 Mb  85 secs--- Balmorel.gms(264154) 1716 Mb  85 secs--- Balmorel.gms(264154) 1718 Mb  85 secs--- Balmorel.gms(264154) 1735 Mb  85 secs--- Balmorel.gms(264154) 1737 Mb  85 secs--- Balmorel.gms(264154) 1739 Mb  85 secs--- Balmorel.gms(264154) 1741 Mb  85 secs--- Balmorel.gms(264154) 1743 Mb  85 secs--- Balmorel.gms(264154) 1745 Mb  85 secs--- Balmorel.gms(264154) 1746 Mb  85 secs--- Balmorel.gms(264154) 1746 Mb  90 secs--- Balmorel.gms(264154) 1746 Mb  90 secs--- Balmorel.gms(264154) 1749 Mb  90 secs--- Balmorel.gms(264154) 1759 Mb  90 secs--- Balmorel.gms(264154) 1761 Mb  90 secs--- Balmorel.gms(264154) 1763 Mb  90 secs--- Balmorel.gms(264154) 1765 Mb  90 secs--- Balmorel.gms(264154) 1767 Mb  90 secs--- Balmorel.gms(264154) 1769 Mb  90 secs--- Balmorel.gms(264154) 1770 Mb  90 secs--- Balmorel.gms(264154) 1770 Mb  95 secs--- Balmorel.gms(264154) 1771 Mb  95 secs--- Balmorel.gms(264154) 1773 Mb  95 secs--- Balmorel.gms(264154) 1775 Mb  95 secs--- Balmorel.gms(264154) 1777 Mb  95 secs--- Balmorel.gms(264154) 1780 Mb  95 secs--- Balmorel.gms(264154) 1782 Mb  95 secs--- Balmorel.gms(264154) 1785 Mb  95 secs--- Balmorel.gms(264154) 1802 Mb  95 secs--- Balmorel.gms(264154) 1804 Mb  95 secs--- Balmorel.gms(264154) 1806 Mb  95 secs--- Balmorel.gms(264154) 1808 Mb  95 secs--- Balmorel.gms(264154) 1808 Mb  100 secs--- Balmorel.gms(264154) 1810 Mb  100 secs--- Balmorel.gms(264154) 1813 Mb  100 secs--- Balmorel.gms(264154) 1813 Mb  100 secs--- Balmorel.gms(264154) 1814 Mb  100 secs--- Balmorel.gms(264154) 1816 Mb  100 secs--- Balmorel.gms(264154) 1816 Mb  105 secs--- Balmorel.gms(264154) 1826 Mb  105 secs--- Balmorel.gms(264154) 1827 Mb  105 secs--- Balmorel.gms(264154) 1829 Mb  105 secs--- Balmorel.gms(264154) 1831 Mb  105 secs--- Balmorel.gms(264154) 1834 Mb  105 secs--- Balmorel.gms(264154) 1836 Mb  105 secs--- Balmorel.gms(264154) 1836 Mb  105 secs--- Balmorel.gms(264154) 1838 Mb  105 secs--- Balmorel.gms(264154) 1840 Mb  105 secs--- Balmorel.gms(264154) 1842 Mb  105 secs--- Balmorel.gms(264154) 1843 Mb  105 secs--- Balmorel.gms(264154) 1846 Mb  105 secs--- Balmorel.gms(264154) 1848 Mb  105 secs--- Balmorel.gms(264154) 1848 Mb  110 secs--- Balmorel.gms(264154) 1851 Mb  110 secs--- Balmorel.gms(264154) 1857 Mb  110 secs--- Balmorel.gms(264154) 1869 Mb  110 secs--- Balmorel.gms(264154) 1871 Mb  110 secs--- Balmorel.gms(264154) 1873 Mb  110 secs--- Balmorel.gms(264154) 1874 Mb  110 secs--- Balmorel.gms(264154) 1876 Mb  110 secs--- Balmorel.gms(264154) 1879 Mb  110 secs--- Balmorel.gms(264154) 1880 Mb  110 secs--- Balmorel.gms(264154) 1880 Mb  115 secs--- Balmorel.gms(264154) 1883 Mb  115 secs--- Balmorel.gms(264154) 1893 Mb  115 secs--- Balmorel.gms(264154) 1895 Mb  115 secs--- Balmorel.gms(264154) 1897 Mb  115 secs--- Balmorel.gms(264154) 1899 Mb  115 secs--- Balmorel.gms(264154) 1901 Mb  115 secs--- Balmorel.gms(264154) 1903 Mb  115 secs--- Balmorel.gms(264154) 1903 Mb  120 secs--- Balmorel.gms(264154) 1903 Mb  120 secs--- Balmorel.gms(264154) 1905 Mb  120 secs--- Balmorel.gms(264154) 1906 Mb  120 secs--- Balmorel.gms(264154) 1908 Mb  120 secs--- Balmorel.gms(264154) 1910 Mb  120 secs--- Balmorel.gms(264154) 1912 Mb  120 secs--- Balmorel.gms(264154) 1914 Mb  120 secs--- Balmorel.gms(264154) 1917 Mb  120 secs--- Balmorel.gms(264154) 1917 Mb  125 secs--- Balmorel.gms(264154) 1937 Mb  125 secs--- Balmorel.gms(264154) 1939 Mb  125 secs--- Balmorel.gms(264154) 1941 Mb  125 secs--- Balmorel.gms(264154) 1943 Mb  125 secs--- Balmorel.gms(264154) 1945 Mb  125 secs--- Balmorel.gms(264154) 1946 Mb  125 secs--- Balmorel.gms(264154) 1947 Mb  125 secs--- Balmorel.gms(264154) 1947 Mb  130 secs--- Balmorel.gms(264154) 1950 Mb  130 secs--- Balmorel.gms(264154) 1960 Mb  130 secs--- Balmorel.gms(264154) 1962 Mb  130 secs--- Balmorel.gms(264154) 1964 Mb  130 secs--- Balmorel.gms(264154) 1966 Mb  130 secs--- Balmorel.gms(264154) 1968 Mb  130 secs--- Balmorel.gms(264154) 1970 Mb  130 secs--- Balmorel.gms(264154) 1970 Mb  130 secs--- Balmorel.gms(264154) 1970 Mb  135 secs--- Balmorel.gms(264154) 1971 Mb  135 secs--- Balmorel.gms(264154) 1973 Mb  135 secs--- Balmorel.gms(264154) 1975 Mb  135 secs--- Balmorel.gms(264154) 1977 Mb  135 secs--- Balmorel.gms(264154) 1978 Mb  135 secs--- Balmorel.gms(264154) 1980 Mb  135 secs--- Balmorel.gms(264154) 1983 Mb  135 secs--- Balmorel.gms(264154) 2004 Mb  135 secs--- Balmorel.gms(264154) 2004 Mb  140 secs--- Balmorel.gms(264154) 2005 Mb  140 secs--- Balmorel.gms(264154) 2007 Mb  140 secs--- Balmorel.gms(264154) 2009 Mb  140 secs--- Balmorel.gms(264154) 2011 Mb  140 secs--- Balmorel.gms(264154) 2012 Mb  140 secs--- Balmorel.gms(264154) 2014 Mb  140 secs--- Balmorel.gms(264154) 2014 Mb  145 secs--- Balmorel.gms(264154) 2015 Mb  145 secs--- Balmorel.gms(264154) 2017 Mb  145 secs--- Balmorel.gms(264154) 2018 Mb  145 secs--- Balmorel.gms(264154) 2026 Mb  145 secs--- Balmorel.gms(264154) 2028 Mb  145 secs--- Balmorel.gms(264154) 2030 Mb  145 secs--- Balmorel.gms(264154) 2031 Mb  145 secs--- Balmorel.gms(264154) 2033 Mb  145 secs--- Balmorel.gms(264154) 2035 Mb  145 secs--- Balmorel.gms(264154) 2036 Mb  145 secs--- Balmorel.gms(264154) 2037 Mb  145 secs--- Balmorel.gms(264154) 2037 Mb  150 secs--- Balmorel.gms(264154) 2039 Mb  150 secs--- Balmorel.gms(264154) 2040 Mb  150 secs--- Balmorel.gms(264154) 2042 Mb  150 secs--- Balmorel.gms(264154) 2043 Mb  150 secs--- Balmorel.gms(264154) 2045 Mb  150 secs--- Balmorel.gms(264154) 2046 Mb  150 secs--- Balmorel.gms(264154) 2049 Mb  150 secs--- Balmorel.gms(264154) 2050 Mb  150 secs--- Balmorel.gms(264154) 2070 Mb  155 secs--- Balmorel.gms(264154) 2072 Mb  155 secs--- Balmorel.gms(264154) 2074 Mb  155 secs--- Balmorel.gms(264154) 2076 Mb  155 secs--- Balmorel.gms(264154) 2077 Mb  155 secs--- Balmorel.gms(264154) 2079 Mb  155 secs--- Balmorel.gms(264154) 2081 Mb  155 secs--- Balmorel.gms(264154) 2081 Mb  155 secs--- Balmorel.gms(264154) 2081 Mb  160 secs--- Balmorel.gms(264154) 2084 Mb  160 secs--- Balmorel.gms(264154) 2094 Mb  160 secs--- Balmorel.gms(264154) 2095 Mb  160 secs--- Balmorel.gms(264154) 2097 Mb  160 secs--- Balmorel.gms(264154) 2099 Mb  160 secs--- Balmorel.gms(264154) 2100 Mb  160 secs--- Balmorel.gms(264154) 2102 Mb  160 secs--- Balmorel.gms(264154) 2104 Mb  160 secs--- Balmorel.gms(264154) 2105 Mb  160 secs
+--- Balmorel.gms(264194) 2105 Mb--- Balmorel.gms(275082) 2105 Mb--- Balmorel.gms(275083) 2105 Mb--- Balmorel.gms(275084) 2105 Mb--- Balmorel.gms(275086) 2105 Mb--- Balmorel.gms(275087) 2105 Mb--- Balmorel.gms(275120) 2105 Mb--- Balmorel.gms(275196) 2105 Mb
+--- GDX File (execute_unload) /zhome/3d/c/214482/Desktop/Balmorel/Flex_1/output/temp/IWEIGHTY.gdx
+--- Balmorel.gms(275286) 2105 Mb--- Balmorel.gms(275588) 2105 Mb--- Balmorel.gms(275592) 2105 Mb--- Balmorel.gms(275592) 2105 Mb  3 secs--- Balmorel.gms(275592) 2105 Mb  4 secs--- Balmorel.gms(275592) 2105 Mb  5 secs
+--- Balmorel.gms(275614) 2105 Mb--- Balmorel.gms(275662) 2105 Mb--- Balmorel.gms(275662) 2105 Mb  3 secs--- Balmorel.gms(275662) 2105 Mb  4 secs--- Balmorel.gms(275662) 2105 Mb  5 secs--- Balmorel.gms(275662) 2105 Mb  5 secs--- Balmorel.gms(275662) 2106 Mb  5 secs--- Balmorel.gms(275662) 2196 Mb  5 secs--- Balmorel.gms(275662) 2213 Mb  5 secs--- Balmorel.gms(275662) 2213 Mb  6 secs--- Balmorel.gms(275662) 2213 Mb  7 secs--- Balmorel.gms(275662) 2213 Mb  8 secs--- Balmorel.gms(275662) 2213 Mb  9 secs--- Balmorel.gms(275662) 2213 Mb  10 secs--- Balmorel.gms(275662) 2213 Mb  11 secs--- Balmorel.gms(275662) 2213 Mb  12 secs--- Balmorel.gms(275662) 2213 Mb  13 secs--- Balmorel.gms(275662) 2213 Mb  14 secs--- Balmorel.gms(275662) 2213 Mb  15 secs--- Balmorel.gms(275662) 2213 Mb  16 secs--- Balmorel.gms(275662) 2213 Mb  17 secs--- Balmorel.gms(275662) 2213 Mb  18 secs--- Balmorel.gms(275662) 2213 Mb  19 secs--- Balmorel.gms(275662) 2213 Mb  20 secs--- Balmorel.gms(275662) 2213 Mb  21 secs--- Balmorel.gms(275662) 2213 Mb  22 secs--- Balmorel.gms(275662) 2213 Mb  23 secs--- Balmorel.gms(275662) 2213 Mb  24 secs--- Balmorel.gms(275662) 2213 Mb  25 secs--- Balmorel.gms(275662) 2213 Mb  26 secs--- Balmorel.gms(275662) 2213 Mb  27 secs--- Balmorel.gms(275662) 2213 Mb  28 secs--- Balmorel.gms(275662) 2213 Mb  29 secs--- Balmorel.gms(275662) 2213 Mb  30 secs--- Balmorel.gms(275662) 2213 Mb  35 secs--- Balmorel.gms(275662) 2213 Mb  40 secs--- Balmorel.gms(275662) 2213 Mb  45 secs--- Balmorel.gms(275662) 2213 Mb  50 secs--- Balmorel.gms(275662) 2213 Mb  55 secs--- Balmorel.gms(275662) 2213 Mb  60 secs--- Balmorel.gms(275662) 2213 Mb  65 secs--- Balmorel.gms(275662) 2213 Mb  70 secs--- Balmorel.gms(275662) 2213 Mb  75 secs--- Balmorel.gms(275662) 2213 Mb  80 secs--- Balmorel.gms(275662) 2213 Mb  85 secs--- Balmorel.gms(275662) 2213 Mb  90 secs--- Balmorel.gms(275662) 2213 Mb  95 secs
