@@ -1178,3 +1178,590 @@ Dual crossover.
    2680192 DMoves:  Infeasibility  8.84994915e+06  Objective  1.16967447e+12
    Elapsed crossover time = 242.33 sec. (100666.08 ticks, 2669669 DMoves)
    Elapsed crossover time = 266.55 sec. (110683.73 ticks, 2657999 DMoves)
+   Elapsed crossover time = 290.88 sec. (120694.94 ticks, 2651389 DMoves)
+   2649750 DMoves:  Infeasibility  8.70311417e+06  Objective  1.16967324e+12
+   Elapsed crossover time = 320.99 sec. (130708.80 ticks, 2648634 DMoves)
+   Elapsed crossover time = 355.23 sec. (140714.78 ticks, 2641610 DMoves)
+   Elapsed crossover time = 385.30 sec. (150715.83 ticks, 2637097 DMoves)
+   2631315 DMoves:  Infeasibility  1.19850580e+07  Objective  1.16960767e+12
+   Elapsed crossover time = 412.38 sec. (160721.41 ticks, 2631283 DMoves)
+   Elapsed crossover time = 444.55 sec. (170722.99 ticks, 2616515 DMoves)
+   Elapsed crossover time = 468.33 sec. (180723.33 ticks, 2603553 DMoves)
+   2603178 DMoves:  Infeasibility  1.71525914e+07  Objective  1.16959764e+12
+   Elapsed crossover time = 493.99 sec. (190723.34 ticks, 2576181 DMoves)
+   2564697 DMoves:  Infeasibility  2.07728348e+07  Objective  1.16955477e+12
+   Elapsed crossover time = 521.11 sec. (200726.29 ticks, 2559692 DMoves)
+   2524145 DMoves:  Infeasibility  1.95413759e+07  Objective  1.16955046e+12
+   Elapsed crossover time = 542.10 sec. (210726.30 ticks, 2521073 DMoves)
+   Elapsed crossover time = 565.45 sec. (220726.42 ticks, 2492255 DMoves)
+   2486218 DMoves:  Infeasibility  6.73781053e+07  Objective  1.16930949e+12
+   Elapsed crossover time = 589.45 sec. (230726.52 ticks, 2468592 DMoves)
+   2458751 DMoves:  Infeasibility  6.31672677e+07  Objective  1.16925940e+12
+   Elapsed crossover time = 611.88 sec. (240727.28 ticks, 2448391 DMoves)
+   2431945 DMoves:  Infeasibility  7.02796238e+07  Objective  1.16921831e+12
+   Elapsed crossover time = 627.81 sec. (250727.39 ticks, 2426644 DMoves)
+   Elapsed crossover time = 645.70 sec. (260727.69 ticks, 2408278 DMoves)
+   2407014 DMoves:  Infeasibility  1.23820596e+09  Objective  1.16714951e+12
+   Elapsed crossover time = 669.18 sec. (270727.99 ticks, 2387609 DMoves)
+   2387133 DMoves:  Infeasibility  1.19600811e+09  Objective  1.16695479e+12
+   2357522 DMoves:  Infeasibility  1.17355648e+09  Objective  1.16628656e+12
+   Elapsed crossover time = 684.04 sec. (280728.68 ticks, 2334955 DMoves)
+   2331629 DMoves:  Infeasibility  1.17002366e+09  Objective  1.16626243e+12
+   2292049 DMoves:  Infeasibility  1.16272480e+09  Objective  1.16625941e+12
+   2255542 DMoves:  Infeasibility  1.15929637e+09  Objective  1.16625912e+12
+   2201423 DMoves:  Infeasibility  1.14821134e+09  Objective  1.16626376e+12
+   2161918 DMoves:  Infeasibility  1.13335748e+09  Objective  1.16626413e+12
+   2126167 DMoves:  Infeasibility  1.11259355e+09  Objective  1.16626440e+12
+   2092612 DMoves:  Infeasibility  1.08413519e+09  Objective  1.16627122e+12
+   Elapsed crossover time = 692.41 sec. (291021.80 ticks, 2092612 DMoves)
+   2035896 DMoves:  Infeasibility  1.07290171e+09  Objective  1.16627720e+12
+   2009193 DMoves:  Infeasibility  1.06991178e+09  Objective  1.16627680e+12
+   1941378 DMoves:  Infeasibility  1.05833190e+09  Objective  1.16627565e+12
+   1904068 DMoves:  Infeasibility  1.05308542e+09  Objective  1.16627599e+12
+   1847535 DMoves:  Infeasibility  1.03774767e+09  Objective  1.16626744e+12
+   1827534 DMoves:  Infeasibility  1.03555693e+09  Objective  1.16626741e+12
+   1809530 DMoves:  Infeasibility  1.03492170e+09  Objective  1.16626631e+12
+   Elapsed crossover time = 701.69 sec. (301393.81 ticks, 1809530 DMoves)
+   1784929 DMoves:  Infeasibility  1.03462712e+09  Objective  1.16626632e+12
+   1766386 DMoves:  Infeasibility  1.03386130e+09  Objective  1.16626651e+12
+   1741014 DMoves:  Infeasibility  1.03301240e+09  Objective  1.16626669e+12
+   1711969 DMoves:  Infeasibility  1.02589266e+09  Objective  1.16626667e+12
+   1700336 DMoves:  Infeasibility  1.02436027e+09  Objective  1.16626462e+12
+   1693148 DMoves:  Infeasibility  1.02389359e+09  Objective  1.16626500e+12
+   1684699 DMoves:  Infeasibility  1.02318529e+09  Objective  1.16626409e+12
+   1676341 DMoves:  Infeasibility  1.02246490e+09  Objective  1.16626388e+12
+   1666297 DMoves:  Infeasibility  1.02196266e+09  Objective  1.16626395e+12
+   Elapsed crossover time = 711.98 sec. (311735.34 ticks, 1666297 DMoves)
+   1656293 DMoves:  Infeasibility  1.02181172e+09  Objective  1.16626427e+12
+   1646277 DMoves:  Infeasibility  1.02175408e+09  Objective  1.16626429e+12
+   1635029 DMoves:  Infeasibility  1.02162819e+09  Objective  1.16626496e+12
+   1624203 DMoves:  Infeasibility  1.02135998e+09  Objective  1.16626466e+12
+   1613102 DMoves:  Infeasibility  1.02089565e+09  Objective  1.16626467e+12
+   1605689 DMoves:  Infeasibility  1.02068353e+09  Objective  1.16626452e+12
+   Elapsed crossover time = 719.13 sec. (321735.75 ticks, 1578082 DMoves)
+   1576813 DMoves:  Infeasibility  1.01895368e+09  Objective  1.16626450e+12
+   1519565 DMoves:  Infeasibility  1.01566805e+09  Objective  1.16626461e+12
+   1508897 DMoves:  Infeasibility  1.01540046e+09  Objective  1.16626462e+12
+   1493125 DMoves:  Infeasibility  1.01434792e+09  Objective  1.16626460e+12
+   1478849 DMoves:  Infeasibility  1.01255761e+09  Objective  1.16626419e+12
+   1465080 DMoves:  Infeasibility  1.01107632e+09  Objective  1.16626544e+12
+   1455708 DMoves:  Infeasibility  1.00883511e+09  Objective  1.16627887e+12
+   1442896 DMoves:  Infeasibility  9.79825412e+08  Objective  1.16627660e+12
+   Elapsed crossover time = 729.58 sec. (332365.92 ticks, 1442896 DMoves)
+   1430466 DMoves:  Infeasibility  9.74179058e+08  Objective  1.16627671e+12
+   1415681 DMoves:  Infeasibility  9.67394297e+08  Objective  1.16627657e+12
+   1403887 DMoves:  Infeasibility  9.65253163e+08  Objective  1.16627664e+12
+
+Primal simplex solved model.
+
+Iteration: 29270    Scaled infeas =             0.025030
+Elapsed time = 4305.28 sec. (5115061.30 ticks, 29270 iterations)
+Iteration: 29297    Scaled infeas =             0.024955
+Elapsed time = 4316.70 sec. (5135393.31 ticks, 29297 iterations)
+Iteration: 29298    Objective     = 1169674442137.059570
+Elapsed time = 4361.90 sec. (5145396.00 ticks, 33890 iterations)
+Perturbation started.
+Iteration: 37101    Objective     = 1169674442113.503418
+Iteration: 42290    Objective     = 1169674442027.258545
+Elapsed time = 4821.26 sec. (5240435.40 ticks, 42290 iterations)
+Iteration: 42453    Objective     = 1169674442024.686768
+Elapsed time = 4846.80 sec. (5254662.66 ticks, 42453 iterations)
+Elapsed time = 4880.82 sec. (5264708.60 ticks, 44040 iterations)
+Elapsed time = 4910.75 sec. (5275911.56 ticks, 45130 iterations)
+Iteration: 45130    Objective     = 1169674441994.835205
+Removing perturbation.
+Total crossover time = 2526.97 sec. (732601.70 ticks)
+
+Total time on 10 threads = 4929.57 sec. (5283711.82 ticks)
+
+--- LP status (1): optimal.
+--- Cplex Time: 4929.83sec (det. 5283730.34 ticks)
+
+
+Optimal solution found
+Simplex iterations after crossover: 127
+Objective:  1169674442137.052490
+
+--- Reading solution for model BALBASE4
+--- Balmorel.gms(280791) 3807 Mb  4961 secs--- Balmorel.gms(280791) 3807 Mb  4966 secs
+--- GDX Point /zhome/3d/c/214482/Desktop/Balmorel/base_notrans_dc_test_3day_allhr_4S/model/BALBASE4_p.gdx
+--- Executing after solve: elapsed 1:42:12.652
+--- Balmorel.gms(280491) 3807 Mb
+--- Generating LP model BALBASE4
+--- Balmorel.gms(277602) 3808 Mb--- Balmorel.gms(277602) 3808 Mb  3 secs--- Balmorel.gms(277602) 3808 Mb  4 secs--- Balmorel.gms(277602) 3808 Mb  5 secs--- Balmorel.gms(277602) 3807 Mb  5 secs--- Balmorel.gms(277602) 3807 Mb  6 secs--- Balmorel.gms(277602) 3807 Mb  7 secs--- Balmorel.gms(277602) 3807 Mb  8 secs--- Balmorel.gms(277602) 3807 Mb  9 secs--- Balmorel.gms(277602) 3807 Mb  10 secs--- Balmorel.gms(277602) 3807 Mb  11 secs--- Balmorel.gms(277602) 3807 Mb  12 secs--- Balmorel.gms(277602) 3807 Mb  13 secs--- Balmorel.gms(277602) 3807 Mb  14 secs--- Balmorel.gms(277602) 3807 Mb  15 secs--- Balmorel.gms(277602) 3807 Mb  16 secs--- Balmorel.gms(277602) 3807 Mb  17 secs--- Balmorel.gms(277602) 3807 Mb  18 secs--- Balmorel.gms(277602) 3807 Mb  19 secs--- Balmorel.gms(277602) 3807 Mb  20 secs--- Balmorel.gms(277602) 3807 Mb  21 secs--- Balmorel.gms(277602) 3807 Mb  22 secs--- Balmorel.gms(277602) 3807 Mb  23 secs--- Balmorel.gms(277602) 3807 Mb  24 secs--- Balmorel.gms(277602) 3807 Mb  25 secs--- Balmorel.gms(277602) 3807 Mb  26 secs--- Balmorel.gms(277602) 3807 Mb  27 secs--- Balmorel.gms(277602) 3807 Mb  28 secs--- Balmorel.gms(277602) 3807 Mb  29 secs--- Balmorel.gms(277602) 3807 Mb  30 secs--- Balmorel.gms(277602) 3807 Mb  35 secs--- Balmorel.gms(277602) 3807 Mb  40 secs--- Balmorel.gms(277602) 3807 Mb  45 secs--- Balmorel.gms(277602) 3807 Mb  50 secs--- Balmorel.gms(277602) 3807 Mb  55 secs--- Balmorel.gms(277602) 3807 Mb  60 secs--- Balmorel.gms(277602) 3807 Mb  65 secs--- Balmorel.gms(277602) 3807 Mb  70 secs--- Balmorel.gms(277602) 3807 Mb  75 secs--- Balmorel.gms(277602) 3807 Mb  80 secs--- Balmorel.gms(277602) 3807 Mb  85 secs--- Balmorel.gms(277602) 3807 Mb  90 secs--- Balmorel.gms(277602) 3807 Mb  95 secs--- Balmorel.gms(277602) 3807 Mb  100 secs--- Balmorel.gms(277602) 3807 Mb  105 secs--- Balmorel.gms(277602) 3807 Mb  110 secs--- Balmorel.gms(277602) 3807 Mb  115 secs--- Balmorel.gms(277602) 3807 Mb  120 secs--- Balmorel.gms(277602) 3807 Mb  125 secs--- Balmorel.gms(277602) 3807 Mb  130 secs--- Balmorel.gms(277602) 3807 Mb  135 secs--- Balmorel.gms(277602) 3807 Mb  140 secs--- Balmorel.gms(277602) 3807 Mb  145 secs--- Balmorel.gms(277602) 3807 Mb  150 secs--- Balmorel.gms(277602) 3807 Mb  155 secs--- Balmorel.gms(277602) 3807 Mb  160 secs--- Balmorel.gms(277602) 3807 Mb  165 secs--- Balmorel.gms(277602) 3807 Mb  170 secs--- Balmorel.gms(277602) 3807 Mb  175 secs--- Balmorel.gms(277602) 3807 Mb  180 secs--- Balmorel.gms(277602) 3807 Mb  185 secs--- Balmorel.gms(277602) 3807 Mb  190 secs--- Balmorel.gms(277602) 3807 Mb  195 secs--- Balmorel.gms(277602) 3807 Mb  200 secs--- Balmorel.gms(277602) 3807 Mb  205 secs--- Balmorel.gms(277602) 3807 Mb  210 secs--- Balmorel.gms(277602) 3807 Mb  215 secs--- Balmorel.gms(277602) 3807 Mb  220 secs--- Balmorel.gms(277602) 3807 Mb  225 secs--- Balmorel.gms(277602) 3807 Mb  230 secs--- Balmorel.gms(277602) 3807 Mb  235 secs--- Balmorel.gms(277602) 3807 Mb  240 secs
+--- Balmorel.gms(277848) 3807 Mb--- Balmorel.gms(277848) 3807 Mb  3 secs--- Balmorel.gms(277848) 3807 Mb  4 secs--- Balmorel.gms(277848) 3807 Mb  5 secs--- Balmorel.gms(277848) 3807 Mb  6 secs--- Balmorel.gms(277848) 3807 Mb  7 secs--- Balmorel.gms(277848) 3807 Mb  8 secs--- Balmorel.gms(277848) 3807 Mb  9 secs--- Balmorel.gms(277848) 3807 Mb  10 secs--- Balmorel.gms(277848) 3807 Mb  11 secs--- Balmorel.gms(277848) 3807 Mb  12 secs--- Balmorel.gms(277848) 3807 Mb  13 secs
+--- Balmorel.gms(277928) 3807 Mb--- Balmorel.gms(277928) 3807 Mb  3 secs--- Balmorel.gms(277928) 3808 Mb  3 secs--- Balmorel.gms(277928) 3812 Mb  3 secs--- Balmorel.gms(277928) 3813 Mb  3 secs--- Balmorel.gms(277928) 3816 Mb  3 secs--- Balmorel.gms(277928) 3816 Mb  4 secs--- Balmorel.gms(277928) 3819 Mb  4 secs--- Balmorel.gms(277928) 3822 Mb  4 secs--- Balmorel.gms(277928) 3826 Mb  4 secs--- Balmorel.gms(277928) 3828 Mb  4 secs--- Balmorel.gms(277928) 3828 Mb  5 secs--- Balmorel.gms(277928) 3831 Mb  5 secs--- Balmorel.gms(277928) 3834 Mb  5 secs--- Balmorel.gms(277928) 3837 Mb  5 secs--- Balmorel.gms(277928) 3839 Mb  5 secs--- Balmorel.gms(277928) 3839 Mb  6 secs--- Balmorel.gms(277928) 3840 Mb  6 secs--- Balmorel.gms(277928) 3842 Mb  6 secs--- Balmorel.gms(277928) 3844 Mb  6 secs--- Balmorel.gms(277928) 3845 Mb  7 secs--- Balmorel.gms(277928) 3849 Mb  7 secs--- Balmorel.gms(277928) 3850 Mb  7 secs--- Balmorel.gms(277928) 3857 Mb  7 secs--- Balmorel.gms(277928) 3857 Mb  7 secs--- Balmorel.gms(277928) 3862 Mb  7 secs--- Balmorel.gms(277928) 3863 Mb  7 secs--- Balmorel.gms(277928) 3868 Mb  7 secs--- Balmorel.gms(277928) 3869 Mb  8 secs--- Balmorel.gms(277928) 3873 Mb  8 secs--- Balmorel.gms(277928) 3874 Mb  8 secs--- Balmorel.gms(277928) 3880 Mb  8 secs--- Balmorel.gms(277928) 3880 Mb  8 secs--- Balmorel.gms(277928) 3886 Mb  8 secs--- Balmorel.gms(277928) 3886 Mb  8 secs--- Balmorel.gms(277928) 3896 Mb  8 secs--- Balmorel.gms(277928) 3899 Mb  9 secs
+--- Balmorel.gms(278032) 3900 Mb--- Balmorel.gms(278032) 3914 Mb--- Balmorel.gms(278032) 3917 Mb--- Balmorel.gms(278032) 3931 Mb--- Balmorel.gms(278032) 3934 Mb--- Balmorel.gms(278032) 3948 Mb--- Balmorel.gms(278032) 3951 Mb--- Balmorel.gms(278032) 3965 Mb--- Balmorel.gms(278032) 3968 Mb--- Balmorel.gms(278032) 3983 Mb--- Balmorel.gms(278032) 3986 Mb--- Balmorel.gms(278032) 4000 Mb--- Balmorel.gms(278032) 4003 Mb--- Balmorel.gms(278032) 4017 Mb--- Balmorel.gms(278032) 4019 Mb--- Balmorel.gms(278032) 4033 Mb--- Balmorel.gms(278032) 4036 Mb--- Balmorel.gms(278032) 4048 Mb--- Balmorel.gms(278032) 4051 Mb--- Balmorel.gms(278032) 4065 Mb--- Balmorel.gms(278032) 4068 Mb--- Balmorel.gms(278032) 4082 Mb--- Balmorel.gms(278032) 4085 Mb--- Balmorel.gms(278032) 4099 Mb--- Balmorel.gms(278032) 4102 Mb--- Balmorel.gms(278032) 4115 Mb--- Balmorel.gms(278032) 4118 Mb  3 secs--- Balmorel.gms(278032) 4132 Mb  3 secs--- Balmorel.gms(278032) 4135 Mb  3 secs--- Balmorel.gms(278032) 4150 Mb  3 secs--- Balmorel.gms(278032) 4153 Mb  3 secs--- Balmorel.gms(278032) 4168 Mb  3 secs--- Balmorel.gms(278032) 4171 Mb  3 secs--- Balmorel.gms(278032) 4187 Mb  3 secs--- Balmorel.gms(278032) 4189 Mb  4 secs--- Balmorel.gms(278032) 4205 Mb  4 secs--- Balmorel.gms(278032) 4211 Mb  4 secs--- Balmorel.gms(278032) 4237 Mb  4 secs--- Balmorel.gms(278032) 4243 Mb  4 secs--- Balmorel.gms(278032) 4270 Mb  4 secs--- Balmorel.gms(278032) 4274 Mb  4 secs--- Balmorel.gms(278032) 4298 Mb  4 secs--- Balmorel.gms(278032) 4303 Mb  5 secs--- Balmorel.gms(278032) 4326 Mb  5 secs--- Balmorel.gms(278032) 4331 Mb  5 secs--- Balmorel.gms(278032) 4356 Mb  5 secs--- Balmorel.gms(278032) 4360 Mb  5 secs--- Balmorel.gms(278032) 4384 Mb  5 secs--- Balmorel.gms(278032) 4389 Mb  5 secs--- Balmorel.gms(278032) 4413 Mb  5 secs--- Balmorel.gms(278032) 4418 Mb  6 secs--- Balmorel.gms(278032) 4443 Mb  6 secs--- Balmorel.gms(278032) 4448 Mb  6 secs--- Balmorel.gms(278032) 4480 Mb  6 secs--- Balmorel.gms(278032) 4495 Mb  6 secs--- Balmorel.gms(278032) 4525 Mb  6 secs--- Balmorel.gms(278032) 4525 Mb  7 secs--- Balmorel.gms(278032) 4525 Mb  8 secs--- Balmorel.gms(278032) 4525 Mb  9 secs--- Balmorel.gms(278032) 4525 Mb  10 secs--- Balmorel.gms(278032) 4525 Mb  11 secs
+--- Balmorel.gms(278074) 4525 Mb--- Balmorel.gms(278077) 4525 Mb--- Balmorel.gms(278077) 4527 Mb--- Balmorel.gms(278080) 4527 Mb--- Balmorel.gms(278080) 4539 Mb--- Balmorel.gms(278080) 4543 Mb--- Balmorel.gms(278080) 4557 Mb--- Balmorel.gms(278080) 4561 Mb--- Balmorel.gms(278080) 4576 Mb--- Balmorel.gms(278106) 4576 Mb--- Balmorel.gms(278111) 4579 Mb--- Balmorel.gms(278177) 4579 Mb--- Balmorel.gms(278177) 4581 Mb--- Balmorel.gms(278217) 4594 Mb--- Balmorel.gms(278217) 4601 Mb--- Balmorel.gms(278217) 4627 Mb--- Balmorel.gms(278217) 4633 Mb--- Balmorel.gms(278217) 4637 Mb--- Balmorel.gms(278236) 4637 Mb--- Balmorel.gms(278304) 4637 Mb--- Balmorel.gms(278328) 4637 Mb--- Balmorel.gms(278372) 4638 Mb--- Balmorel.gms(278372) 4643 Mb--- Balmorel.gms(278390) 4650 Mb--- Balmorel.gms(278390) 4654 Mb--- Balmorel.gms(278660) 4661 Mb--- Balmorel.gms(278660) 4665 Mb--- Balmorel.gms(278660) 4681 Mb--- Balmorel.gms(278660) 4684 Mb--- Balmorel.gms(278660) 4692 Mb--- Balmorel.gms(278660) 4692 Mb  3 secs--- Balmorel.gms(278660) 4692 Mb  4 secs
+--- Balmorel.gms(278665) 4692 Mb--- Balmorel.gms(278715) 4692 Mb--- Balmorel.gms(278736) 4695 Mb--- Balmorel.gms(278736) 4698 Mb--- Balmorel.gms(278741) 4698 Mb--- Balmorel.gms(278441) 4699 Mb--- Balmorel.gms(278441) 4706 Mb--- Balmorel.gms(278413) 4712 Mb--- Balmorel.gms(278540) 4716 Mb--- Balmorel.gms(278549) 4722 Mb--- Balmorel.gms(278520) 4722 Mb--- Balmorel.gms(278530) 4728 Mb--- Balmorel.gms(278496) 4733 Mb--- Balmorel.gms(278496) 4735 Mb--- Balmorel.gms(278470) 4739 Mb--- Balmorel.gms(278470) 4740 Mb--- Balmorel.gms(278483) 4744 Mb--- Balmorel.gms(278483) 4745 Mb--- Balmorel.gms(279113) 4746 Mb--- Balmorel.gms(279113) 4747 Mb--- Balmorel.gms(279113) 4761 Mb--- Balmorel.gms(279113) 4763 Mb--- Balmorel.gms(279113) 4776 Mb--- Balmorel.gms(279113) 4778 Mb--- Balmorel.gms(279113) 4793 Mb--- Balmorel.gms(279113) 4796 Mb--- Balmorel.gms(279113) 4810 Mb--- Balmorel.gms(279113) 4814 Mb--- Balmorel.gms(279113) 4839 Mb--- Balmorel.gms(279113) 4845 Mb--- Balmorel.gms(279113) 4874 Mb--- Balmorel.gms(279113) 4881 Mb--- Balmorel.gms(279113) 4913 Mb--- Balmorel.gms(279113) 4919 Mb--- Balmorel.gms(279113) 4949 Mb--- Balmorel.gms(279113) 4956 Mb--- Balmorel.gms(279113) 4974 Mb--- Balmorel.gms(279113) 4974 Mb  3 secs
+--- Balmorel.gms(279131) 4974 Mb--- Balmorel.gms(279131) 4977 Mb--- Balmorel.gms(279131) 4980 Mb--- Balmorel.gms(279131) 4994 Mb--- Balmorel.gms(279131) 4997 Mb--- Balmorel.gms(279131) 5012 Mb--- Balmorel.gms(279131) 5015 Mb--- Balmorel.gms(279131) 5032 Mb--- Balmorel.gms(279131) 5038 Mb--- Balmorel.gms(279131) 5067 Mb--- Balmorel.gms(279131) 5073 Mb--- Balmorel.gms(279131) 5100 Mb--- Balmorel.gms(279131) 5107 Mb--- Balmorel.gms(279131) 5119 Mb--- Balmorel.gms(279189) 5119 Mb--- Balmorel.gms(279206) 5119 Mb--- Balmorel.gms(279221) 5119 Mb--- Balmorel.gms(279305) 5119 Mb--- Balmorel.gms(279386) 5119 Mb--- Balmorel.gms(279386) 5119 Mb--- Balmorel.gms(279386) 5120 Mb--- Balmorel.gms(279386) 5121 Mb--- Balmorel.gms(279386) 5121 Mb--- Balmorel.gms(279386) 5122 Mb--- Balmorel.gms(279386) 5122 Mb--- Balmorel.gms(279386) 5123 Mb--- Balmorel.gms(279386) 5124 Mb--- Balmorel.gms(279386) 5124 Mb--- Balmorel.gms(279386) 5126 Mb  3 secs--- Balmorel.gms(279386) 5126 Mb  3 secs--- Balmorel.gms(279386) 5127 Mb  3 secs--- Balmorel.gms(279386) 5127 Mb  3 secs--- Balmorel.gms(279386) 5128 Mb  3 secs--- Balmorel.gms(279386) 5128 Mb  4 secs--- Balmorel.gms(279386) 5129 Mb  4 secs--- Balmorel.gms(279386) 5129 Mb  4 secs--- Balmorel.gms(279386) 5130 Mb  4 secs
+--- Balmorel.gms(279448) 5130 Mb--- Balmorel.gms(279504) 5130 Mb--- Balmorel.gms(279504) 5131 Mb--- Balmorel.gms(279522) 5138 Mb--- Balmorel.gms(279522) 5139 Mb--- Balmorel.gms(279473) 5145 Mb--- Balmorel.gms(279473) 5146 Mb--- Balmorel.gms(279592) 5146 Mb--- Balmorel.gms(279618) 5146 Mb--- Balmorel.gms(279618) 5152 Mb--- Balmorel.gms(279814) 5154 Mb--- Balmorel.gms(279864) 5155 Mb--- Balmorel.gms(280791) 5155 Mb--- Balmorel.gms(280791) 5155 Mb  3 secs--- Balmorel.gms(280791) 5155 Mb  4 secs--- Balmorel.gms(280791) 5155 Mb  5 secs--- Balmorel.gms(280791) 5155 Mb  6 secs--- Balmorel.gms(280791) 5155 Mb  7 secs--- Balmorel.gms(280791) 5155 Mb  8 secs--- Balmorel.gms(280791) 5155 Mb  9 secs--- Balmorel.gms(280791) 5155 Mb  10 secs--- Balmorel.gms(280791) 5155 Mb  11 secs--- Balmorel.gms(280791) 5155 Mb  12 secs--- Balmorel.gms(280791) 5155 Mb  13 secs
+--- LOOPS IYALIAS = 2030
+---   9,889,813 rows  9,217,543 columns  32,116,046 non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 2.653E-13, 1.261E+10] - Zero values observed as well
+--- Bound     [min, max] : [ 1.541E-13, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.250E-10, 1.095E+02]
+--- Executing CPLEX (Solvelink=2): elapsed 1:47:33.788
+
+IBM ILOG CPLEX   50.4.1 84b10359 Aug 28, 2025          LEG x86 64bit/Linux    
+
+--- GAMS/CPLEX licensed for continuous and discrete problems.
+
+Reading parameter(s) from "/zhome/3d/c/214482/Desktop/Balmorel/base_notrans_dc_test_3day_allhr_4S/model/cplex.op2"
+>>  * Option file 2 for CPLEX solver for HPC runs. For possible options, see the GAMS Solver Manual.
+>>  * To use with CPLEX,  set  '$Setglobal USEOPTIONFILE 2' in balgams.opt.
+>>  * Do not change this file, it is predefined.
+>>  * To use other options with CPLEX, make and/or use some other file, see USEOPTIONFILE in balgams.opt.
+>>  * "LPmethod  4": Barrier method
+>>  * If memory tight, set the Threads parameter to 1.
+>> ~* advind is set to 0 by default since for large problems a better performance has been experienced. If 0, the optimization will no~
+>> ~t use the previous solution to try to find the next run faster.
+>> 
+>>  LPmethod  4
+>>  advind 0
+>>  predual -1
+Finished reading from "/zhome/3d/c/214482/Desktop/Balmorel/base_notrans_dc_test_3day_allhr_4S/model/cplex.op2"
+
+--- GMO setup time: 0.00s
+--- Space for names approximately 1416.37 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 3654.60 Mb (peak 3724.92 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 22.1.2.0 link memory 288.99 Mb (peak 2211.10 Mb)
+--- Starting Cplex
+
+Version identifier: 22.1.2.0 | 2024-11-26 | 0edbb82fd
+CPXPARAM_Advance                                 0
+CPXPARAM_Preprocessing_Dual                      -1
+CPXPARAM_LPMethod                                4
+CPXPARAM_Threads                                 10
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Pool_Capacity                       0
+CPXPARAM_Barrier_Limits_Iteration                2000000000
+CPXPARAM_TimeLimit                               1209600
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+CPXPARAM_MIP_Tolerances_MIPGap                   9.9999999999999995e-07
+Aggregator has done 1504807 substitutions...
+Aggregator has done 1615399 substitutions...
+Tried aggregator 1 time.
+LP Presolve eliminated 4595851 rows and 4366372 columns.
+Aggregator did 1619685 substitutions.
+Reduced LP has 3674276 rows, 3242256 columns, and 12376592 nonzeros.
+Presolve time = 33.98 sec. (28951.64 ticks)
+Parallel mode: using up to 10 threads for barrier.
+
+***NOTE: Found 1770 dense columns.
+
+Number of nonzeros in lower triangle of A*A' = 253275707
+Elapsed ordering time = 11.28 sec. (10000.01 ticks)
+Elapsed ordering time = 21.31 sec. (20000.02 ticks)
+Elapsed ordering time = 31.24 sec. (30000.06 ticks)
+Elapsed ordering time = 42.24 sec. (40000.07 ticks)
+Using Nested Dissection ordering
+Total time for automatic ordering = 302.29 sec. (284492.05 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 10
+  Rows in Factor            = 3676046
+  Integer space required    = 18174273
+  Total non-zeros in factor = 1959248370
+  Total FP ops to factor    = 3611807020014
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0   3.3051874e+15  -9.5682801e+14  2.13e+12  1.00e+11  1.41e+11  1.00e+00
+   1   2.2267642e+15  -1.8731068e+14  1.40e+12  6.55e+10  4.61e+10  1.02e-09
+   2   1.1382559e+15  -1.4534092e+14  7.25e+11  3.40e+10  3.32e+10  1.50e-09
+   3   5.4999140e+14  -1.0789658e+14  3.53e+11  1.66e+10  2.41e+10  2.26e-09
+   4   1.8114375e+14  -6.0721480e+13  1.11e+11  5.19e+09  1.47e+10  4.11e-09
+   5   8.1303562e+13  -4.6795577e+13  4.40e+10  2.06e+09  1.20e+10  5.78e-09
+   6   7.0570041e+13  -3.3711112e+13  3.59e+10  1.68e+09  9.74e+09  6.50e-09
+   7   3.8206169e+13  -1.7574045e+13  1.62e+10  7.58e+08  6.28e+09  9.75e-09
+   8   3.1836756e+13  -1.4366632e+13  1.21e+10  5.65e+08  5.63e+09  1.02e-08
+   9   2.4132185e+13  -1.0559490e+13  8.18e+09  3.84e+08  4.66e+09  1.17e-08
+  10   1.5409999e+13  -6.9452863e+12  4.67e+09  2.19e+08  3.49e+09  1.59e-08
+  11   1.3123834e+13  -4.1885900e+12  3.84e+09  1.80e+08  2.47e+09  2.19e-08
+  12   9.6352596e+12  -2.6001626e+12  2.66e+09  1.25e+08  1.81e+09  3.09e-08
+  13   7.4973874e+12  -1.2542558e+12  1.99e+09  9.34e+07  1.16e+09  5.06e-08
+  14   5.2919768e+12  -6.7309753e+11  1.30e+09  6.08e+07  8.84e+08  7.10e-08
+  15   4.4931324e+12  -4.2913617e+11  1.04e+09  4.88e+07  7.72e+08  8.39e-08
+  16   3.8068220e+12  -1.3433882e+11  8.28e+08  3.88e+07  6.26e+08  1.08e-07
+  17   3.0744709e+12   2.2349968e+11  6.07e+08  2.84e+07  4.39e+08  1.67e-07
+  18   2.6339824e+12   4.0458462e+11  4.75e+08  2.23e+07  3.42e+08  2.29e-07
+  19   2.3878730e+12   4.9362811e+11  4.02e+08  1.89e+07  2.93e+08  2.77e-07
+  20   2.2153032e+12   5.9951570e+11  3.51e+08  1.65e+07  2.36e+08  3.61e-07
+  21   2.0299116e+12   6.8931639e+11  2.96e+08  1.39e+07  1.86e+08  4.84e-07
+  22   1.7964353e+12   7.5778294e+11  2.28e+08  1.07e+07  1.46e+08  6.55e-07
+  23   1.6791798e+12   8.0653076e+11  1.94e+08  9.11e+06  1.18e+08  8.51e-07
+  24   1.5996628e+12   8.4521903e+11  1.71e+08  8.02e+06  9.61e+07  1.10e-06
+  25   1.5312443e+12   8.6320363e+11  1.51e+08  7.09e+06  8.56e+07  1.27e-06
+  26   1.4615044e+12   8.8311774e+11  1.31e+08  6.14e+06  7.40e+07  1.52e-06
+  27   1.4097431e+12   9.0315068e+11  1.16e+08  5.44e+06  6.24e+07  1.88e-06
+  28   1.3781811e+12   9.1759706e+11  1.07e+08  5.01e+06  5.40e+07  2.24e-06
+  29   1.3301886e+12   9.2786309e+11  9.29e+07  4.36e+06  4.79e+07  2.60e-06
+  30   1.2999664e+12   9.3650529e+11  8.41e+07  3.94e+06  4.29e+07  2.98e-06
+  31   1.2797386e+12   9.4075659e+11  7.82e+07  3.67e+06  4.05e+07  3.21e-06
+  32   1.2447802e+12   9.5106180e+11  6.80e+07  3.19e+06  3.46e+07  3.90e-06
+  33   1.2162255e+12   9.6264194e+11  5.97e+07  2.80e+06  2.81e+07  5.06e-06
+  34   1.1912690e+12   9.6675001e+11  5.24e+07  2.46e+06  2.57e+07  5.65e-06
+  35   1.1831724e+12   9.7179159e+11  5.00e+07  2.35e+06  2.29e+07  6.51e-06
+  36   1.1801351e+12   9.7463708e+11  4.91e+07  2.30e+06  2.12e+07  7.11e-06
+  37   1.1545150e+12   9.7859389e+11  4.17e+07  1.96e+06  1.89e+07  8.21e-06
+  38   1.1327131e+12   9.8356970e+11  3.53e+07  1.66e+06  1.61e+07  1.00e-05
+  39   1.1205449e+12   9.8789705e+11  3.17e+07  1.49e+06  1.37e+07  1.22e-05
+  40   1.1064218e+12   9.9106150e+11  2.76e+07  1.29e+06  1.19e+07  1.44e-05
+  41   1.0936931e+12   9.9474745e+11  2.38e+07  1.12e+06  9.91e+06  1.81e-05
+  42   1.0860022e+12   9.9786706e+11  2.16e+07  1.01e+06  8.22e+06  2.27e-05
+  43   1.0774709e+12   9.9992660e+11  1.91e+07  8.94e+05  7.07e+06  2.72e-05
+  44   1.0734169e+12   1.0017163e+12  1.79e+07  8.38e+05  6.09e+06  3.25e-05
+  45   1.0651590e+12   1.0033680e+12  1.54e+07  7.24e+05  5.16e+06  3.95e-05
+  46   1.0562372e+12   1.0043103e+12  1.28e+07  6.00e+05  4.66e+06  4.47e-05
+  47   1.0491447e+12   1.0052294e+12  1.07e+07  5.00e+05  4.20e+06  5.06e-05
+  48   1.0484524e+12   1.0063198e+12  1.05e+07  4.90e+05  3.69e+06  5.90e-05
+  49   1.0470170e+12   1.0070359e+12  1.00e+07  4.70e+05  3.33e+06  6.64e-05
+  50   1.0466952e+12   1.0075151e+12  9.92e+06  4.65e+05  3.09e+06  7.23e-05
+  51   1.0465445e+12   1.0076698e+12  9.88e+06  4.63e+05  3.01e+06  7.45e-05
+  52   1.0433442e+12   1.0087874e+12  8.92e+06  4.18e+05  2.44e+06  9.51e-05
+  53   1.0389539e+12   1.0095591e+12  7.61e+06  3.57e+05  2.04e+06  1.17e-04
+  54   1.0364213e+12   1.0100350e+12  6.85e+06  3.21e+05  1.80e+06  1.34e-04
+  55   1.0326881e+12   1.0107024e+12  5.72e+06  2.68e+05  1.48e+06  1.68e-04
+  56   1.0317383e+12   1.0109881e+12  5.43e+06  2.55e+05  1.34e+06  1.86e-04
+  57   1.0292351e+12   1.0114397e+12  4.67e+06  2.19e+05  1.13e+06  2.24e-04
+  58   1.0275112e+12   1.0118132e+12  4.14e+06  1.94e+05  9.68e+05  2.66e-04
+  59   1.0259762e+12   1.0121000e+12  3.67e+06  1.72e+05  8.45e+05  3.08e-04
+  60   1.0247960e+12   1.0123796e+12  3.30e+06  1.55e+05  7.28e+05  3.62e-04
+  61   1.0239628e+12   1.0125790e+12  3.04e+06  1.43e+05  6.45e+05  4.11e-04
+  62   1.0227518e+12   1.0128533e+12  2.67e+06  1.25e+05  5.35e+05  5.01e-04
+  63   1.0218646e+12   1.0130615e+12  2.39e+06  1.12e+05  4.52e+05  5.96e-04
+  64   1.0210565e+12   1.0132634e+12  2.14e+06  1.00e+05  3.72e+05  7.25e-04
+  65   1.0200596e+12   1.0134154e+12  1.83e+06  8.56e+04  3.14e+05  8.59e-04
+  66   1.0192336e+12   1.0135328e+12  1.57e+06  7.34e+04  2.72e+05  9.92e-04
+  67   1.0183958e+12   1.0136430e+12  1.30e+06  6.08e+04  2.34e+05  1.15e-03
+  68   1.0182734e+12   1.0137415e+12  1.26e+06  5.90e+04  2.03e+05  1.33e-03
+  69   1.0178878e+12   1.0138351e+12  1.13e+06  5.32e+04  1.72e+05  1.56e-03
+  70   1.0176062e+12   1.0139233e+12  1.04e+06  4.89e+04  1.43e+05  1.86e-03
+  71   1.0173662e+12   1.0139748e+12  9.66e+05  4.53e+04  1.26e+05  2.09e-03
+  72   1.0170809e+12   1.0140164e+12  8.74e+05  4.10e+04  1.13e+05  2.31e-03
+  73   1.0169828e+12   1.0140636e+12  8.43e+05  3.95e+04  9.83e+04  2.62e-03
+  74   1.0167626e+12   1.0141043e+12  7.71e+05  3.62e+04  8.56e+04  2.96e-03
+  75   1.0167500e+12   1.0141263e+12  7.67e+05  3.60e+04  7.89e+04  3.17e-03
+  76   1.0163723e+12   1.0141759e+12  6.45e+05  3.02e+04  6.36e+04  3.79e-03
+  77   1.0163459e+12   1.0142030e+12  6.36e+05  2.98e+04  5.59e+04  4.22e-03
+  78   1.0160599e+12   1.0142382e+12  5.43e+05  2.55e+04  4.58e+04  4.94e-03
+  79   1.0158604e+12   1.0142623e+12  4.77e+05  2.24e+04  3.95e+04  5.56e-03
+  80   1.0155220e+12   1.0142904e+12  3.65e+05  1.71e+04  3.27e+04  6.46e-03
+  81   1.0153668e+12   1.0143102e+12  3.12e+05  1.46e+04  2.86e+04  7.24e-03
+  82   1.0152896e+12   1.0143302e+12  2.85e+05  1.34e+04  2.48e+04  8.22e-03
+  83   1.0152387e+12   1.0143411e+12  2.68e+05  1.26e+04  2.27e+04  8.88e-03
+  84   1.0151559e+12   1.0143604e+12  2.39e+05  1.12e+04  1.90e+04  1.03e-02
+  85   1.0150586e+12   1.0143725e+12  2.06e+05  9.65e+03  1.68e+04  1.15e-02
+  86   1.0149515e+12   1.0143888e+12  1.68e+05  7.89e+03  1.39e+04  1.35e-02
+  87   1.0149196e+12   1.0144026e+12  1.57e+05  7.37e+03  1.16e+04  1.58e-02
+  88   1.0148821e+12   1.0144062e+12  1.44e+05  6.75e+03  1.10e+04  1.65e-02
+  89   1.0148300e+12   1.0144168e+12  1.26e+05  5.89e+03  9.33e+03  1.91e-02
+  90   1.0148076e+12   1.0144216e+12  1.18e+05  5.51e+03  8.59e+03  2.05e-02
+  91   1.0147967e+12   1.0144280e+12  1.14e+05  5.33e+03  7.59e+03  2.28e-02
+  92   1.0147339e+12   1.0144349e+12  9.14e+04  4.28e+03  6.51e+03  2.59e-02
+  93   1.0146964e+12   1.0144399e+12  7.79e+04  3.65e+03  5.80e+03  2.87e-02
+  94   1.0146546e+12   1.0144477e+12  6.27e+04  2.94e+03  4.74e+03  3.44e-02
+  95   1.0146313e+12   1.0144533e+12  5.41e+04  2.54e+03  4.00e+03  4.02e-02
+  96   1.0146188e+12   1.0144566e+12  4.95e+04  2.32e+03  3.58e+03  4.45e-02
+  97   1.0145959e+12   1.0144610e+12  4.11e+04  1.93e+03  3.00e+03  5.21e-02
+  98   1.0145780e+12   1.0144640e+12  3.45e+04  1.62e+03  2.63e+03  5.89e-02
+  99   1.0145674e+12   1.0144678e+12  3.05e+04  1.43e+03  2.18e+03  7.03e-02
+ 100   1.0145600e+12   1.0144700e+12  2.77e+04  1.30e+03  1.92e+03  7.90e-02
+ 101   1.0145584e+12   1.0144708e+12  2.71e+04  1.27e+03  1.82e+03  8.31e-02
+ 102   1.0145510e+12   1.0144716e+12  2.43e+04  1.14e+03  1.73e+03  8.70e-02
+ 103   1.0145408e+12   1.0144742e+12  2.05e+04  9.61e+02  1.42e+03  1.04e-01
+ 104   1.0145318e+12   1.0144763e+12  1.71e+04  8.01e+02  1.18e+03  1.24e-01
+ 105   1.0145241e+12   1.0144778e+12  1.42e+04  6.64e+02  1.01e+03  1.43e-01
+ 106   1.0145189e+12   1.0144791e+12  1.22e+04  5.71e+02  8.68e+02  1.65e-01
+ 107   1.0145164e+12   1.0144807e+12  1.12e+04  5.25e+02  6.91e+02  2.05e-01
+ 108   1.0145129e+12   1.0144818e+12  9.89e+03  4.64e+02  5.75e+02  2.41e-01
+ 109   1.0145111e+12   1.0144828e+12  9.21e+03  4.32e+02  4.54e+02  2.97e-01
+ 110   1.0145080e+12   1.0144834e+12  8.02e+03  3.76e+02  3.91e+02  3.37e-01
+ 111   1.0145038e+12   1.0144843e+12  6.43e+03  3.01e+02  2.92e+02  4.30e-01
+ 112   1.0145003e+12   1.0144847e+12  5.10e+03  2.39e+02  2.51e+02  4.88e-01
+ 113   1.0144975e+12   1.0144852e+12  4.00e+03  1.87e+02  2.01e+02  5.93e-01
+ 114   1.0144961e+12   1.0144855e+12  3.44e+03  1.61e+02  1.70e+02  6.88e-01
+ 115   1.0144951e+12   1.0144857e+12  3.07e+03  1.44e+02  1.51e+02  7.65e-01
+ 116   1.0144931e+12   1.0144861e+12  2.28e+03  1.07e+02  1.16e+02  9.76e-01
+ 117   1.0144918e+12   1.0144863e+12  1.73e+03  8.13e+01  9.50e+01  1.17e+00
+ 118   1.0144909e+12   1.0144865e+12  1.39e+03  6.50e+01  7.92e+01  1.39e+00
+ 119   1.0144906e+12   1.0144867e+12  1.28e+03  5.98e+01  6.78e+01  1.62e+00
+ 120   1.0144902e+12   1.0144868e+12  1.10e+03  5.14e+01  6.17e+01  1.78e+00
+ 121   1.0144898e+12   1.0144868e+12  9.20e+02  4.31e+01  5.53e+01  1.98e+00
+ 122   1.0144897e+12   1.0144869e+12  8.76e+02  4.10e+01  4.82e+01  2.27e+00
+ 123   1.0144891e+12   1.0144871e+12  6.60e+02  3.09e+01  3.41e+01  3.16e+00
+ 124   1.0144890e+12   1.0144872e+12  6.18e+02  2.89e+01  2.61e+01  4.08e+00
+ 125   1.0144890e+12   1.0144872e+12  6.13e+02  2.87e+01  2.42e+01  4.36e+00
+ 126   1.0144889e+12   1.0144873e+12  5.72e+02  2.68e+01  2.06e+01  5.01e+00
+ 127   1.0144887e+12   1.0144874e+12  5.00e+02  2.34e+01  1.30e+01  7.31e+00
+ 128   1.0144886e+12   1.0144874e+12  4.22e+02  1.98e+01  1.12e+01  8.13e+00
+ 129   1.0144882e+12   1.0144874e+12  2.85e+02  1.34e+01  7.92e+00  1.05e+01
+ 130   1.0144880e+12   1.0144875e+12  1.83e+02  8.58e+00  3.96e+00  1.81e+01
+ 131   1.0144878e+12   1.0144875e+12  1.16e+02  5.44e+00  2.57e+00  2.52e+01
+ 132   1.0144878e+12   1.0144875e+12  9.66e+01  4.52e+00  1.70e+00  3.57e+01
+ 133   1.0144877e+12   1.0144875e+12  4.85e+01  2.26e+00  1.08e+00  5.02e+01
+ 134   1.0144876e+12   1.0144875e+12  2.25e+01  1.05e+00  6.40e-01  8.15e+01
+ 135   1.0144876e+12   1.0144875e+12  1.29e+01  6.01e-01  3.77e-01  1.41e+02
+ 136   1.0144876e+12   1.0144875e+12  1.12e+01  5.23e-01  3.48e-01  1.53e+02
+Barrier time = 4185.98 sec. (7895261.76 ticks)
+Parallel mode: deterministic, using up to 10 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting primal Simplex on 1 thread...
+
+Dual crossover.
+  Dual:  Fixing 3028812 variables.
+   3028811 DMoves:  Infeasibility  1.49811442e+01  Objective  1.01448754e+12
+   3028373 DMoves:  Infeasibility  1.38507048e+01  Objective  1.01448754e+12
+   3023602 DMoves:  Infeasibility  1.30359761e+01  Objective  1.01448754e+12
+   3020437 DMoves:  Infeasibility  1.28720179e+01  Objective  1.01448754e+12
+   3017463 DMoves:  Infeasibility  1.25328695e+01  Objective  1.01448754e+12
+   3014314 DMoves:  Infeasibility  1.23843749e+01  Objective  1.01448754e+12
+   3009313 DMoves:  Infeasibility  1.21810551e+01  Objective  1.01448754e+12
+   3005170 DMoves:  Infeasibility  1.08633461e+01  Objective  1.01448754e+12
+   2998628 DMoves:  Infeasibility  9.76922725e+00  Objective  1.01448754e+12
+   Elapsed crossover time = 8.35 sec. (10501.54 ticks, 2998628 DMoves)
+   2994409 DMoves:  Infeasibility  8.52955007e+00  Objective  1.01448754e+12
+   2989678 DMoves:  Infeasibility  7.73042336e+00  Objective  1.01448754e+12
+   2982648 DMoves:  Infeasibility  7.28421128e+00  Objective  1.01448754e+12
+   2975531 DMoves:  Infeasibility  7.02256710e+00  Objective  1.01448754e+12
+   2970821 DMoves:  Infeasibility  5.28839333e+00  Objective  1.01448754e+12
+   2966662 DMoves:  Infeasibility  4.79967591e+00  Objective  1.01448754e+12
+   2962771 DMoves:  Infeasibility  4.46913595e+00  Objective  1.01448754e+12
+   2960431 DMoves:  Infeasibility  3.95576189e+00  Objective  1.01448754e+12
+   2954758 DMoves:  Infeasibility  3.35627409e+00  Objective  1.01448754e+12
+   2948810 DMoves:  Infeasibility  2.97909044e+00  Objective  1.01448754e+12
+   Elapsed crossover time = 19.11 sec. (20622.37 ticks, 2948810 DMoves)
+   2943925 DMoves:  Infeasibility  2.25677580e+00  Objective  1.01448754e+12
+   2940006 DMoves:  Infeasibility  2.08386741e+00  Objective  1.01448754e+12
+   2934936 DMoves:  Infeasibility  1.93333473e+00  Objective  1.01448754e+12
+   2930508 DMoves:  Infeasibility  1.67905146e+00  Objective  1.01448754e+12
+   2927031 DMoves:  Infeasibility  1.52879040e+00  Objective  1.01448754e+12
+   2923321 DMoves:  Infeasibility  1.24397466e+00  Objective  1.01448754e+12
+   Elapsed crossover time = 31.73 sec. (30633.94 ticks, 2920435 DMoves)
+   2920051 DMoves:  Infeasibility  8.21532761e-01  Objective  1.01448754e+12
+   2916095 DMoves:  Infeasibility  5.51263547e-01  Objective  1.01448754e+12
+   Elapsed crossover time = 63.51 sec. (40634.19 ticks, 2913012 DMoves)
+   Elapsed crossover time = 98.25 sec. (50634.31 ticks, 2905075 DMoves)
+   Elapsed crossover time = 126.52 sec. (60634.42 ticks, 2897096 DMoves)
+   Elapsed crossover time = 148.20 sec. (70653.75 ticks, 2888890 DMoves)
+   Elapsed crossover time = 165.04 sec. (80653.86 ticks, 2881476 DMoves)
+   Elapsed crossover time = 188.14 sec. (90668.80 ticks, 2876339 DMoves)
+   Elapsed crossover time = 209.47 sec. (100670.42 ticks, 2871011 DMoves)
+   Elapsed crossover time = 228.71 sec. (110679.70 ticks, 2864878 DMoves)
+   2864311 DMoves:  Infeasibility  1.13725236e+03  Objective  1.01448755e+12
+   Elapsed crossover time = 249.45 sec. (120687.22 ticks, 2849515 DMoves)
+   Elapsed crossover time = 275.18 sec. (130697.05 ticks, 2843989 DMoves)
+   Elapsed crossover time = 301.41 sec. (140710.57 ticks, 2842387 DMoves)
+   Elapsed crossover time = 327.01 sec. (150722.74 ticks, 2841530 DMoves)
+   Elapsed crossover time = 361.45 sec. (160725.81 ticks, 2840004 DMoves)
+   2839360 DMoves:  Infeasibility  5.69927937e+06  Objective  1.01449526e+12
+   Elapsed crossover time = 391.31 sec. (170726.22 ticks, 2827546 DMoves)
+   2823405 DMoves:  Infeasibility  5.43289689e+06  Objective  1.01449489e+12
+   Elapsed crossover time = 416.23 sec. (180726.37 ticks, 2813757 DMoves)
+   Elapsed crossover time = 433.55 sec. (190726.51 ticks, 2788064 DMoves)
+   2787303 DMoves:  Infeasibility  5.40407396e+06  Objective  1.01449415e+12
+   Elapsed crossover time = 465.15 sec. (200734.60 ticks, 2776099 DMoves)
+   2768645 DMoves:  Infeasibility  1.56550752e+07  Objective  1.01448854e+12
+   Elapsed crossover time = 494.24 sec. (210735.13 ticks, 2763736 DMoves)
+   Elapsed crossover time = 514.73 sec. (220741.77 ticks, 2724134 DMoves)
+   2713421 DMoves:  Infeasibility  1.62175954e+07  Objective  1.01444850e+12
+   Elapsed crossover time = 537.59 sec. (230744.09 ticks, 2670798 DMoves)
+   2663456 DMoves:  Infeasibility  1.60383268e+07  Objective  1.01444814e+12
+   Elapsed crossover time = 567.55 sec. (240744.30 ticks, 2639598 DMoves)
+   Elapsed crossover time = 581.61 sec. (250750.41 ticks, 2607758 DMoves)
+   2606864 DMoves:  Infeasibility  1.58544117e+07  Objective  1.01444693e+12
+   Elapsed crossover time = 600.54 sec. (260750.60 ticks, 2572643 DMoves)
+   2557705 DMoves:  Infeasibility  1.10680055e+09  Objective  1.01496092e+12
+   Elapsed crossover time = 616.50 sec. (270750.79 ticks, 2539086 DMoves)
+   2521578 DMoves:  Infeasibility  1.09813881e+09  Objective  1.01486999e+12
+   Elapsed crossover time = 632.06 sec. (280751.71 ticks, 2505127 DMoves)
+   Elapsed crossover time = 645.41 sec. (290751.74 ticks, 2485330 DMoves)
+   2483978 DMoves:  Infeasibility  1.08997422e+09  Objective  1.01466479e+12
+   Elapsed crossover time = 672.70 sec. (300755.67 ticks, 2470435 DMoves)
+   2460181 DMoves:  Infeasibility  6.57482926e+08  Objective  1.01456654e+12
+   2413653 DMoves:  Infeasibility  6.47745498e+08  Objective  1.01455972e+12
+   2382818 DMoves:  Infeasibility  6.47530766e+08  Objective  1.01455971e+12
+   Elapsed crossover time = 690.67 sec. (311101.81 ticks, 2382818 DMoves)
+   2318570 DMoves:  Infeasibility  6.47119903e+08  Objective  1.01456085e+12
+   2254855 DMoves:  Infeasibility  6.44659126e+08  Objective  1.01456110e+12
+   2210121 DMoves:  Infeasibility  6.44170311e+08  Objective  1.01456110e+12
+   2175643 DMoves:  Infeasibility  6.43897947e+08  Objective  1.01456109e+12
+   2120543 DMoves:  Infeasibility  6.41303845e+08  Objective  1.01456106e+12
+   2099167 DMoves:  Infeasibility  6.41139985e+08  Objective  1.01456199e+12
+   2075039 DMoves:  Infeasibility  6.38735288e+08  Objective  1.01455992e+12
+   2053620 DMoves:  Infeasibility  6.38675245e+08  Objective  1.01455991e+12
+   2026026 DMoves:  Infeasibility  6.36990633e+08  Objective  1.01455984e+12
+   1992112 DMoves:  Infeasibility  6.34152038e+08  Objective  1.01455982e+12
+   Elapsed crossover time = 702.95 sec. (321101.82 ticks, 1990979 DMoves)
+   1983166 DMoves:  Infeasibility  6.34146285e+08  Objective  1.01455983e+12
+   1974950 DMoves:  Infeasibility  6.33961784e+08  Objective  1.01455990e+12
+   1965866 DMoves:  Infeasibility  6.33912518e+08  Objective  1.01455999e+12
+   1956501 DMoves:  Infeasibility  6.33622360e+08  Objective  1.01456002e+12
+   1946500 DMoves:  Infeasibility  6.33326238e+08  Objective  1.01455995e+12
+   1936482 DMoves:  Infeasibility  6.33325368e+08  Objective  1.01455995e+12
+   1926481 DMoves:  Infeasibility  6.33316566e+08  Objective  1.01455997e+12
+   1915944 DMoves:  Infeasibility  6.32864258e+08  Objective  1.01455975e+12
+   1905785 DMoves:  Infeasibility  6.32847501e+08  Objective  1.01455969e+12
+   Elapsed crossover time = 713.58 sec. (331452.13 ticks, 1905785 DMoves)
+   1898524 DMoves:  Infeasibility  6.32636093e+08  Objective  1.01455969e+12
+   1880560 DMoves:  Infeasibility  6.32026311e+08  Objective  1.01455969e+12
+   1845474 DMoves:  Infeasibility  6.29758408e+08  Objective  1.01455963e+12
+   1806446 DMoves:  Infeasibility  6.29174721e+08  Objective  1.01455962e+12
+   1788621 DMoves:  Infeasibility  6.28772028e+08  Objective  1.01455962e+12
+   1775677 DMoves:  Infeasibility  6.26306077e+08  Objective  1.01455941e+12
+   1758063 DMoves:  Infeasibility  6.18879237e+08  Objective  1.01454860e+12
+   Elapsed crossover time = 722.46 sec. (341869.48 ticks, 1758063 DMoves)
+   1748834 DMoves:  Infeasibility  6.18055670e+08  Objective  1.01454855e+12
+   1735184 DMoves:  Infeasibility  6.18021609e+08  Objective  1.01454864e+12
+   1721038 DMoves:  Infeasibility  6.17992119e+08  Objective  1.01454864e+12
+   1708552 DMoves:  Infeasibility  6.17686730e+08  Objective  1.01454866e+12
+   1689997 DMoves:  Infeasibility  6.17375118e+08  Objective  1.01454873e+12
+   1679361 DMoves:  Infeasibility  6.16991808e+08  Objective  1.01454880e+12
+   1664674 DMoves:  Infeasibility  6.13980789e+08  Objective  1.01454878e+12
+   1647142 DMoves:  Infeasibility  6.12517245e+08  Objective  1.01454877e+12
+   1634671 DMoves:  Infeasibility  6.12514093e+08  Objective  1.01454877e+12
+   1617618 DMoves:  Infeasibility  6.12513130e+08  Objective  1.01454877e+12
+   Elapsed crossover time = 734.95 sec. (352246.41 ticks, 1617618 DMoves)
+   1600678 DMoves:  Infeasibility  6.12427464e+08  Objective  1.01454878e+12
+   1579786 DMoves:  Infeasibility  6.11837630e+08  Objective  1.01454878e+12
+   1558762 DMoves:  Infeasibility  6.11059765e+08  Objective  1.01454868e+12
+   1544338 DMoves:  Infeasibility  6.07097443e+08  Objective  1.01454758e+12
+   1526333 DMoves:  Infeasibility  6.00751250e+08  Objective  1.01454766e+12
+   1483542 DMoves:  Infeasibility  6.00703836e+08  Objective  1.01454769e+12
+   1452824 DMoves:  Infeasibility  6.00600244e+08  Objective  1.01454761e+12
+   1437966 DMoves:  Infeasibility  5.96716215e+08  Objective  1.01454762e+12
+   1419882 DMoves:  Infeasibility  5.94494199e+08  Objective  1.01454759e+12
+   1400573 DMoves:  Infeasibility  5.94492446e+08  Objective  1.01454759e+12
+   Elapsed crossover time = 747.72 sec. (362902.06 ticks, 1400573 DMoves)
+   1384036 DMoves:  Infeasibility  5.94492446e+08  Objective  1.01454759e+12
+   1363588 DMoves:  Infeasibility  5.94474435e+08  Objective  1.01454759e+12
+   1345915 DMoves:  Infeasibility  5.94464204e+08  Objective  1.01454759e+12
+   1330190 DMoves:  Infeasibility  5.93909383e+08  Objective  1.01454760e+12
+   1323766 DMoves:  Infeasibility  5.93753414e+08  Objective  1.01454773e+12
+   1316519 DMoves:  Infeasibility  5.92945962e+08  Objective  1.01454767e+12
+   Elapsed crossover time = 755.63 sec. (372902.68 ticks, 1313911 DMoves)
+   1312550 DMoves:  Infeasibility  5.92945826e+08  Objective  1.01454767e+12
+   1307653 DMoves:  Infeasibility  5.92945826e+08  Objective  1.01454767e+12
+   1303405 DMoves:  Infeasibility  5.92945826e+08  Objective  1.01454767e+12
+   1300120 DMoves:  Infeasibility  5.92945826e+08  Objective  1.01454767e+12
+   Elapsed crossover time = 760.78 sec. (382902.96 ticks, 1297090 DMoves)
+   1296107 DMoves:  Infeasibility  5.92945826e+08  Objective  1.01454767e+12
+   1292502 DMoves:  Infeasibility  5.92945826e+08  Objective  1.01454767e+12
+   1289173 DMoves:  Infeasibility  5.92945826e+08  Objective  1.01454767e+12
+
+Primal simplex solved model.
+
+Total crossover time = 782.37 sec. (404462.29 ticks)
+
+Total time on 10 threads = 5002.86 sec. (8329033.15 ticks)
+
+--- LP status (1): optimal.
+--- Cplex Time: 5003.18sec (det. 8329061.45 ticks)
+
+
+Optimal solution found
+Simplex iterations after crossover: 127
+Objective:  1014487547025.729004
+
+--- Reading solution for model BALBASE4
+--- Balmorel.gms(280791) 5155 Mb  5049 secs--- Balmorel.gms(280791) 5155 Mb  5054 secs--- Balmorel.gms(280791) 5155 Mb  5059 secs
+--- GDX Point /zhome/3d/c/214482/Desktop/Balmorel/base_notrans_dc_test_3day_allhr_4S/model/BALBASE4_p.gdx
+--- Executing after solve: elapsed 3:11:40.599
+--- Balmorel.gms(280491) 5155 Mb
+--- Generating LP model BALBASE4
+--- Balmorel.gms(277602) 5155 Mb--- Balmorel.gms(277602) 5156 Mb--- Balmorel.gms(277602) 5156 Mb  3 secs--- Balmorel.gms(277602) 5156 Mb  4 secs--- Balmorel.gms(277602) 5156 Mb  5 secs--- Balmorel.gms(277602) 5156 Mb  6 secs--- Balmorel.gms(277602) 5156 Mb  6 secs--- Balmorel.gms(277602) 5156 Mb  7 secs--- Balmorel.gms(277602) 5156 Mb  8 secs--- Balmorel.gms(277602) 5156 Mb  9 secs--- Balmorel.gms(277602) 5156 Mb  10 secs--- Balmorel.gms(277602) 5156 Mb  11 secs--- Balmorel.gms(277602) 5156 Mb  12 secs--- Balmorel.gms(277602) 5156 Mb  13 secs--- Balmorel.gms(277602) 5156 Mb  14 secs--- Balmorel.gms(277602) 5156 Mb  15 secs--- Balmorel.gms(277602) 5156 Mb  16 secs--- Balmorel.gms(277602) 5156 Mb  17 secs--- Balmorel.gms(277602) 5156 Mb  18 secs--- Balmorel.gms(277602) 5156 Mb  19 secs--- Balmorel.gms(277602) 5156 Mb  20 secs--- Balmorel.gms(277602) 5156 Mb  21 secs--- Balmorel.gms(277602) 5156 Mb  22 secs--- Balmorel.gms(277602) 5156 Mb  23 secs--- Balmorel.gms(277602) 5156 Mb  24 secs--- Balmorel.gms(277602) 5156 Mb  25 secs--- Balmorel.gms(277602) 5156 Mb  26 secs--- Balmorel.gms(277602) 5156 Mb  27 secs--- Balmorel.gms(277602) 5156 Mb  28 secs--- Balmorel.gms(277602) 5156 Mb  29 secs--- Balmorel.gms(277602) 5156 Mb  30 secs--- Balmorel.gms(277602) 5156 Mb  35 secs--- Balmorel.gms(277602) 5156 Mb  40 secs--- Balmorel.gms(277602) 5156 Mb  45 secs--- Balmorel.gms(277602) 5156 Mb  50 secs--- Balmorel.gms(277602) 5156 Mb  55 secs--- Balmorel.gms(277602) 5156 Mb  60 secs--- Balmorel.gms(277602) 5156 Mb  65 secs--- Balmorel.gms(277602) 5156 Mb  70 secs--- Balmorel.gms(277602) 5156 Mb  75 secs--- Balmorel.gms(277602) 5156 Mb  80 secs--- Balmorel.gms(277602) 5156 Mb  85 secs--- Balmorel.gms(277602) 5156 Mb  90 secs--- Balmorel.gms(277602) 5156 Mb  95 secs--- Balmorel.gms(277602) 5156 Mb  100 secs--- Balmorel.gms(277602) 5156 Mb  105 secs--- Balmorel.gms(277602) 5156 Mb  110 secs--- Balmorel.gms(277602) 5156 Mb  115 secs--- Balmorel.gms(277602) 5156 Mb  120 secs--- Balmorel.gms(277602) 5156 Mb  125 secs--- Balmorel.gms(277602) 5156 Mb  130 secs--- Balmorel.gms(277602) 5156 Mb  135 secs--- Balmorel.gms(277602) 5156 Mb  140 secs--- Balmorel.gms(277602) 5156 Mb  145 secs--- Balmorel.gms(277602) 5156 Mb  150 secs--- Balmorel.gms(277602) 5156 Mb  155 secs--- Balmorel.gms(277602) 5156 Mb  160 secs--- Balmorel.gms(277602) 5156 Mb  165 secs--- Balmorel.gms(277602) 5156 Mb  170 secs--- Balmorel.gms(277602) 5156 Mb  175 secs--- Balmorel.gms(277602) 5156 Mb  180 secs--- Balmorel.gms(277602) 5156 Mb  185 secs--- Balmorel.gms(277602) 5156 Mb  190 secs--- Balmorel.gms(277602) 5156 Mb  195 secs--- Balmorel.gms(277602) 5156 Mb  200 secs--- Balmorel.gms(277602) 5156 Mb  205 secs--- Balmorel.gms(277602) 5156 Mb  210 secs--- Balmorel.gms(277602) 5156 Mb  215 secs--- Balmorel.gms(277602) 5156 Mb  220 secs--- Balmorel.gms(277602) 5156 Mb  225 secs--- Balmorel.gms(277602) 5156 Mb  230 secs--- Balmorel.gms(277602) 5156 Mb  235 secs--- Balmorel.gms(277602) 5156 Mb  240 secs
+--- Balmorel.gms(277848) 5156 Mb--- Balmorel.gms(277848) 5156 Mb  3 secs--- Balmorel.gms(277848) 5156 Mb  4 secs--- Balmorel.gms(277848) 5156 Mb  5 secs--- Balmorel.gms(277848) 5156 Mb  6 secs--- Balmorel.gms(277848) 5156 Mb  7 secs--- Balmorel.gms(277848) 5156 Mb  8 secs--- Balmorel.gms(277848) 5156 Mb  9 secs--- Balmorel.gms(277848) 5156 Mb  10 secs--- Balmorel.gms(277848) 5156 Mb  11 secs--- Balmorel.gms(277848) 5156 Mb  12 secs--- Balmorel.gms(277848) 5156 Mb  13 secs--- Balmorel.gms(277848) 5156 Mb  14 secs
+--- Balmorel.gms(277928) 5156 Mb--- Balmorel.gms(277928) 5156 Mb  3 secs--- Balmorel.gms(277928) 5156 Mb  4 secs--- Balmorel.gms(277928) 5156 Mb  5 secs--- Balmorel.gms(277928) 5156 Mb  6 secs--- Balmorel.gms(277928) 5156 Mb  7 secs--- Balmorel.gms(277928) 5156 Mb  8 secs--- Balmorel.gms(277928) 5156 Mb  9 secs
+--- Balmorel.gms(278032) 5156 Mb--- Balmorel.gms(278032) 5156 Mb  3 secs--- Balmorel.gms(278032) 5169 Mb  3 secs--- Balmorel.gms(278032) 5171 Mb  4 secs--- Balmorel.gms(278032) 5184 Mb  4 secs--- Balmorel.gms(278032) 5187 Mb  4 secs--- Balmorel.gms(278032) 5219 Mb  4 secs--- Balmorel.gms(278032) 5230 Mb  4 secs--- Balmorel.gms(278032) 5278 Mb  4 secs--- Balmorel.gms(278032) 5289 Mb  4 secs--- Balmorel.gms(278032) 5338 Mb  4 secs--- Balmorel.gms(278032) 5348 Mb  5 secs--- Balmorel.gms(278032) 5395 Mb  5 secs--- Balmorel.gms(278032) 5406 Mb  5 secs--- Balmorel.gms(278032) 5451 Mb  5 secs--- Balmorel.gms(278032) 5462 Mb  5 secs--- Balmorel.gms(278032) 5505 Mb  5 secs--- Balmorel.gms(278032) 5516 Mb  5 secs--- Balmorel.gms(278032) 5560 Mb  5 secs--- Balmorel.gms(278032) 5572 Mb  6 secs--- Balmorel.gms(278032) 5616 Mb  6 secs--- Balmorel.gms(278032) 5627 Mb  6 secs--- Balmorel.gms(278032) 5672 Mb  6 secs--- Balmorel.gms(278032) 5682 Mb  6 secs--- Balmorel.gms(278032) 5727 Mb  6 secs--- Balmorel.gms(278032) 5737 Mb  6 secs--- Balmorel.gms(278032) 5784 Mb  6 secs--- Balmorel.gms(278032) 5794 Mb  7 secs--- Balmorel.gms(278032) 5843 Mb  7 secs--- Balmorel.gms(278032) 5854 Mb  7 secs--- Balmorel.gms(278032) 5867 Mb  7 secs--- Balmorel.gms(278032) 5867 Mb  8 secs--- Balmorel.gms(278032) 5867 Mb  9 secs--- Balmorel.gms(278032) 5867 Mb  10 secs--- Balmorel.gms(278032) 5867 Mb  11 secs--- Balmorel.gms(278032) 5867 Mb  12 secs--- Balmorel.gms(278032) 5867 Mb  13 secs
+--- Balmorel.gms(278074) 5867 Mb--- Balmorel.gms(278077) 5867 Mb--- Balmorel.gms(278077) 5869 Mb--- Balmorel.gms(278080) 5869 Mb--- Balmorel.gms(278080) 5879 Mb--- Balmorel.gms(278080) 5882 Mb--- Balmorel.gms(278080) 5899 Mb--- Balmorel.gms(278080) 5903 Mb--- Balmorel.gms(278080) 5917 Mb--- Balmorel.gms(278106) 5917 Mb--- Balmorel.gms(278111) 5918 Mb--- Balmorel.gms(278144) 5921 Mb--- Balmorel.gms(278217) 5926 Mb--- Balmorel.gms(278217) 5928 Mb--- Balmorel.gms(278217) 5956 Mb--- Balmorel.gms(278217) 5961 Mb--- Balmorel.gms(278217) 5979 Mb--- Balmorel.gms(278236) 5979 Mb--- Balmorel.gms(278304) 5979 Mb--- Balmorel.gms(278328) 5979 Mb--- Balmorel.gms(278372) 5986 Mb--- Balmorel.gms(278372) 5990 Mb--- Balmorel.gms(278390) 5994 Mb--- Balmorel.gms(278390) 5998 Mb--- Balmorel.gms(278660) 6005 Mb--- Balmorel.gms(278660) 6021 Mb--- Balmorel.gms(278660) 6024 Mb--- Balmorel.gms(278660) 6034 Mb--- Balmorel.gms(278660) 6034 Mb  3 secs--- Balmorel.gms(278660) 6034 Mb  4 secs
+--- Balmorel.gms(278665) 6034 Mb--- Balmorel.gms(278736) 6040 Mb--- Balmorel.gms(278441) 6043 Mb--- Balmorel.gms(278441) 6045 Mb--- Balmorel.gms(278413) 6048 Mb--- Balmorel.gms(278427) 6055 Mb--- Balmorel.gms(278540) 6059 Mb--- Balmorel.gms(278540) 6059 Mb--- Balmorel.gms(278520) 6064 Mb--- Balmorel.gms(278520) 6065 Mb--- Balmorel.gms(278530) 6070 Mb--- Balmorel.gms(278496) 6075 Mb--- Balmorel.gms(278496) 6077 Mb--- Balmorel.gms(278470) 6080 Mb--- Balmorel.gms(278470) 6081 Mb--- Balmorel.gms(278483) 6086 Mb--- Balmorel.gms(279071) 6089 Mb--- Balmorel.gms(279113) 6093 Mb--- Balmorel.gms(279113) 6095 Mb--- Balmorel.gms(279113) 6110 Mb--- Balmorel.gms(279113) 6113 Mb--- Balmorel.gms(279113) 6127 Mb--- Balmorel.gms(279113) 6129 Mb--- Balmorel.gms(279113) 6143 Mb--- Balmorel.gms(279113) 6146 Mb--- Balmorel.gms(279113) 6161 Mb--- Balmorel.gms(279113) 6164 Mb--- Balmorel.gms(279113) 6177 Mb--- Balmorel.gms(279113) 6180 Mb--- Balmorel.gms(279113) 6193 Mb--- Balmorel.gms(279113) 6196 Mb--- Balmorel.gms(279113) 6211 Mb--- Balmorel.gms(279113) 6214 Mb--- Balmorel.gms(279113) 6228 Mb--- Balmorel.gms(279113) 6231 Mb--- Balmorel.gms(279113) 6246 Mb--- Balmorel.gms(279113) 6247 Mb--- Balmorel.gms(279113) 6247 Mb  3 secs
+--- Balmorel.gms(279131) 6247 Mb--- Balmorel.gms(279131) 6258 Mb--- Balmorel.gms(279131) 6261 Mb--- Balmorel.gms(279131) 6276 Mb--- Balmorel.gms(279131) 6280 Mb--- Balmorel.gms(279131) 6296 Mb--- Balmorel.gms(279131) 6299 Mb--- Balmorel.gms(279131) 6314 Mb--- Balmorel.gms(279131) 6317 Mb--- Balmorel.gms(279131) 6333 Mb--- Balmorel.gms(279131) 6336 Mb--- Balmorel.gms(279131) 6350 Mb--- Balmorel.gms(279131) 6350 Mb  3 secs
+--- Balmorel.gms(279150) 6350 Mb--- Balmorel.gms(279189) 6350 Mb--- Balmorel.gms(279206) 6350 Mb--- Balmorel.gms(279221) 6350 Mb--- Balmorel.gms(278913) 6350 Mb--- Balmorel.gms(279364) 6350 Mb--- Balmorel.gms(279368) 6350 Mb--- Balmorel.gms(279386) 6350 Mb--- Balmorel.gms(279386) 6351 Mb--- Balmorel.gms(279386) 6351 Mb--- Balmorel.gms(279386) 6352 Mb--- Balmorel.gms(279386) 6353 Mb--- Balmorel.gms(279386) 6354 Mb--- Balmorel.gms(279386) 6354 Mb--- Balmorel.gms(279386) 6355 Mb--- Balmorel.gms(279386) 6355 Mb--- Balmorel.gms(279386) 6356 Mb--- Balmorel.gms(279386) 6357 Mb--- Balmorel.gms(279386) 6358 Mb--- Balmorel.gms(279386) 6358 Mb  3 secs--- Balmorel.gms(279386) 6358 Mb  3 secs--- Balmorel.gms(279386) 6359 Mb  3 secs--- Balmorel.gms(279386) 6359 Mb  3 secs--- Balmorel.gms(279386) 6360 Mb  4 secs--- Balmorel.gms(279386) 6360 Mb  4 secs--- Balmorel.gms(279386) 6361 Mb  4 secs
+--- Balmorel.gms(279448) 6361 Mb--- Balmorel.gms(279504) 6365 Mb--- Balmorel.gms(279513) 6365 Mb--- Balmorel.gms(279481) 6371 Mb--- Balmorel.gms(279481) 6373 Mb--- Balmorel.gms(279533) 6379 Mb--- Balmorel.gms(279618) 6379 Mb--- Balmorel.gms(279628) 6384 Mb--- Balmorel.gms(279683) 6384 Mb--- Balmorel.gms(279814) 6386 Mb--- Balmorel.gms(279864) 6388 Mb--- Balmorel.gms(280791) 6388 Mb--- Balmorel.gms(280791) 6388 Mb  3 secs--- Balmorel.gms(280791) 6388 Mb  4 secs--- Balmorel.gms(280791) 6388 Mb  5 secs--- Balmorel.gms(280791) 6388 Mb  6 secs--- Balmorel.gms(280791) 6388 Mb  7 secs--- Balmorel.gms(280791) 6388 Mb  8 secs--- Balmorel.gms(280791) 6388 Mb  9 secs--- Balmorel.gms(280791) 6388 Mb  10 secs--- Balmorel.gms(280791) 6388 Mb  11 secs--- Balmorel.gms(280791) 6388 Mb  12 secs--- Balmorel.gms(280791) 6388 Mb  13 secs--- Balmorel.gms(280791) 6388 Mb  14 secs--- Balmorel.gms(280791) 6388 Mb  15 secs
+--- LOOPS IYALIAS = 2035
+---   9,890,681 rows  9,233,338 columns  32,135,588 non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 2.072E-15, 1.261E+10] - Zero values observed as well
+--- Bound     [min, max] : [ 1.337E-13, 1.000E+06] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.027E-10, 1.095E+02]
+--- Balmorel.gms(280791) 6388 Mb  16 secs--- Balmorel.gms(280791) 6388 Mb  17 secs--- Balmorel.gms(280791) 6388 Mb  18 secs--- Balmorel.gms(280791) 6388 Mb  19 secs
+--- Executing CPLEX (Solvelink=2): elapsed 3:17:13.809
+
+IBM ILOG CPLEX   50.4.1 84b10359 Aug 28, 2025          LEG x86 64bit/Linux    
+
+--- GAMS/CPLEX licensed for continuous and discrete problems.
+
+Reading parameter(s) from "/zhome/3d/c/214482/Desktop/Balmorel/base_notrans_dc_test_3day_allhr_4S/model/cplex.op2"
+>>  * Option file 2 for CPLEX solver for HPC runs. For possible options, see the GAMS Solver Manual.
+>>  * To use with CPLEX,  set  '$Setglobal USEOPTIONFILE 2' in balgams.opt.
+>>  * Do not change this file, it is predefined.
+>>  * To use other options with CPLEX, make and/or use some other file, see USEOPTIONFILE in balgams.opt.
+>>  * "LPmethod  4": Barrier method
+>>  * If memory tight, set the Threads parameter to 1.
+>> ~* advind is set to 0 by default since for large problems a better performance has been experienced. If 0, the optimization will no~
+>> ~t use the previous solution to try to find the next run faster.
+>> 
+>>  LPmethod  4
+>>  advind 0
+>>  predual -1
+Finished reading from "/zhome/3d/c/214482/Desktop/Balmorel/base_notrans_dc_test_3day_allhr_4S/model/cplex.op2"
+
+--- GMO setup time: 0.00s
+--- Space for names approximately 1417.53 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 3657.56 Mb (peak 3728.01 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 22.1.2.0 link memory 289.30 Mb (peak 2213.01 Mb)
+--- Starting Cplex
+
+Version identifier: 22.1.2.0 | 2024-11-26 | 0edbb82fd
+CPXPARAM_Advance                                 0
+CPXPARAM_Preprocessing_Dual                      -1
+CPXPARAM_LPMethod                                4
+CPXPARAM_Threads                                 10
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Pool_Capacity                       0
+CPXPARAM_Barrier_Limits_Iteration                2000000000
+CPXPARAM_TimeLimit                               1209600
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+CPXPARAM_MIP_Tolerances_MIPGap                   9.9999999999999995e-07
+Aggregator has done 1467803 substitutions...
+Aggregator has done 1580071 substitutions...
+Tried aggregator 1 time.
+LP Presolve eliminated 4705764 rows and 4486373 columns.
+Aggregator did 1584529 substitutions.
+Reduced LP has 3600387 rows, 3173206 columns, and 12116828 nonzeros.
+Presolve time = 35.42 sec. (28868.67 ticks)
+Parallel mode: using up to 10 threads for barrier.
+
+***NOTE: Found 1757 dense columns.
+
+Number of nonzeros in lower triangle of A*A' = 246086151
+Elapsed ordering time = 11.23 sec. (10000.00 ticks)
+Elapsed ordering time = 21.33 sec. (20000.06 ticks)
+Elapsed ordering time = 31.36 sec. (30000.08 ticks)
+Elapsed ordering time = 42.40 sec. (40000.20 ticks)
+Using Nested Dissection ordering
+Total time for automatic ordering = 289.29 sec. (268584.19 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 10
+  Rows in Factor            = 3602144
+  Integer space required    = 17579669
+  Total non-zeros in factor = 1862752871
+  Total FP ops to factor    = 3258946631317
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0   2.8810644e+15  -6.7937296e+14  2.08e+12  1.07e+11  1.39e+11  1.00e+00
+   1   1.6689318e+15  -9.7541233e+13  1.17e+12  6.03e+10  3.61e+10  1.03e-09
+   2   1.1746171e+15  -7.7636842e+13  8.28e+11  4.27e+10  2.60e+10  1.33e-09
+   3   5.5560506e+14  -5.6444105e+13  3.97e+11  2.05e+10  1.72e+10  2.09e-09
+   4   1.6368190e+14  -3.4186577e+13  1.16e+11  5.96e+09  1.08e+10  3.85e-09
+   5   7.3862071e+13  -2.1021966e+13  4.48e+10  2.31e+09  8.00e+09  5.54e-09
+   6   5.5719653e+13  -1.5132086e+13  3.30e+10  1.70e+09  6.19e+09  7.25e-09
+   7   3.7037261e+13  -1.1004537e+13  1.99e+10  1.03e+09  5.11e+09  8.94e-09
+   8   2.3187618e+13  -7.2267210e+12  1.09e+10  5.60e+08  4.02e+09  1.13e-08
+   9   1.8692651e+13  -5.4598998e+12  8.50e+09  4.39e+08  3.28e+09  1.39e-08
+  10   1.4039037e+13  -3.9947154e+12  6.07e+09  3.13e+08  2.67e+09  1.74e-08
+  11   1.0316361e+13  -2.9079304e+12  4.16e+09  2.14e+08  2.21e+09  2.18e-08

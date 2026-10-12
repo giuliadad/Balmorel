@@ -16,6 +16,7 @@ $ifi %GRIDTARIFFS%==yes  $include   "../../base/addons/GridTariffs/bb4/GridTarif
 $ifi %TAXES%==yes  $include   "../../base/addons/taxes/tax_ipardecdef.inc";
 $ifi %EV%==yes      $include        "../../base/addons/EV/bb4/EV_ipardecdef.inc";
 $ifi %DEMANDRESPONSE%==yes      $include        "../../base/addons/demandresponse/bb4/dr_ipardecdef.inc";
+$ifi %DCFLEX%==yes             $include        "../../base/addons/dcflex/dcflex_ipardecdef.inc";
 $ifi %FlowBased%==yes      $include        "../../base/addons/FlowBased/bb4/flowbased_ipardecdef.inc";
 $ifi %HEATTRANS%==yes       $include   "../../base/addons/heattrans/bb4/heattrans_ipardecdef.inc";
 $ifi %DECOM%==yes  $include   "../../base/addons/DECOM/DECOM_ipardecdef.inc";

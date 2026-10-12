@@ -129,12 +129,19 @@ DR_FX(YYY,AAA,DR_TECHNOLOGIES)$(DR_FX('2015',AAA,DR_TECHNOLOGIES) AND NOT DR_FX(
 
 
 * ----- START OF DATACENTER DSM CAPACITY INPUT -----
-* Flexible share of max load is DRREGLIM; baseline load = (1 - DRREGLIM) x max load
-DR_DATA('DR_SHIFT_DATACENTER','DRREGLIM')    = 0.2;
+* d = hourly DC demand from DE_DATACENTER (flat). Capacity C = DC_CAPFACTOR x d.
+* Load may vary within [(1-DC_FLEXSHARE) x d , C]; baseline load = d.
+SCALAR DC_CAPFACTOR 'DC capacity relative to average DC demand'          / 1.2 /;
+SCALAR DC_FLEXSHARE 'Share of DC demand that can be deferred (down-shift)' / 0.2 /;
+
+* Down-shift limit = DRREGLIM x C = DC_FLEXSHARE x d
+DR_DATA('DR_SHIFT_DATACENTER','DRREGLIM')    = DC_FLEXSHARE / DC_CAPFACTOR;
 DR_DATA('DR_SHIFT_DATACENTER','DRSHIFTNEXT') = 13;
 DR_DATA('DR_SHIFT_DATACENTER','DRSHIFTPREV') = 13;
 
-DR_FLH(AAA,'DR_SHIFT_DATACENTER') = (1 - DR_DATA('DR_SHIFT_DATACENTER','DRREGLIM'))*8760;
+* Baseline load = (DR_FLH/8760) x C = d  ->  up-shift headroom = C - d
+DR_FLH(AAA,'DR_SHIFT_DATACENTER') = 8760 / DC_CAPFACTOR;
+
 
 
 $onmulti
@@ -191,8 +198,9 @@ TABLE DR_FX(YYY,AAA,DR_TECHNOLOGIES)  'Installed capacity for DR load/technology
 $offmulti
 
 * Set capacity to datacenter MW demand if there's datacenter demand or zero if there's no datacenter demand
-*$ifi %flexible_datacenter% == yes DR_FX(YYY,AAA,'DR_SHIFT_DATACENTER')$(DR_FX('2050',AAA,'DR_SHIFT_DATACENTER')) = SUM(RRR, DE(YYY,RRR,'DATACENTER')$RRRAAA(RRR,AAA))/8760;
-$ifi %flexible_datacenter% == yes DR_FX(YYY,AAA,'DR_SHIFT_DATACENTER')$(DR_FX('2050',AAA,'DR_SHIFT_DATACENTER')) = SUM(RRR, DE(YYY,RRR,'DATACENTER')$RRRAAA(RRR,AAA))/8760/(1 - DR_DATA('DR_SHIFT_DATACENTER','DRREGLIM'));
+* Installed DR capacity C = DC_CAPFACTOR x average DC demand (MW)
+$ifi %flexible_datacenter% == yes DR_FX(YYY,AAA,'DR_SHIFT_DATACENTER')$(DR_FX('2050',AAA,'DR_SHIFT_DATACENTER')) = SUM(RRR, DE(YYY,RRR,'DATACENTER')$RRRAAA(RRR,AAA))/8760 * DC_CAPFACTOR;
+
 
 * ----- END OF DATACENTER DSM CAPACITY INPUT -----
 
@@ -219,7 +227,9 @@ DR_SHIFT_TERI_HEAT                                                              
 
 DR_ADOPTIONRATE('DR_SHIFT_DATACENTER', YYY)=1;
 
-$ifi exist '../data/DR_RATE_S.inc' $include '../data/DR_RATE_S.inc'
-$ifi not exist '../data/DR_RATE_S.inc' $include '../../base/data/DR_RATE_S.inc'
-$ifi exist '../data/DR_RATE_T.inc' $include '../data/DR_RATE_T.inc'
-$ifi not exist '../data/DR_RATE_T.inc' $include '../../base/data/DR_RATE_T.inc'
+* No DR availability profiles: only DR_SHIFT_DATACENTER is active and its baseline is flat
+* (IDR_RATE = DR_FLH/8760). Symbols must still be declared and assigned for dr_ipardecdef.inc.
+PARAMETER DR_RATE_S(AAA,DR_TECHNOLOGIES,SSS) 'Seasonal DR availability profile (unused)';
+PARAMETER DR_RATE_T(TTT,DR_TECHNOLOGIES)     'Hourly DR availability profile (unused)';
+DR_RATE_S(AAA,DR_TECHNOLOGIES,SSS) = 0;
+DR_RATE_T(TTT,DR_TECHNOLOGIES)     = 0;

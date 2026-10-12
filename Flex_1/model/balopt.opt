@@ -87,8 +87,8 @@ ROLLINGSEASONSNUMBER= 1;
 *-------- END: Seasonal rolling horizon  ---------
 
 *--------   QDENET  ---------
-* Introduces the calculation of the net demand of different users (e.g. households, industry, etc). Relevant for taxes, grid tariffs, demand response, etc.
-$setglobal NETDEMAND yes
+* NETDEMAND only does bookkeeping here; switch off to match the reference
+$setglobal NETDEMAND
 *!option yes
 *-------- END: QDENET  ---------
 
@@ -353,12 +353,16 @@ $Setglobal LIMITSFORFUELS
 $setglobal DFLEXQUANT
 *!option yes
 
-* Allow demand response (requires NETDEMAND) (it should be checked before using it)
-$setglobal DEMANDRESPONSE yes
+* switch off the generic DR route
+$setglobal DEMANDRESPONSE 
 *!option yes
 
-*Allow datacenters demand response flexibility
-$setglobal flexible_datacenter yes
+*Allow datacenters demand response flexibility (legacy DR route, replaced by DCFLEX)
+$setglobal flexible_datacenter 
+*!option yes
+
+*Data-centre temporal flexibility (Senga et al. 2026), parameters in DC_FLEXPARAM.inc
+$setglobal DCFLEX yes
 *!option yes
 
 * Permit exchange of electricity with third regions using a price interface (in contrast to X3FX) (it should be checked before using it)
