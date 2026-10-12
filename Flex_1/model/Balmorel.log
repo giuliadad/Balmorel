@@ -1,8 +1,9 @@
---- Job Balmorel Start 10/12/26 20:18:31 50.4.1 84b10359 LEX-LEG x86 64bit/Linux
+--- Job Balmorel Start 10/12/26 22:13:42 50.4.1 84b10359 LEX-LEG x86 64bit/Linux
 --- Applying:
     /appl/gams/50.4.1/gmsprmun.txt
 --- GAMS Parameters defined
     Input /zhome/3d/c/214482/Desktop/Balmorel/Flex_1/model/Balmorel.gms
+    Output /tmp/claude-314482/-zhome-3d-c-214482-Desktop-Balmorel/bb5a6060-e70d-4d8e-93e5-e35ce3088842/scratchpad/Flex_1_c.lst
     Action C
     ScrDir /zhome/3d/c/214482/Desktop/Balmorel/Flex_1/model/225a/
     SysDir /appl/gams/50.4.1/
@@ -445,10 +446,10 @@ GAMS 50.4.1   Copyright (C) 1987-2025 GAMS Development. All rights reserved
 --- ... WEIGHT_S.inc(7) 10 Mb
 --- .. bb4datainc.inc(739) 10 Mb
 --- ... WEIGHT_T.inc(8) 10 Mb
---- .. bb4datainc.inc(744) 10 Mb
---- ... CHRONOHOUR.inc(4) 10 Mb
---- .. bb4datainc.inc(749) 10 Mb
---- ... SSIZE.inc(3) 10 Mb
+--- .. bb4datainc.inc(743) 10 Mb
+--- ... CHRONOHOUR.inc(6) 10 Mb
+--- .. bb4datainc.inc(748) 10 Mb
+--- ... SSIZE.inc(6) 10 Mb
 --- .. bb4datainc.inc(755) 10 Mb
 --- ... GKRATE.inc(104) 10 Mb
 --- .. bb4datainc.inc(760) 10 Mb
@@ -927,4 +928,4 @@ GAMS 50.4.1   Copyright (C) 1987-2025 GAMS Development. All rights reserved
 --- . Balmorelbb4.inc(2862) 536 Mb
 --- Balmorel.gms(210) 536 Mb
 *** Status: Normal completion
---- Job Balmorel.gms Stop 10/12/26 20:18:38 elapsed 0:00:07.364
+--- Job Balmorel.gms Stop 10/12/26 22:13:49 elapsed 0:00:07.693

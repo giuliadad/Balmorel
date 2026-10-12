@@ -1931,3 +1931,21 @@ Dual crossover.
    Elapsed crossover time = 84.76 sec. (60460.41 ticks, 2674688 DMoves)
    Elapsed crossover time = 104.06 sec. (70463.20 ticks, 2659245 DMoves)
    Elapsed crossover time = 125.35 sec. (80479.24 ticks, 2651461 DMoves)
+   Elapsed crossover time = 146.56 sec. (90479.53 ticks, 2642104 DMoves)
+   Elapsed crossover time = 161.35 sec. (100496.48 ticks, 2637491 DMoves)
+   Elapsed crossover time = 176.46 sec. (110497.44 ticks, 2636017 DMoves)
+   2632831 DMoves:  Infeasibility  3.15539820e+01  Objective  8.93200586e+11
+   Elapsed crossover time = 188.28 sec. (120507.04 ticks, 2627206 DMoves)
+   Elapsed crossover time = 204.88 sec. (130533.20 ticks, 2626044 DMoves)
+   Elapsed crossover time = 222.11 sec. (140554.09 ticks, 2624817 DMoves)
+   Elapsed crossover time = 238.94 sec. (150578.24 ticks, 2624204 DMoves)
+   Elapsed crossover time = 255.83 sec. (160593.70 ticks, 2623918 DMoves)
+   Elapsed crossover time = 269.73 sec. (170628.91 ticks, 2614548 DMoves)
+   Elapsed crossover time = 284.22 sec. (180640.59 ticks, 2610473 DMoves)
+   2608287 DMoves:  Infeasibility  6.56716335e+04  Objective  8.93200588e+11
+   Elapsed crossover time = 297.82 sec. (190649.77 ticks, 2605305 DMoves)
+   Elapsed crossover time = 316.40 sec. (200669.59 ticks, 2586044 DMoves)
+   Elapsed crossover time = 334.86 sec. (210677.09 ticks, 2581050 DMoves)
+   Elapsed crossover time = 356.61 sec. (220679.77 ticks, 2573176 DMoves)
+   Elapsed crossover time = 371.39 sec. (230682.93 ticks, 2550019 DMoves)
+   2534021 DMoves:  Infeasibility  3.96253318e+09  Objective  8.94359064e+11
