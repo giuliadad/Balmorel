@@ -30,3 +30,6 @@ build
 !logs/*.out
 !**/model/results/MainResults*.gdx
 !**/model/*.log
+
+# Linux core dumps from crashed processes
+**/core.[0-9]*
