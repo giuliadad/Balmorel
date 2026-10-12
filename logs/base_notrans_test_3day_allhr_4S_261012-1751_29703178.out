@@ -985,3 +985,14 @@ CPXPARAM_TimeLimit                               1209600
 CPXPARAM_MIP_Tolerances_AbsMIPGap                0
 CPXPARAM_MIP_Tolerances_MIPGap                   9.9999999999999995e-07
 Aggregator has done 1069514 substitutions...
+Tried aggregator 1 time.
+LP Presolve eliminated 2026030 rows and 2013391 columns.
+Aggregator did 1117692 substitutions.
+Reduced LP has 3326548 rows, 2916629 columns, and 11244902 nonzeros.
+Presolve time = 14.62 sec. (17853.91 ticks)
+Parallel mode: using up to 10 threads for barrier.
+
+***NOTE: Found 1570 dense columns.
+
+Number of nonzeros in lower triangle of A*A' = 238214530
+Elapsed ordering time = 6.09 sec. (10000.04 ticks)
