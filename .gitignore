@@ -27,9 +27,9 @@ build
 %batfileMERGEWITHBASE%
 
 # Allow job logs and model results
-!logs/*.out
-!**/model/results/MainResults*.gdx
-!**/model/*.log
+*!logs/*.out
+*!**/model/results/MainResults*.gdx
+*!**/model/*.log
 
 # Linux core dumps from crashed processes
 **/core.[0-9]*
