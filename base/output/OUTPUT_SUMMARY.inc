@@ -464,6 +464,12 @@ $ifi not %DEMANDRESPONSE%==yes  $goto NO_DEMANDRESPONSE
 *TODO - efficiency
 -       SUM(IADR(Y,IA,DR_TECH_SHIFT)$(RRRAAA(IR,IA) AND CCCRRR(C,IR)), VDR_DOWN.L(Y,IA,DR_TECH_SHIFT,S,T)) + SUM(IADR(Y,IA,DR_TECH_SHIFT)$(RRRAAA(IR,IA) AND CCCRRR(C,IR)), VDR_UP.L(Y,IA,DR_TECH_SHIFT,S,T))
 $label NO_DEMANDRESPONSE
+$ifi not %DCFLEX%==yes  $goto NO_DCFLEX
+* Net data-centre load shift (dcflex addon): served shifted load minus deferred load
++       SUM(IDCF(Y,IR)$CCCRRR(C,IR), VDCF_S.L(Y,IR,S,T) - VDCF_D.L(Y,IR,S,T))
+$label NO_DCFLEX
+;
+
 ;
 
 ** ENDOGENOUS DEMAND
