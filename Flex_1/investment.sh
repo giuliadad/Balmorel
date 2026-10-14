@@ -3,7 +3,7 @@
 ### -- specify queue --
 #BSUB -q hpc
 ### -- set the job Name --
-#BSUB -J flex_1_chrono
+#BSUB -J flex_1_24h
 ### -- ask for number of cores (default: 1) --
 #BSUB -n 10
 ### -- specify that the cores must be on the same host --
