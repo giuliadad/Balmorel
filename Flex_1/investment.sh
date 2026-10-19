@@ -3,15 +3,15 @@
 ### -- specify queue --
 #BSUB -q hpc
 ### -- set the job Name --
-#BSUB -J flex_1_24h
+#BSUB -J flex_fullweek_12h
 ### -- ask for number of cores (default: 1) --
 #BSUB -n 10
 ### -- specify that the cores must be on the same host --
 #BSUB -R "span[hosts=1]"
 ### -- specify that we need 4GB of memory per core/slot --
-#BSUB -R "rusage[mem=11GB]"
+#BSUB -R "rusage[mem=14GB]"
 ### -- specify that we want the job to get killed if it exceeds 5 GB per core/slot --
-#BSUB -M 11GB
+#BSUB -M 14GB
 ### -- set walltime limit: hh:mm --
 #BSUB -W 48:00
 ### -- set the email address --
