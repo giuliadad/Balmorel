@@ -1223,6 +1223,7 @@ EQUATIONS
    QKTECHGROUPC(Y,C,TECH_GROUP)   "Maximum capacity by year, country and technology group (MW)"
    QKTECHGROUPR(Y,RRR,TECH_GROUP) "Maximum capacity by year, region and technology group (MW)"
    QKTECHGROUPA(Y,AAA,TECH_GROUP) "Maximum capacity by year, area and technology group (MW)"
+   QKTECHGROUPR_Y(Y,RRR,TECH_GROUP) "Maximum capacity by year, region and technology group, with the year-dependent limit TECHGROUPKPOT_Y (MW)"
 
    QKSUBTECHGROUPC(Y,C,TECH_GROUP,SUBTECH_GROUP)   "Maximum capacity by year, country and subtechnology group (MW)"
    QKSUBTECHGROUPR(Y,RRR,TECH_GROUP,SUBTECH_GROUP) "Maximum capacity by year, region and subtechnology group (MW)"
@@ -2076,6 +2077,17 @@ $ifi %DECOM%==yes   -VDECOM_EXO_ACCUM(IY411,IA,G)$IGDECOMEXOPOT(IY411,IA,G)
 $include "../../base/addons/_hooks/qktechgroupa.inc"
 ;
 
+* "Maximum capacity by year, region and technology group, year-dependent limit (MW)": same as QKTECHGROUPR, but the limit TECHGROUPKPOT_Y has a year index.
+* Active only where TECHGROUPKPOT_Y is specified (data file ../data/TECHGROUPKPOT_Y.inc); can be combined with TECHGROUPKPOT (then both apply).
+QKTECHGROUPR_Y(IY411,IR,TECH_GROUP)$TECHGROUPKPOT_Y(IY411,IR,TECH_GROUP).. !! EPS convention on TECHGROUPKPOT_Y: 0 implies no restriction, "EPS" implies zero MW.
+    SUM((IA,G)$(IAGKFX(IY411,IA,G) AND (GDATA(G,'GDTECHGROUP') EQ TECH_GROUP_VALUE(TECH_GROUP)) AND RRRAAA(IR,IA)),
+    GKFX(IY411,IA,G)
+$ifi %DECOM%==yes   -VDECOM_EXO_ACCUM(IY411,IA,G)$IGDECOMEXOPOT(IY411,IA,G)
+    )
+      +SUM(IAGK_HASORPOT(IY411,IA,G)$(SUM(Y$(YVALUE(Y) LE YVALUE(IY411)),IAGKNY(Y,IA,G)) AND (GDATA(G,'GDTECHGROUP') EQ TECH_GROUP_VALUE(TECH_GROUP)) AND RRRAAA(IR,IA)), VGKNACCUMNET(IY411,IA,G))
+      =L=  TECHGROUPKPOT_Y(IY411,IR,TECH_GROUP)
+;
+
 *--- End of Capacity restrictions by Technology Group--------------------------------------------
 
 *--- Capacity restrictions by Sub Technology Group--------------------------------------------
@@ -2478,6 +2490,7 @@ $ifi not %TechInvest%==yes $ifi not %DECOM%==yes  $goto NO_TECH_INVESTMENTS_NO_D
                                  QKTECHGROUPC
                                  QKTECHGROUPR
                                  QKTECHGROUPA
+                                 QKTECHGROUPR_Y
 *--- Potential capacity restrictions per subtechnology group ------------------------------------------------
                                  QKSUBTECHGROUPC
                                  QKSUBTECHGROUPR
