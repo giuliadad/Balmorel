@@ -1,0 +1,109 @@
+run,technology,unit,category,year,GW
+base_nodc,Gas power (combined cycle),GW electric,Exogenous (existing),2025,24.499
+base_nodc,Gas power (combined cycle),GW electric,Exogenous (existing),2030,24.499
+base_nodc,Gas power (combined cycle),GW electric,Exogenous (existing),2035,24.499
+base_nodc,Gas power (combined cycle),GW electric,Invested,2025,0.0
+base_nodc,Gas power (combined cycle),GW electric,Invested,2030,0.0
+base_nodc,Gas power (combined cycle),GW electric,Invested,2035,0.0
+base_nodc,Gas power (combined cycle),GW electric,Decommissioned,2025,-22.055
+base_nodc,Gas power (combined cycle),GW electric,Decommissioned,2030,-19.784
+base_nodc,Gas power (combined cycle),GW electric,Decommissioned,2035,-17.18
+base_nodc,Gas CHP (back-pressure),GW electric,Exogenous (existing),2025,0.0
+base_nodc,Gas CHP (back-pressure),GW electric,Exogenous (existing),2030,0.0
+base_nodc,Gas CHP (back-pressure),GW electric,Exogenous (existing),2035,0.0
+base_nodc,Gas CHP (back-pressure),GW electric,Invested,2025,0.417
+base_nodc,Gas CHP (back-pressure),GW electric,Invested,2030,0.417
+base_nodc,Gas CHP (back-pressure),GW electric,Invested,2035,0.345
+base_nodc,Gas CHP (back-pressure),GW electric,Decommissioned,2025,0.0
+base_nodc,Gas CHP (back-pressure),GW electric,Decommissioned,2030,0.0
+base_nodc,Gas CHP (back-pressure),GW electric,Decommissioned,2035,0.0
+base_nodc,Gas boilers,GW heat,Exogenous (existing),2025,46.23
+base_nodc,Gas boilers,GW heat,Exogenous (existing),2030,46.23
+base_nodc,Gas boilers,GW heat,Exogenous (existing),2035,46.23
+base_nodc,Gas boilers,GW heat,Invested,2025,3.394
+base_nodc,Gas boilers,GW heat,Invested,2030,4.164
+base_nodc,Gas boilers,GW heat,Invested,2035,6.914
+base_nodc,Gas boilers,GW heat,Decommissioned,2025,-28.522
+base_nodc,Gas boilers,GW heat,Decommissioned,2030,-32.859
+base_nodc,Gas boilers,GW heat,Decommissioned,2035,-38.936
+base_nodc,Steam reforming (H2),GW hydrogen,Exogenous (existing),2025,2.581
+base_nodc,Steam reforming (H2),GW hydrogen,Exogenous (existing),2030,2.581
+base_nodc,Steam reforming (H2),GW hydrogen,Exogenous (existing),2035,2.581
+base_nodc,Steam reforming (H2),GW hydrogen,Invested,2025,0.149
+base_nodc,Steam reforming (H2),GW hydrogen,Invested,2030,1.22
+base_nodc,Steam reforming (H2),GW hydrogen,Invested,2035,3.919
+base_nodc,Steam reforming (H2),GW hydrogen,Decommissioned,2025,-2.08
+base_nodc,Steam reforming (H2),GW hydrogen,Decommissioned,2030,-2.581
+base_nodc,Steam reforming (H2),GW hydrogen,Decommissioned,2035,-2.581
+base_dc,Gas power (combined cycle),GW electric,Exogenous (existing),2025,24.499
+base_dc,Gas power (combined cycle),GW electric,Exogenous (existing),2030,24.499
+base_dc,Gas power (combined cycle),GW electric,Exogenous (existing),2035,24.499
+base_dc,Gas power (combined cycle),GW electric,Invested,2025,0.0
+base_dc,Gas power (combined cycle),GW electric,Invested,2030,0.0
+base_dc,Gas power (combined cycle),GW electric,Invested,2035,0.0
+base_dc,Gas power (combined cycle),GW electric,Decommissioned,2025,-22.055
+base_dc,Gas power (combined cycle),GW electric,Decommissioned,2030,-19.427
+base_dc,Gas power (combined cycle),GW electric,Decommissioned,2035,-16.286
+base_dc,Gas CHP (back-pressure),GW electric,Exogenous (existing),2025,0.0
+base_dc,Gas CHP (back-pressure),GW electric,Exogenous (existing),2030,0.0
+base_dc,Gas CHP (back-pressure),GW electric,Exogenous (existing),2035,0.0
+base_dc,Gas CHP (back-pressure),GW electric,Invested,2025,0.417
+base_dc,Gas CHP (back-pressure),GW electric,Invested,2030,0.417
+base_dc,Gas CHP (back-pressure),GW electric,Invested,2035,0.417
+base_dc,Gas CHP (back-pressure),GW electric,Decommissioned,2025,0.0
+base_dc,Gas CHP (back-pressure),GW electric,Decommissioned,2030,0.0
+base_dc,Gas CHP (back-pressure),GW electric,Decommissioned,2035,0.0
+base_dc,Gas boilers,GW heat,Exogenous (existing),2025,46.23
+base_dc,Gas boilers,GW heat,Exogenous (existing),2030,46.23
+base_dc,Gas boilers,GW heat,Exogenous (existing),2035,46.23
+base_dc,Gas boilers,GW heat,Invested,2025,3.394
+base_dc,Gas boilers,GW heat,Invested,2030,3.972
+base_dc,Gas boilers,GW heat,Invested,2035,6.7
+base_dc,Gas boilers,GW heat,Decommissioned,2025,-28.522
+base_dc,Gas boilers,GW heat,Decommissioned,2030,-32.859
+base_dc,Gas boilers,GW heat,Decommissioned,2035,-38.936
+base_dc,Steam reforming (H2),GW hydrogen,Exogenous (existing),2025,2.581
+base_dc,Steam reforming (H2),GW hydrogen,Exogenous (existing),2030,2.581
+base_dc,Steam reforming (H2),GW hydrogen,Exogenous (existing),2035,2.581
+base_dc,Steam reforming (H2),GW hydrogen,Invested,2025,0.149
+base_dc,Steam reforming (H2),GW hydrogen,Invested,2030,1.248
+base_dc,Steam reforming (H2),GW hydrogen,Invested,2035,3.986
+base_dc,Steam reforming (H2),GW hydrogen,Decommissioned,2025,-2.08
+base_dc,Steam reforming (H2),GW hydrogen,Decommissioned,2030,-2.581
+base_dc,Steam reforming (H2),GW hydrogen,Decommissioned,2035,-2.581
+BYOC_Flex,Gas power (combined cycle),GW electric,Exogenous (existing),2025,2.444
+BYOC_Flex,Gas power (combined cycle),GW electric,Exogenous (existing),2030,4.715
+BYOC_Flex,Gas power (combined cycle),GW electric,Exogenous (existing),2035,7.319
+BYOC_Flex,Gas power (combined cycle),GW electric,Invested,2025,0.0
+BYOC_Flex,Gas power (combined cycle),GW electric,Invested,2030,0.0
+BYOC_Flex,Gas power (combined cycle),GW electric,Invested,2035,0.0
+BYOC_Flex,Gas power (combined cycle),GW electric,Decommissioned,2025,0.0
+BYOC_Flex,Gas power (combined cycle),GW electric,Decommissioned,2030,0.0
+BYOC_Flex,Gas power (combined cycle),GW electric,Decommissioned,2035,0.0
+BYOC_Flex,Gas CHP (back-pressure),GW electric,Exogenous (existing),2025,0.417
+BYOC_Flex,Gas CHP (back-pressure),GW electric,Exogenous (existing),2030,0.417
+BYOC_Flex,Gas CHP (back-pressure),GW electric,Exogenous (existing),2035,0.345
+BYOC_Flex,Gas CHP (back-pressure),GW electric,Invested,2025,0.0
+BYOC_Flex,Gas CHP (back-pressure),GW electric,Invested,2030,0.0
+BYOC_Flex,Gas CHP (back-pressure),GW electric,Invested,2035,0.0
+BYOC_Flex,Gas CHP (back-pressure),GW electric,Decommissioned,2025,0.0
+BYOC_Flex,Gas CHP (back-pressure),GW electric,Decommissioned,2030,0.0
+BYOC_Flex,Gas CHP (back-pressure),GW electric,Decommissioned,2035,0.0
+BYOC_Flex,Gas boilers,GW heat,Exogenous (existing),2025,21.102
+BYOC_Flex,Gas boilers,GW heat,Exogenous (existing),2030,17.535
+BYOC_Flex,Gas boilers,GW heat,Exogenous (existing),2035,14.207
+BYOC_Flex,Gas boilers,GW heat,Invested,2025,0.0
+BYOC_Flex,Gas boilers,GW heat,Invested,2030,0.0
+BYOC_Flex,Gas boilers,GW heat,Invested,2035,0.0
+BYOC_Flex,Gas boilers,GW heat,Decommissioned,2025,0.0
+BYOC_Flex,Gas boilers,GW heat,Decommissioned,2030,0.0
+BYOC_Flex,Gas boilers,GW heat,Decommissioned,2035,0.0
+BYOC_Flex,Steam reforming (H2),GW hydrogen,Exogenous (existing),2025,0.65
+BYOC_Flex,Steam reforming (H2),GW hydrogen,Exogenous (existing),2030,1.22
+BYOC_Flex,Steam reforming (H2),GW hydrogen,Exogenous (existing),2035,3.919
+BYOC_Flex,Steam reforming (H2),GW hydrogen,Invested,2025,0.0
+BYOC_Flex,Steam reforming (H2),GW hydrogen,Invested,2030,0.0
+BYOC_Flex,Steam reforming (H2),GW hydrogen,Invested,2035,0.0
+BYOC_Flex,Steam reforming (H2),GW hydrogen,Decommissioned,2025,0.0
+BYOC_Flex,Steam reforming (H2),GW hydrogen,Decommissioned,2030,0.0
+BYOC_Flex,Steam reforming (H2),GW hydrogen,Decommissioned,2035,0.0
